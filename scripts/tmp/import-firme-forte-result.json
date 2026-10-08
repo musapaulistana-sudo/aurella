@@ -1,0 +1,30 @@
+{
+  "finishedAt": "2026-08-06T18:18:12.339Z",
+  "csvTotal": 393,
+  "planned": 391,
+  "skipped": 2,
+  "skipReasons": {
+    "dup_csv_nome": 1,
+    "tokens_iguais": 1
+  },
+  "skippedItems": [
+    {
+      "name": "Protetor Solar Facial Bioderma Photoderm XDefense Ultra-Fluid Sem Cor FPS50+ 40 ml",
+      "reason": "dup_csv_nome"
+    },
+    {
+      "name": "Shampoo Redken All Soft 300ml",
+      "reason": "tokens_iguais",
+      "match": "Redken Shampoo All Soft 300ml"
+    }
+  ],
+  "stats": {
+    "created": 391,
+    "errors": 0,
+    "imagesImported": 700,
+    "categoriesCreated": 1,
+    "brandsCreated": 71,
+    "imageFailures": 1
+  },
+  "errorLog": []
+}

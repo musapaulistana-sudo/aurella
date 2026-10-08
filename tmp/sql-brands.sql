@@ -1,0 +1,16 @@
+INSERT INTO brands (name, slug, active) VALUES ('Lazartigue', 'lazartigue', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('ATL', 'atl', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('Mednord', 'mednord', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('Avène', 'avene', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('Opuscare', 'opuscare', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('Barral', 'barral', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('Bayer', 'bayer', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('CeraVe', 'cerave', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('SVR', 'svr', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('Noreva', 'noreva', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('Vichy', 'vichy', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('Essence', 'essence', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('Eucerin', 'eucerin', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('La Roche Posay', 'la-roche-posay', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('Segle', 'segle', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;
+INSERT INTO brands (name, slug, active) VALUES ('Hartmann', 'hartmann', true) ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name, active = true;

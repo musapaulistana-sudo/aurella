@@ -1,0 +1,2455 @@
+{
+  "generatedAt": "2026-08-06T17:45:15.977Z",
+  "csvFile": "firme_forte_novos_vs_atlas_20260806_140803_woocommerce.csv",
+  "store": {
+    "products": 230,
+    "categories": [
+      "Beleza e Saúde",
+      "Cuidados Capilares",
+      "Cuidados com a Pele",
+      "Fraldas e Lenços Umedecidos",
+      "Higiene Pessoal",
+      "Mamãe e Bebê",
+      "Maquiagens e Acessórios",
+      "Proteção Solar"
+    ],
+    "brands": [
+      "Anasol",
+      "Avêne",
+      "Babysec",
+      "Benzac",
+      "Bepantol",
+      "Bioderma",
+      "Bioré",
+      "CeraVe",
+      "Cetaphil",
+      "Cicatricure",
+      "Darrow",
+      "Dermage",
+      "Ducray",
+      "Eucerin",
+      "Eudora",
+      "Fisiogel",
+      "Franciny Ehlke",
+      "Granado",
+      "Grecin",
+      "Hado Labo",
+      "Huggies",
+      "ISDIN",
+      "Inoar",
+      "Joico",
+      "Kérastase",
+      "L'Oréal",
+      "La Roche-Posay",
+      "Lancome",
+      "Lola Cosmeticos",
+      "Mamypoko",
+      "Mantecorp",
+      "Maybelline",
+      "Mustela",
+      "Pampers",
+      "Pantene",
+      "Perspirex",
+      "Principia",
+      "Profuse",
+      "Real Techniques",
+      "Redken",
+      "Revlon",
+      "Sallve",
+      "Sebastian",
+      "Skinceuticals",
+      "TheraSkin",
+      "Truss Professional",
+      "Umiditá",
+      "Vichy",
+      "Wella Professionals",
+      "medihealth",
+      "teste"
+    ]
+  },
+  "csv": {
+    "totalRows": 393,
+    "withGtin": 284,
+    "withoutGtin": 109,
+    "withBrand": 384,
+    "withoutBrand": 9,
+    "withImages": 393,
+    "categories": [
+      "Cuidado Facial",
+      "Cuidados Capilares",
+      "Cuidados com a Pele",
+      "Fraldas e Lenços",
+      "Higiene Pessoal",
+      "Mamãe e Bebê",
+      "Maquiagens e Acessórios",
+      "Protetor Solar",
+      "Suplementos e Vitaminas"
+    ],
+    "brands": [
+      "Abbott",
+      "Ache",
+      "Addera",
+      "Always",
+      "Apsen",
+      "Avêne",
+      "BAUSCH &amp; LOMB",
+      "Beleza Brasileira",
+      "BellaCotton",
+      "Bepantol",
+      "Besins",
+      "Bigfral",
+      "Bioderma",
+      "Biolab",
+      "Bioré",
+      "Cedraflon",
+      "Centrum",
+      "CeraVe",
+      "Cetaphil",
+      "Cicatricure",
+      "Cimed",
+      "Colgate",
+      "Corega",
+      "Creamy",
+      "Cristália",
+      "Danone",
+      "Darkness",
+      "Darrow",
+      "Dermotivin",
+      "Dove",
+      "Ducray",
+      "Dux Nutrition",
+      "EMS",
+      "Elseve",
+      "Equaliv",
+      "Eucerin",
+      "Eudora",
+      "Eurofarma",
+      "Exímia",
+      "FQM",
+      "Fisiogel",
+      "Franciny Ehlke",
+      "Garnier",
+      "Genomma",
+      "Gillette",
+      "Granado",
+      "Grecin",
+      "Hada Labo",
+      "Huggies",
+      "IntegralMedica",
+      "Isdin",
+      "Johnson’s Baby",
+      "Katigua",
+      "Kerasys",
+      "Keune",
+      "Kérastase",
+      "L'Oréal Paris",
+      "L'oréal Professionnel",
+      "La Roche-Posay",
+      "Lancôme",
+      "Lavitan",
+      "Lizze",
+      "Lola Cosmetics",
+      "M.A.C",
+      "Mamypoko",
+      "Mantecorp",
+      "Marjan",
+      "Max Titanium",
+      "Maxinutri",
+      "Maybelline",
+      "Medley",
+      "Momenta",
+      "Mustela",
+      "N.P.P.E",
+      "Needs",
+      "Neosil",
+      "Neostrata",
+      "Nestlé",
+      "Neutrogena",
+      "Nivea",
+      "Nutrify",
+      "Océane",
+      "Pampers",
+      "Pantene",
+      "Payot",
+      "Perspirex",
+      "Philips",
+      "Plenitud",
+      "Profuse",
+      "Puravida",
+      "Redken",
+      "Salon Line",
+      "Sanavita",
+      "Skinceuticals",
+      "Supera",
+      "Sustagen",
+      "TheraSkin",
+      "Truss Professional",
+      "Unilever",
+      "Varicell",
+      "Venalot",
+      "Vichy",
+      "Vitafor",
+      "Wella Professionals",
+      "Widi Care"
+    ]
+  },
+  "summary": {
+    "duplicatesExact": 0,
+    "possibleDuplicatesFuzzy": 4,
+    "toImport": 389,
+    "csvInternalDups": 1,
+    "categoriesToCreate": 1,
+    "categoriesToReuse": 5,
+    "categoriesToReview": 3,
+    "brandsToCreate": 69,
+    "brandsToReuse": 35,
+    "brandsToReview": 1
+  },
+  "duplicates": [],
+  "possibleDuplicates": [
+    {
+      "csvName": "Shampoo Redken All Soft 300ml",
+      "csvGtin": null,
+      "csvPrice": 88.93,
+      "storeName": "Redken Shampoo All Soft 300ml",
+      "storeGtin": "3474636919987",
+      "storePrice": 76.16,
+      "similarity": 100
+    },
+    {
+      "csvName": "Desodorante Roll On Perspirex – Comfort Roll-on 20ml",
+      "csvGtin": "5701943100127",
+      "csvPrice": 90.93,
+      "storeName": "Desodorante Roll-On Perspirex 20ml",
+      "storeGtin": "5701943011386",
+      "storePrice": 79.8,
+      "similarity": 83
+    },
+    {
+      "csvName": "Sérum Reviline Retinol Mantecorp 30ml",
+      "csvGtin": "7891142984005",
+      "csvPrice": 167.88,
+      "storeName": "Sérum Reviline R Mantecorp 30ml",
+      "storeGtin": "7891142205193",
+      "storePrice": 155.4,
+      "similarity": 80
+    },
+    {
+      "csvName": "Óleo de Banho Hidratante Bioderma Atoderm 200ml",
+      "csvGtin": "3401528519895",
+      "csvPrice": 73.95,
+      "storeName": "Óleo de Banho Hidratante Bioderma Atoderm 1 litro",
+      "storeGtin": "3401528520846",
+      "storePrice": 147.34,
+      "similarity": 75
+    }
+  ],
+  "csvInternalDups": [
+    {
+      "reason": "nome_interno",
+      "product": "Protetor Solar Facial Bioderma Photoderm XDefense Ultra-Fluid Sem Cor FPS50+ 40 ml",
+      "other": "Protetor Solar Facial Bioderma Photoderm XDefense Ultra-Fluid Sem Cor FPS50+ 40 ml"
+    }
+  ],
+  "categoryPlan": [
+    {
+      "csvCategory": "Cuidado Facial",
+      "productCount": 34,
+      "action": "mapear",
+      "match": "Cuidados com a Pele",
+      "matchKind": "sugestão",
+      "alternatives": []
+    },
+    {
+      "csvCategory": "Cuidados Capilares",
+      "productCount": 58,
+      "action": "reusar",
+      "match": "Cuidados Capilares",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvCategory": "Cuidados com a Pele",
+      "productCount": 86,
+      "action": "reusar",
+      "match": "Cuidados com a Pele",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvCategory": "Fraldas e Lenços",
+      "productCount": 18,
+      "action": "revisar",
+      "match": "Fraldas e Lenços Umedecidos",
+      "matchKind": "contém",
+      "alternatives": [
+        "Fraldas e Lenços Umedecidos (contém)"
+      ]
+    },
+    {
+      "csvCategory": "Higiene Pessoal",
+      "productCount": 38,
+      "action": "reusar",
+      "match": "Higiene Pessoal",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvCategory": "Mamãe e Bebê",
+      "productCount": 21,
+      "action": "reusar",
+      "match": "Mamãe e Bebê",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvCategory": "Maquiagens e Acessórios",
+      "productCount": 19,
+      "action": "reusar",
+      "match": "Maquiagens e Acessórios",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvCategory": "Protetor Solar",
+      "productCount": 22,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvCategory": "Suplementos e Vitaminas",
+      "productCount": 139,
+      "action": "mapear",
+      "match": "Beleza e Saúde",
+      "matchKind": "sugestão",
+      "alternatives": []
+    }
+  ],
+  "brandPlan": [
+    {
+      "csvBrand": "Abbott",
+      "productCount": 6,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Ache",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Addera",
+      "productCount": 2,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Always",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Apsen",
+      "productCount": 5,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Avêne",
+      "productCount": 2,
+      "action": "reusar",
+      "match": "Avêne",
+      "matchKind": "alias",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "BAUSCH &amp; LOMB",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Beleza Brasileira",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "BellaCotton",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Bepantol",
+      "productCount": 3,
+      "action": "reusar",
+      "match": "Bepantol",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Besins",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Bigfral",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Bioderma",
+      "productCount": 6,
+      "action": "reusar",
+      "match": "Bioderma",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Biolab",
+      "productCount": 12,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Bioré",
+      "productCount": 2,
+      "action": "reusar",
+      "match": "Bioré",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Cedraflon",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Centrum",
+      "productCount": 5,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "CeraVe",
+      "productCount": 3,
+      "action": "reusar",
+      "match": "CeraVe",
+      "matchKind": "alias",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Cetaphil",
+      "productCount": 1,
+      "action": "reusar",
+      "match": "Cetaphil",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Cicatricure",
+      "productCount": 6,
+      "action": "reusar",
+      "match": "Cicatricure",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Cimed",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Colgate",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Corega",
+      "productCount": 2,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Creamy",
+      "productCount": 4,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Cristália",
+      "productCount": 2,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Danone",
+      "productCount": 4,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Darkness",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Darrow",
+      "productCount": 8,
+      "action": "reusar",
+      "match": "Darrow",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Dermotivin",
+      "productCount": 2,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Dove",
+      "productCount": 3,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Ducray",
+      "productCount": 1,
+      "action": "reusar",
+      "match": "Ducray",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Dux Nutrition",
+      "productCount": 13,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Elseve",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "EMS",
+      "productCount": 4,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Equaliv",
+      "productCount": 8,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Eucerin",
+      "productCount": 6,
+      "action": "reusar",
+      "match": "Eucerin",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Eudora",
+      "productCount": 1,
+      "action": "reusar",
+      "match": "Eudora",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Eurofarma",
+      "productCount": 2,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Exímia",
+      "productCount": 4,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Fisiogel",
+      "productCount": 2,
+      "action": "reusar",
+      "match": "Fisiogel",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "FQM",
+      "productCount": 6,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Franciny Ehlke",
+      "productCount": 1,
+      "action": "reusar",
+      "match": "Franciny Ehlke",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Garnier",
+      "productCount": 3,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Genomma",
+      "productCount": 2,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Gillette",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Granado",
+      "productCount": 1,
+      "action": "reusar",
+      "match": "Granado",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Grecin",
+      "productCount": 1,
+      "action": "reusar",
+      "match": "Grecin",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Hada Labo",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Huggies",
+      "productCount": 8,
+      "action": "reusar",
+      "match": "Huggies",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "IntegralMedica",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Isdin",
+      "productCount": 7,
+      "action": "reusar",
+      "match": "ISDIN",
+      "matchKind": "alias",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Johnson’s Baby",
+      "productCount": 3,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Katigua",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Kérastase",
+      "productCount": 5,
+      "action": "reusar",
+      "match": "Kérastase",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Kerasys",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Keune",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "L'Oréal Paris",
+      "productCount": 10,
+      "action": "reusar",
+      "match": "L'Oréal",
+      "matchKind": "alias",
+      "alternatives": [
+        "L'Oréal (contém)"
+      ]
+    },
+    {
+      "csvBrand": "L'oréal Professionnel",
+      "productCount": 4,
+      "action": "revisar",
+      "match": "L'Oréal",
+      "matchKind": "contém",
+      "alternatives": [
+        "L'Oréal (contém)"
+      ]
+    },
+    {
+      "csvBrand": "La Roche-Posay",
+      "productCount": 12,
+      "action": "reusar",
+      "match": "La Roche-Posay",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Lancôme",
+      "productCount": 1,
+      "action": "reusar",
+      "match": "Lancome",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Lavitan",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Lizze",
+      "productCount": 2,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Lola Cosmetics",
+      "productCount": 5,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "M.A.C",
+      "productCount": 2,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Mamypoko",
+      "productCount": 2,
+      "action": "reusar",
+      "match": "Mamypoko",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Mantecorp",
+      "productCount": 7,
+      "action": "reusar",
+      "match": "Mantecorp",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Marjan",
+      "productCount": 3,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Max Titanium",
+      "productCount": 7,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Maxinutri",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Maybelline",
+      "productCount": 2,
+      "action": "reusar",
+      "match": "Maybelline",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Medley",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Momenta",
+      "productCount": 2,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Mustela",
+      "productCount": 1,
+      "action": "reusar",
+      "match": "Mustela",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "N.P.P.E",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Needs",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Neosil",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Neostrata",
+      "productCount": 2,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Nestlé",
+      "productCount": 23,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Neutrogena",
+      "productCount": 12,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Nivea",
+      "productCount": 11,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Nutrify",
+      "productCount": 4,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Océane",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Pampers",
+      "productCount": 7,
+      "action": "reusar",
+      "match": "Pampers",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Pantene",
+      "productCount": 1,
+      "action": "reusar",
+      "match": "Pantene",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Payot",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Perspirex",
+      "productCount": 1,
+      "action": "reusar",
+      "match": "Perspirex",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Philips",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Plenitud",
+      "productCount": 2,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Profuse",
+      "productCount": 4,
+      "action": "reusar",
+      "match": "Profuse",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Puravida",
+      "productCount": 5,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Redken",
+      "productCount": 1,
+      "action": "reusar",
+      "match": "Redken",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Salon Line",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Sanavita",
+      "productCount": 3,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Skinceuticals",
+      "productCount": 3,
+      "action": "reusar",
+      "match": "Skinceuticals",
+      "matchKind": "alias",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Supera",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Sustagen",
+      "productCount": 2,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "TheraSkin",
+      "productCount": 4,
+      "action": "reusar",
+      "match": "TheraSkin",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Truss Professional",
+      "productCount": 3,
+      "action": "reusar",
+      "match": "Truss Professional",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Unilever",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Varicell",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Venalot",
+      "productCount": 1,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Vichy",
+      "productCount": 30,
+      "action": "reusar",
+      "match": "Vichy",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Vitafor",
+      "productCount": 6,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Wella Professionals",
+      "productCount": 9,
+      "action": "reusar",
+      "match": "Wella Professionals",
+      "matchKind": "exato",
+      "alternatives": []
+    },
+    {
+      "csvBrand": "Widi Care",
+      "productCount": 3,
+      "action": "criar",
+      "match": null,
+      "matchKind": null,
+      "alternatives": []
+    }
+  ],
+  "toImportPreview": [
+    {
+      "name": "Absorvente Always Noturno Cobertura Suave com Abas Fluxo Intenso G 32 Unidades",
+      "gtin": "7506339326055",
+      "sku": "7506339326055",
+      "price": 21.98,
+      "brand": "Always",
+      "categories": [
+        "Higiene Pessoal"
+      ],
+      "images": 2
+    },
+    {
+      "name": "Água Micelar Cicatricure 200ml",
+      "gtin": null,
+      "sku": "FF-13397",
+      "price": 19.97,
+      "brand": "Cicatricure",
+      "categories": [
+        "Cuidados com a Pele",
+        "Maquiagens e Acessórios"
+      ],
+      "images": 2
+    },
+    {
+      "name": "Água Micelar Neutrogena Purified Skin 7 em 1 Demaquilante 200ml",
+      "gtin": null,
+      "sku": "FF-13382",
+      "price": 39.97,
+      "brand": "Neutrogena",
+      "categories": [
+        "Maquiagens e Acessórios"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Algodão Quadrado Bellacotton Kit com 3 Pacotes",
+      "gtin": "7908476214538",
+      "sku": "7908476214538",
+      "price": 59.95,
+      "brand": "BellaCotton",
+      "categories": [
+        "Mamãe e Bebê",
+        "Maquiagens e Acessórios"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Aptanutri Premium 3 Fórmula Infantil 1 a 3 Anos 800g",
+      "gtin": null,
+      "sku": "FF-13618",
+      "price": 44.96,
+      "brand": "Danone",
+      "categories": [
+        "Mamãe e Bebê"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Artromobil HA 30 comprimidos",
+      "gtin": "7896676440843",
+      "sku": "7896676440843",
+      "price": 73.95,
+      "brand": "Cristália",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Barbeador e Aparador Elétrico Philips OneBlade com Pente 5 em 1 Sem Fio e À Prova D’Água – QP1425/10 Bivolt",
+      "gtin": null,
+      "sku": "FF-32111",
+      "price": 118.99,
+      "brand": null,
+      "categories": [
+        "Higiene Pessoal"
+      ],
+      "images": 7
+    },
+    {
+      "name": "Base BB Cream L’Oréal Paris 5 em 1 Dermo Expertise Cor Clara FPS 20 30ml",
+      "gtin": null,
+      "sku": "FF-13393",
+      "price": 49.96,
+      "brand": "L'Oréal Paris",
+      "categories": [
+        "Maquiagens e Acessórios"
+      ],
+      "images": 5
+    },
+    {
+      "name": "Base BB Cream L’Oréal Paris 5 em 1 Dermo Expertise Cor Média FPS 20 30ml",
+      "gtin": null,
+      "sku": "FF-13394",
+      "price": 49.96,
+      "brand": "L'Oréal Paris",
+      "categories": [
+        "Maquiagens e Acessórios"
+      ],
+      "images": 5
+    },
+    {
+      "name": "Base BB Cream L’Oréal Paris 5 em 1 Dermo Expertise Cor Morena FPS 20 30ml",
+      "gtin": null,
+      "sku": "FF-13395",
+      "price": 49.96,
+      "brand": "L'Oréal Paris",
+      "categories": [
+        "Maquiagens e Acessórios"
+      ],
+      "images": 5
+    },
+    {
+      "name": "Batom Retro Matte M·A·C All Fired Up",
+      "gtin": null,
+      "sku": "FF-32815",
+      "price": 109.99,
+      "brand": "M.A.C",
+      "categories": [
+        "Maquiagens e Acessórios"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Batom Retro Matte M·A·C Dangerous",
+      "gtin": null,
+      "sku": "FF-32794",
+      "price": 109.99,
+      "brand": "M.A.C",
+      "categories": [
+        "Maquiagens e Acessórios"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Batom Retro Matte M·A·C Flat Out Fabulous",
+      "gtin": null,
+      "sku": "FF-32809",
+      "price": 109.99,
+      "brand": null,
+      "categories": [
+        "Maquiagens e Acessórios"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Batom Retro Matte M·A·C Ruby Woo",
+      "gtin": null,
+      "sku": "FF-32804",
+      "price": 109.99,
+      "brand": null,
+      "categories": [
+        "Maquiagens e Acessórios"
+      ],
+      "images": 4
+    },
+    {
+      "name": "Batom Retro Matte M·A·C Runway Hit",
+      "gtin": null,
+      "sku": "FF-32799",
+      "price": 109.99,
+      "brand": null,
+      "categories": [
+        "Maquiagens e Acessórios"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Bio Mag Puravida Magnésio Quelato 60 cápsulas",
+      "gtin": "7898661012981",
+      "sku": "7898661012981",
+      "price": 67.87,
+      "brand": "Puravida",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 2
+    },
+    {
+      "name": "Bio Vit C+ Vitamina C Puravida 60 Cápsulas",
+      "gtin": "7898661010505",
+      "sku": "7898661010505",
+      "price": 61.95,
+      "brand": "Puravida",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "BioTrimag Trimagnésio Puravida 60 cápsulas",
+      "gtin": "7898661013940",
+      "sku": "7898661013940",
+      "price": 82.84,
+      "brand": "Puravida",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Blemish+ Age Defense SkinCeuticals 30ml",
+      "gtin": "7899706135504",
+      "sku": "7899706135504",
+      "price": 254.82,
+      "brand": "Skinceuticals",
+      "categories": [
+        "Cuidado Facial"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Body Protein Frutas Vermelhas Equaliv 600g",
+      "gtin": "7895094614652",
+      "sku": "7895094614652",
+      "price": 213.85,
+      "brand": "Equaliv",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Body Protein sabor Cacau Equaliv 600g",
+      "gtin": "7898687730814",
+      "sku": "7898687730814",
+      "price": 211.85,
+      "brand": "Equaliv",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Cafeína Dux Nutrition 90 cápsulas",
+      "gtin": null,
+      "sku": "FF-13473",
+      "price": 49.97,
+      "brand": "Dux Nutrition",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Cálcio + Vitamina D Prosso 30 comprimidos",
+      "gtin": null,
+      "sku": "FF-13693",
+      "price": 119.9,
+      "brand": "Momenta",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 2
+    },
+    {
+      "name": "Caneta Delineadora Pullpen Preta By Franciny Ehlke 7g",
+      "gtin": "7898969501026",
+      "sku": "7898969501026",
+      "price": 39.58,
+      "brand": "Franciny Ehlke",
+      "categories": [
+        "Maquiagens e Acessórios"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Caneta Fortalecedora de Unhas Frágeis Si-Nails ISDIN 2,5ml",
+      "gtin": "8470001915528",
+      "sku": "8470001915528",
+      "price": 79.87,
+      "brand": "Isdin",
+      "categories": [
+        "Maquiagens e Acessórios"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Carga para Aparelho de Barbear Gillette Mach3 Sensitive 16 unidades",
+      "gtin": "7506339396348",
+      "sku": "7506339396348",
+      "price": 92.31,
+      "brand": "Gillette",
+      "categories": [
+        "Higiene Pessoal"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Cerave Gel De Limpeza Acne Control 340g",
+      "gtin": "7908615086019",
+      "sku": "7908615086019",
+      "price": 62.94,
+      "brand": "CeraVe",
+      "categories": [
+        "Cuidado Facial",
+        "Cuidados com a Pele"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Cetrilan Creme para Previnir Assaduras TheraSkin 120g",
+      "gtin": "7897129304606",
+      "sku": "7897129304606",
+      "price": 41.97,
+      "brand": "TheraSkin",
+      "categories": [
+        "Mamãe e Bebê"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Chapinha Lizze Profissional 480 Extreme 110v Cinza",
+      "gtin": "7898949454143",
+      "sku": "7898949454143",
+      "price": 399.71,
+      "brand": "Lizze",
+      "categories": [
+        "Cuidados Capilares"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Chapinha Lizze Profissional 480 Extreme 220v Cinza",
+      "gtin": "7898949454144",
+      "sku": "7898949454144",
+      "price": 399.71,
+      "brand": "Lizze",
+      "categories": [
+        "Cuidados Capilares"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Cicaplast Baume La Roche-Posay B5 Plus Hidratante 40ml",
+      "gtin": null,
+      "sku": "FF-12102",
+      "price": 55.24,
+      "brand": "La Roche-Posay",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Cicatricure Gel Cicatrizes e Estrias 60g",
+      "gtin": null,
+      "sku": "FF-13383",
+      "price": 39.96,
+      "brand": "Cicatricure",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Clear Men Shampoo Anticaspa Ice Cool Menthol 400ml",
+      "gtin": null,
+      "sku": "FF-13475",
+      "price": 22.49,
+      "brand": "Unilever",
+      "categories": [
+        "Cuidados Capilares",
+        "Higiene Pessoal"
+      ],
+      "images": 2
+    },
+    {
+      "name": "Coenzima Q10 200mg Vitafor 60 Cápsulas",
+      "gtin": "7898919865390",
+      "sku": "7898919865390",
+      "price": 95.39,
+      "brand": "Vitafor",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Colágeno Collagen Derm Nutrify sabor Abacaxi com Hortelã 300g",
+      "gtin": "7896311774388",
+      "sku": "7896311774388",
+      "price": 112.42,
+      "brand": "Nutrify",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Colágeno Collagen Derm Nutrify sabor Laranja 330g",
+      "gtin": "7896311769681",
+      "sku": "7896311769681",
+      "price": 112.42,
+      "brand": "Nutrify",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Colágeno Collagen Derm Nutrify sabor Limão 330g",
+      "gtin": "7896311769698",
+      "sku": "7896311769698",
+      "price": 112.42,
+      "brand": "Nutrify",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Colágeno Hidrolisado 2 em 1 Verisol Natural Maxinutri 250g",
+      "gtin": "7793481667062",
+      "sku": "7793481667062",
+      "price": 61.95,
+      "brand": "Maxinutri",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Colágeno Hidrolisado em Pó Sabor Laranja com 30 Sachês",
+      "gtin": "7896112401537",
+      "sku": "7896112401537",
+      "price": 50.96,
+      "brand": "Biolab",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Colágeno Motilex 60 Cápsulas",
+      "gtin": "7896637030861",
+      "sku": "7896637030861",
+      "price": 62.95,
+      "brand": "Apsen",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Colágeno Sanavita Duo Balance Abacaxi com Hortelã 330g",
+      "gtin": "7898132544850",
+      "sku": "7898132544850",
+      "price": 102.93,
+      "brand": "Sanavita",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 2
+    },
+    {
+      "name": "Colágeno Sanavita Duo Balance Hibiscus com Frutas Roxas 330g",
+      "gtin": "7898132544690",
+      "sku": "7898132544690",
+      "price": 102.93,
+      "brand": "Sanavita",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 2
+    },
+    {
+      "name": "Colágeno Sanavita Duo Balance Neutro 285g",
+      "gtin": "7895094674915",
+      "sku": "7895094674915",
+      "price": 102.93,
+      "brand": "Sanavita",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Colágeno Tipo II – Cartliv 40Mg Equaliv 60 Cápsulas",
+      "gtin": "7898946435535",
+      "sku": "7898946435535",
+      "price": 61.95,
+      "brand": "Equaliv",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Colflex Trio Colágeno Hidrolisado 30 sachês",
+      "gtin": "7896094920255",
+      "sku": "7896094920255",
+      "price": 164.88,
+      "brand": "Mantecorp",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Collagen Protein Hidrolisado Puravida Sabor Neutro 450g",
+      "gtin": null,
+      "sku": "FF-11964",
+      "price": 155.89,
+      "brand": "Puravida",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Composto Lácteo Milnutri Premium 800g",
+      "gtin": null,
+      "sku": "FF-13697",
+      "price": 51.95,
+      "brand": "Danone",
+      "categories": [
+        "Mamãe e Bebê"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Condicionador Antiqueda Vichy Dercos Energy+ 200ml",
+      "gtin": "7899706254434",
+      "sku": "7899706254434",
+      "price": 84.93,
+      "brand": "Vichy",
+      "categories": [
+        "Cuidados Capilares"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Condicionador Capilar Hidro-Nutritivo Widi Care Condicionando a Juba 500ml",
+      "gtin": "7898623242012",
+      "sku": "7898623242012",
+      "price": 41.97,
+      "brand": "Widi Care",
+      "categories": [
+        "Cuidados Capilares"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Condicionador Kérastase Chroma Absolu Fondant Cica 200ml",
+      "gtin": "3474637059187",
+      "sku": "3474637059187",
+      "price": 177.88,
+      "brand": "Kérastase",
+      "categories": [
+        "Cuidados Capilares"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Condicionador Kérastase Gloss Absolu Insta Glaze Fondant 250ml",
+      "gtin": "3474636874896",
+      "sku": "3474636874896",
+      "price": 167.88,
+      "brand": "Kérastase",
+      "categories": [
+        "Cuidados Capilares"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Condicionador Truss Nutri Infusion 300ml",
+      "gtin": "7898625795479",
+      "sku": "7898625795479",
+      "price": 73.95,
+      "brand": "Truss Professional",
+      "categories": [
+        "Cuidados Capilares"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Condicionador Wella Professionals Ultimate Repair Passo 2 500ml",
+      "gtin": "4015600830478",
+      "sku": "4015600830478",
+      "price": 244.83,
+      "brand": "Wella Professionals",
+      "categories": [
+        "Cuidados Capilares"
+      ],
+      "images": 4
+    },
+    {
+      "name": "Condres AH Colágeno Tipo II 90 Capsulas",
+      "gtin": null,
+      "sku": "FF-32780",
+      "price": 269.99,
+      "brand": null,
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 2
+    },
+    {
+      "name": "Condres Colágeno Não Hidrolisado Tipo II 40mg 90 cápsulas",
+      "gtin": "7894916515207",
+      "sku": "7894916515207",
+      "price": 100.93,
+      "brand": "EMS",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Cotonetes Flexíveis de Algodão 300 unidades Johnson & Johnson",
+      "gtin": null,
+      "sku": "FF-32127",
+      "price": 19.99,
+      "brand": null,
+      "categories": [
+        "Higiene Pessoal"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Creatina Monohidratada Dux Nutrition 300g",
+      "gtin": "7898641073971",
+      "sku": "7898641073971",
+      "price": 61.95,
+      "brand": "Dux Nutrition",
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 2
+    },
+    {
+      "name": "Creatina Monohidratada Pura Dark Lab Sem sabor 1kg",
+      "gtin": null,
+      "sku": "FF-32104",
+      "price": 59.99,
+      "brand": null,
+      "categories": [
+        "Suplementos e Vitaminas"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Creme Antiestrias Cicatricure Maternity 250ml",
+      "gtin": "7898636190911",
+      "sku": "7898636190911",
+      "price": 56.87,
+      "brand": "Cicatricure",
+      "categories": [
+        "Cuidados com a Pele",
+        "Mamãe e Bebê"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Creme Barriguinha Cream Beleza Brasileira 200g",
+      "gtin": "7898970233091",
+      "sku": "7898970233091",
+      "price": 93.38,
+      "brand": "Beleza Brasileira",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Creme Contorno De Olhos Cicatricure Rugas Bolsas E Olheiras 15g",
+      "gtin": "7896342510182",
+      "sku": "7896342510182",
+      "price": 39.97,
+      "brand": "Cicatricure",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Creme Corporal Antiacne Eucerin Dermo Pure Efeito Triplo 200ml",
+      "gtin": "4006000152790",
+      "sku": "4006000152790",
+      "price": 87.93,
+      "brand": "Eucerin",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 5
+    },
+    {
+      "name": "Creme de Limpeza Calmante Vichy Dercos Sensi Scalp Refil 200ml",
+      "gtin": "7908615000527",
+      "sku": "7908615000527",
+      "price": 59.86,
+      "brand": "Vichy",
+      "categories": [
+        "Cuidados Capilares"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Creme de Olhos Eucerin Anti-Idade Firmador Hyaluron-Filler + Elasticity FPS20 15ml",
+      "gtin": null,
+      "sku": "FF-13463",
+      "price": 239.77,
+      "brand": "Eucerin",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 5
+    },
+    {
+      "name": "Creme De Pentear Modelador Widi Care Encaracolando Juba 1L",
+      "gtin": "7898623242654",
+      "sku": "7898623242654",
+      "price": 64.95,
+      "brand": "Widi Care",
+      "categories": [
+        "Cuidados Capilares"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Creme Em Gel Effaclar La Roche-Posay Duo+ Fps30 40g",
+      "gtin": "3337875598071",
+      "sku": "3337875598071",
+      "price": 157.89,
+      "brand": "La Roche-Posay",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 2
+    },
+    {
+      "name": "Creme Facial Anti-idade L’Oréal Paris Revitalift Laser X3 Diurno 50ml",
+      "gtin": "7898587766876",
+      "sku": "7898587766876",
+      "price": 69.95,
+      "brand": "L'Oréal Paris",
+      "categories": [
+        "Cuidado Facial"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Creme Facial Antirrugas Superativado La Roche-Posay Hyalu B5 50g",
+      "gtin": null,
+      "sku": "FF-13642",
+      "price": 269.62,
+      "brand": "La Roche-Posay",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 5
+    },
+    {
+      "name": "Creme Facial Antissinais Nivea Cellular Expert Lift Avançado Dia FPS30 50ml",
+      "gtin": "4005900929679",
+      "sku": "4005900929679",
+      "price": 48.89,
+      "brand": "Nivea",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Creme Facial Cicatricure Antissinais e Antirrugas 50g",
+      "gtin": null,
+      "sku": "FF-12981",
+      "price": 39.86,
+      "brand": "Cicatricure",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Creme Facial Fisiogel A.I. Ação Calmante FPS 20 com 40ml",
+      "gtin": null,
+      "sku": "FF-13398",
+      "price": 83.84,
+      "brand": "Fisiogel",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 2
+    },
+    {
+      "name": "Creme Facial Neostrata Oily Skin Gel Plus 125g",
+      "gtin": "732013301835",
+      "sku": "732013301835",
+      "price": 309.78,
+      "brand": "Neostrata",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Creme Facial Rejuvenescedor Avène Retrinal 0.1 30ml",
+      "gtin": "3282779358668",
+      "sku": "3282779358668",
+      "price": 178.67,
+      "brand": "Avêne",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Creme Facial Vichy Minéral 89 40ml",
+      "gtin": "7899706254502",
+      "sku": "7899706254502",
+      "price": 89.93,
+      "brand": "Vichy",
+      "categories": [
+        "Cuidado Facial"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Creme Firmador Anti-Idade Vichy Neovadiol Phytosculpt com 50ml",
+      "gtin": null,
+      "sku": "FF-13699",
+      "price": 279.7,
+      "brand": "Vichy",
+      "categories": [
+        "Cuidado Facial",
+        "Cuidados com a Pele"
+      ],
+      "images": 3
+    },
+    {
+      "name": "Creme Fixador de Dentadura Ultra Corega Max Fixação + Bloqueio Sem Sabor 2 unidades de 70g cada",
+      "gtin": "7896015592110",
+      "sku": "7896015592110",
+      "price": 89.93,
+      "brand": "Corega",
+      "categories": [
+        "Higiene Pessoal"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Creme Hidratante Antiestrias Corporal ISDIN Woman 245g",
+      "gtin": "8429420142916",
+      "sku": "8429420142916",
+      "price": 104.93,
+      "brand": "Isdin",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 2
+    },
+    {
+      "name": "Creme Hidratante Bepantol Derma creme 40g",
+      "gtin": "7891106911733",
+      "sku": "7891106911733",
+      "price": 49.96,
+      "brand": "Bepantol",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 1
+    },
+    {
+      "name": "Creme Hidratante Cetaphil 453g",
+      "gtin": null,
+      "sku": "FF-12056",
+      "price": 69.93,
+      "brand": "Cetaphil",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 5
+    },
+    {
+      "name": "Creme Hidratante Corporal CeraVe 453g",
+      "gtin": null,
+      "sku": "FF-11977",
+      "price": 67.94,
+      "brand": "CeraVe",
+      "categories": [
+        "Cuidados com a Pele"
+      ],
+      "images": 6
+    }
+  ],
+  "toImportAllNames": [
+    "Absorvente Always Noturno Cobertura Suave com Abas Fluxo Intenso G 32 Unidades",
+    "Água Micelar Cicatricure 200ml",
+    "Água Micelar Neutrogena Purified Skin 7 em 1 Demaquilante 200ml",
+    "Algodão Quadrado Bellacotton Kit com 3 Pacotes",
+    "Aptanutri Premium 3 Fórmula Infantil 1 a 3 Anos 800g",
+    "Artromobil HA 30 comprimidos",
+    "Barbeador e Aparador Elétrico Philips OneBlade com Pente 5 em 1 Sem Fio e À Prova D’Água – QP1425/10 Bivolt",
+    "Base BB Cream L’Oréal Paris 5 em 1 Dermo Expertise Cor Clara FPS 20 30ml",
+    "Base BB Cream L’Oréal Paris 5 em 1 Dermo Expertise Cor Média FPS 20 30ml",
+    "Base BB Cream L’Oréal Paris 5 em 1 Dermo Expertise Cor Morena FPS 20 30ml",
+    "Batom Retro Matte M·A·C All Fired Up",
+    "Batom Retro Matte M·A·C Dangerous",
+    "Batom Retro Matte M·A·C Flat Out Fabulous",
+    "Batom Retro Matte M·A·C Ruby Woo",
+    "Batom Retro Matte M·A·C Runway Hit",
+    "Bio Mag Puravida Magnésio Quelato 60 cápsulas",
+    "Bio Vit C+ Vitamina C Puravida 60 Cápsulas",
+    "BioTrimag Trimagnésio Puravida 60 cápsulas",
+    "Blemish+ Age Defense SkinCeuticals 30ml",
+    "Body Protein Frutas Vermelhas Equaliv 600g",
+    "Body Protein sabor Cacau Equaliv 600g",
+    "Cafeína Dux Nutrition 90 cápsulas",
+    "Cálcio + Vitamina D Prosso 30 comprimidos",
+    "Caneta Delineadora Pullpen Preta By Franciny Ehlke 7g",
+    "Caneta Fortalecedora de Unhas Frágeis Si-Nails ISDIN 2,5ml",
+    "Carga para Aparelho de Barbear Gillette Mach3 Sensitive 16 unidades",
+    "Cerave Gel De Limpeza Acne Control 340g",
+    "Cetrilan Creme para Previnir Assaduras TheraSkin 120g",
+    "Chapinha Lizze Profissional 480 Extreme 110v Cinza",
+    "Chapinha Lizze Profissional 480 Extreme 220v Cinza",
+    "Cicaplast Baume La Roche-Posay B5 Plus Hidratante 40ml",
+    "Cicatricure Gel Cicatrizes e Estrias 60g",
+    "Clear Men Shampoo Anticaspa Ice Cool Menthol 400ml",
+    "Coenzima Q10 200mg Vitafor 60 Cápsulas",
+    "Colágeno Collagen Derm Nutrify sabor Abacaxi com Hortelã 300g",
+    "Colágeno Collagen Derm Nutrify sabor Laranja 330g",
+    "Colágeno Collagen Derm Nutrify sabor Limão 330g",
+    "Colágeno Hidrolisado 2 em 1 Verisol Natural Maxinutri 250g",
+    "Colágeno Hidrolisado em Pó Sabor Laranja com 30 Sachês",
+    "Colágeno Motilex 60 Cápsulas",
+    "Colágeno Sanavita Duo Balance Abacaxi com Hortelã 330g",
+    "Colágeno Sanavita Duo Balance Hibiscus com Frutas Roxas 330g",
+    "Colágeno Sanavita Duo Balance Neutro 285g",
+    "Colágeno Tipo II – Cartliv 40Mg Equaliv 60 Cápsulas",
+    "Colflex Trio Colágeno Hidrolisado 30 sachês",
+    "Collagen Protein Hidrolisado Puravida Sabor Neutro 450g",
+    "Composto Lácteo Milnutri Premium 800g",
+    "Condicionador Antiqueda Vichy Dercos Energy+ 200ml",
+    "Condicionador Capilar Hidro-Nutritivo Widi Care Condicionando a Juba 500ml",
+    "Condicionador Kérastase Chroma Absolu Fondant Cica 200ml",
+    "Condicionador Kérastase Gloss Absolu Insta Glaze Fondant 250ml",
+    "Condicionador Truss Nutri Infusion 300ml",
+    "Condicionador Wella Professionals Ultimate Repair Passo 2 500ml",
+    "Condres AH Colágeno Tipo II 90 Capsulas",
+    "Condres Colágeno Não Hidrolisado Tipo II 40mg 90 cápsulas",
+    "Cotonetes Flexíveis de Algodão 300 unidades Johnson & Johnson",
+    "Creatina Monohidratada Dux Nutrition 300g",
+    "Creatina Monohidratada Pura Dark Lab Sem sabor 1kg",
+    "Creme Antiestrias Cicatricure Maternity 250ml",
+    "Creme Barriguinha Cream Beleza Brasileira 200g",
+    "Creme Contorno De Olhos Cicatricure Rugas Bolsas E Olheiras 15g",
+    "Creme Corporal Antiacne Eucerin Dermo Pure Efeito Triplo 200ml",
+    "Creme de Limpeza Calmante Vichy Dercos Sensi Scalp Refil 200ml",
+    "Creme de Olhos Eucerin Anti-Idade Firmador Hyaluron-Filler + Elasticity FPS20 15ml",
+    "Creme De Pentear Modelador Widi Care Encaracolando Juba 1L",
+    "Creme Em Gel Effaclar La Roche-Posay Duo+ Fps30 40g",
+    "Creme Facial Anti-idade L’Oréal Paris Revitalift Laser X3 Diurno 50ml",
+    "Creme Facial Antirrugas Superativado La Roche-Posay Hyalu B5 50g",
+    "Creme Facial Antissinais Nivea Cellular Expert Lift Avançado Dia FPS30 50ml",
+    "Creme Facial Cicatricure Antissinais e Antirrugas 50g",
+    "Creme Facial Fisiogel A.I. Ação Calmante FPS 20 com 40ml",
+    "Creme Facial Neostrata Oily Skin Gel Plus 125g",
+    "Creme Facial Rejuvenescedor Avène Retrinal 0.1 30ml",
+    "Creme Facial Vichy Minéral 89 40ml",
+    "Creme Firmador Anti-Idade Vichy Neovadiol Phytosculpt com 50ml",
+    "Creme Fixador de Dentadura Ultra Corega Max Fixação + Bloqueio Sem Sabor 2 unidades de 70g cada",
+    "Creme Hidratante Antiestrias Corporal ISDIN Woman 245g",
+    "Creme Hidratante Bepantol Derma creme 40g",
+    "Creme Hidratante Cetaphil 453g",
+    "Creme Hidratante Corporal CeraVe 453g",
+    "Creme Hidratante Corporal Fisiogel Hipoalergênico 450g",
+    "Creme Hidratante Corporal Nivea Men 4 em 1 75g",
+    "Creme Hidratante Facial Bioderma Sensibio AR+cream 40ml",
+    "Creme Hidratante Facial La Roche-Posay Effaclar Mat 40ml",
+    "Creme Hidratante Isdin Ureadin 20 com 50g",
+    "Creme Hidratante Lancôme Hydra Zen Creme 50ml",
+    "Creme Hidratante Multirrestaurador Bepantol Derma Pele Extrasseca 20g",
+    "Creme Hidratante para Mãos Isdin Ureadin Manos Plus com 51,5g",
+    "Creme Hidratante Revitalizante Cedraflon para Pernas 150ml",
+    "Creme Hyaluronic Moisture Isdinceutics Oily Isdin 50g",
+    "Creme Nutritivo Vichy Redensificador Neovadiol Menopausa 50g",
+    "Creme para Contorno dos Olhos Vichy Liftactiv Colágeno Specialist 16 15ml",
+    "Creme para Pernas Cansadas Varicell com 300g",
+    "Creme Preventivo de Assaduras Bepantol Baby 120g",
+    "Creme Rejuvenescedor Facial Creamy – Ácido Glicólico+Niacinamida 30g",
+    "Creme Vichy Liftactiv Colágeno Specialist 50ml",
+    "Darrow Doctar Forcecaps 30 comprimidos",
+    "Darrow Doctar Forcecaps 90 comprimidos",
+    "Desodorante Antitranspirante Roll-On Vichy 48h 50ml",
+    "Desodorante Antitranspirante Roll-On Vichy Homme 72h 50ml",
+    "Desodorante Antitranspirante Roll-On Vichy Peles Sensíveis ou Depiladas 48h 50ml",
+    "Desodorante em creme Antitranspirante Vichy 30ml",
+    "Desodorante Roll-On Ideal Finish Vichy 50ml",
+    "Desodorante Roll-on Vichy Stress Resist 72h 50ml",
+    "Desodorante Vichy Antitranspirante 48h 125ml",
+    "Ducray Anacaps Activ+ 90 Cápsulas",
+    "Ensure sabor Banana 850g",
+    "Ensure sabor Baunilha 400g",
+    "Ensure sabor Baunilha 850g",
+    "Ensure sabor Chocolate 850g",
+    "Ensure sabor Morango 850g",
+    "Equaliv Beauty + 60 Cápsulas",
+    "Equaliv Body Protein 100% Isolada Sabor Neutro 900g",
+    "Escova de Dente Elétrica Philips Colgate SonicPro 50",
+    "Esfoliante Facial Deep Clean Energizing Neutrogena 100g",
+    "Esponja de Maquiagem Flat Blend Océane Roxo 1 unidade",
+    "Espuma de Limpeza Facial Air Foam Cerave 150ml",
+    "Exímia Firmalize Age Complex com 30 sachês",
+    "Eximia Fortalize Kera D 30 comprimidos",
+    "Exímia Fortalize Pro 30 cápsulas",
+    "Exímia Fortalize S com 30 Comprimidos",
+    "Exímia Fortalize S com 90 Comprimidos",
+    "Exímia Probiac 30 Comprimidos",
+    "Extima Sabor Baunilha 30 sachês",
+    "Fascia Prime Tangerina com 30 sachês",
+    "Fascia sabor Abacaxi 30 Sachês",
+    "Fascia sabor Laranja 30 Sachês",
+    "Femini Whey Protein Max Titanium sabor Baunilha 900g",
+    "Femini Whey Protein Max Titanium sabor Chocolate 900g",
+    "Femini Whey Protein Max Titanium sabor Morango 900g",
+    "Fiber Mais Colágeno sabor limão 300g",
+    "FiberMais Sabor Laranja 170g",
+    "Fish Oil Ômega 3 Dux Nutrition 120 Cápsulas",
+    "Fixador Corega Ultra em pó 50g",
+    "Fletop Loção Para Pernas e Pés 200ml",
+    "Fórmula Infantil NAN Comfor HMO 0 a 6 meses 800g",
+    "Fórmula Infantil NAN Comfor HMO de 6 a 12 meses 800g",
+    "Fórmula Infantil NAN Supreme Pro de 0 a 6 meses 800g",
+    "Fórmula Infantil Nanlac Comfor Nestlé 1 a 3 anos 800g",
+    "Fórmula Infantil Nanlac Supreme Pro de 1 a 3 anos 800g",
+    "Fórmula Infantil Ninho Primeira Infância 1 a 3 Anos Nutri Fases 1+ 800g",
+    "Fortalecedor de Unha Untralnail Base Forte Profuse 7ml",
+    "Fralda Calça Huggies Supreme Care Roupinha M 80 unidades",
+    "Fralda Calça Huggies Supreme Care XXXG 70 unidades",
+    "Fralda Calça MamyPoko Premium Seca Xxg 44 Unidades",
+    "Fralda Huggies Pants Supreme Care XG 80 Unidades",
+    "Fralda Huggies Roupinha Supreme Care G 88 unidades",
+    "Fralda Huggies Roupinha Supreme Care XXG 72 unidades",
+    "Fralda Huggies Supreme Care G com 66 Unidades",
+    "Fralda Pampers Confort Sec G 98 Unidades",
+    "Fralda Pampers Confort Sec M 70 Unidades",
+    "Fralda Pampers Confort Sec P 72 Unidades",
+    "Fralda Pampers Confort Sec XG 58 Unidades",
+    "Fralda Pampers Confort Sec XXG Com 52 Unidades",
+    "Fralda Pampers Confort Sec Xxxg 44 Unidades",
+    "Fresh Whey Chocolate Belga e Avelã Dux Nutrition 900g",
+    "Fresh Whey sabor Frutas Vermelhas Dux Nutrition 900g",
+    "Gel Antiacne Papuless Theraskin 25g",
+    "Gel Antiacne Papuless Theraskin com 25g",
+    "Gel Creme Bioderma Atoderm Intensive 500ml",
+    "Gel Creme Facial Antissinais Neutrogena Bright Boost 50g",
+    "Gel de Banho Profuse Hidradeep Pele Normal a Seca 400ml",
+    "Gel de Limpeza Creamy Skincare 200ml",
+    "Gel de Limpeza Eucerin pH5 250ml",
+    "Gel de Limpeza Facial La Roche-Posay Mela B3 120g",
+    "Gel de limpeza Neutrogena Acne Proofing 200ml",
+    "Gel Facial Darrow Actine Trat Cuidado Diário 30g",
+    "Gel Facial de Limpeza Profunda Vichy Normaderm Refil 240g",
+    "Gel Fortalecedor De Unhas Pantogar 5ml",
+    "Gel Lavante Mustela Suave com Abacate Orgânico 750ml",
+    "Gel Matte Hidratação Vichy Minéral 89 Sorbet 48h 50ml",
+    "Gel Renovador Puriance Profuse 60g",
+    "Glucerna SR sabor Baunilha 850g",
+    "Glutamina em Pó L-G Max Titanium 300g",
+    "Glutamina sem sabor Integralmedica 300g",
+    "Hidratante Corporal Neutrogena Hydro Boost Cream 400ml",
+    "Hidratante Facial Antiacne Garnier Salicílico Toque Seco 85g",
+    "Hidratante Facial La Roche-Posay Hyalu B5 Aquagel 40g",
+    "Hidratante Facial Needs Beauty Vitamina C 50g",
+    "Hidratante Facial Neutrogena Face Care Intensive 3 em 1 com 100g",
+    "Hidratante Facial Neutrogena Hydro Boost Water Gel 50g",
+    "Hidratante Facial Neutrogena Hydro Boost Water Gel Refil 50g",
+    "Hidratante Facial Nivea Gel Hialuronico Fresh 100g",
+    "Hidratante Labial Nivea Amora Shine 48g",
+    "Hidratante Labial Nivea Original Care 48g",
+    "Hidratante Nutritivo Johnson’s Baby Derma Protect 200ml",
+    "Hidratante Vichy Minéral 89 50ml",
+    "Huggies Fralda Supreme Care M 196 Unidades",
+    "Imecap Face com 30 cápsulas",
+    "Imecap Face Sabor Frutas Cítricas 30 Sachês",
+    "Imecap Hair Max 90 Cápsulas",
+    "Kit Actine Darrow Gel de Limpeza 140g + Gel de Limpeza 40g",
+    "Kit Centrum Adulto Embalagem Econômica Com 90 Cápsulas",
+    "Kit de Escovas De Dentes Colgate Slim Soft Black Com 4 Unidades",
+    "Kit Lenço Umedecido Huggies Recém Nascido 192 unidades em 4 pacotes",
+    "Kit Lenço Umedecido Pampers Aroma de Aloe Vera 4 pacotes",
+    "Kit Loreal Absolut Repair Shampoo 750ml e Condicionador 750ml",
+    "Kit Polivitamínico Centrum Essentials Homem de A a Zinco 60 + 30 comprimidos",
+    "Kit Sabonete Dove Original em Barra 90g com 6 unidades",
+    "Kit Sabonete em Barra Nivea Creme Care 90g com 6 unidades",
+    "Kit Wella Professionals Invigo Nutri Enrich – Shampoo 1000ml + Condicionador 1000ml",
+    "Kit Wella Professionals Invigo Nutri Enrich Salon Trio 3 Produtos",
+    "Leave-in Truss Fluid Fix 250ml",
+    "Loção Facial Hidratante Hada Labo Gokujyun Lotion 170ml",
+    "Loção Hidratante Corporal Neutrogena Norwegian 200ml",
+    "MamyPoko Fralda Calça Premium Seca M 68 Unidades",
+    "Máscara Capilar Danos Vorazes Lola Cosmetcs 450g",
+    "Máscara Capilar Danos Vorazes Lola Cosmetics 450g",
+    "Máscara Capilar Densidade Lola Cosmetics 230g",
+    "Máscara Capilar L’Oréal Professionnel Absolut Repair Molecular 250ml",
+    "Máscara Capilar L’Oréal Professionnel Pro Longer 250g",
+    "Máscara Capilar Siàge Hair-Plastia da Eudora 250g",
+    "Máscara Capilar Vichy Dercos Kera-Solutions 200ml",
+    "Máscara Capilar Wella Professionals Invigo Volume Boost 500ml",
+    "Máscara capilar Xapadinha Disciplinante Lola Cosmetics com 450g",
+    "Máscara de Cílios Maybelline The Colossal Volum’ Express Lavável Preto 9,2ml",
+    "Máscara de Nutrição e Hidratação para Cabelo Pantene 550ml",
+    "Máscara Kérastase Nutritive Masquintense 200ml",
+    "Máscara Keune Care Keratin Smooth Mask 200ml",
+    "Máscara L’Oréal Paris Elseve Bond Repair 200g",
+    "Máscara para Cílios Maybelline Sensacionais 9ml",
+    "Mega Pack Power Workout Darkness 30 sachês",
+    "Motilex Ha 60 Cápsulas",
+    "Multivitamínico Dux Nutrition 90 Cápsulas",
+    "N.p.p.e. Sh-rd Protein Cream Leave-in 80ml",
+    "Neosil Attack 90 Comprimidos",
+    "Neovite Max 60 cápsulas",
+    "Neutrogena Gel de Limpeza Facial Purified Skin 150g",
+    "Nivea Sun Protetor Solar Facial Seco Antissinais Fps70 40ml",
+    "Normaderm Phytosolution Vichy – Gel de Limpeza Intensivo 150g",
+    "Nouve Biotin Mantecorp 30 Cápsulas",
+    "Nouve Collagen HA Mantecorp 30 sachês",
+    "Nouve Silício D Mantecorp 30 Cápsulas",
+    "Nutradeica Hidratante Facial Isdin 50ml",
+    "Nutren Active sabor Baunilha 400g",
+    "Nutren Active sabor Morango 400g",
+    "Nutren Beauty sabor baunilha 400g",
+    "Nutren Beauty sabor chocolate 400g",
+    "Nutren Control sabor Baunilha 740g",
+    "Nutren Fortify sem sabor 360g",
+    "Nutren Protein sabor Baunilha 800g",
+    "Nutren Senior Premium sabor Baunilha 370g",
+    "Nutren Senior sabor Baunilha 740g",
+    "Nutren Senior sabor Café com Leite 740g",
+    "Nutren Senior sabor Chocolate 740g",
+    "Nutren Senior sabor Mix de Frutas 740g",
+    "Nutren Senior sem sabor 740g",
+    "Nutren Senior Zero Lactose sabor Baunilha 740g",
+    "Nutren Senior Zero Lactose sem sabor 740g",
+    "Nutridrink Protein sem Sabor 700g",
+    "Nutridrink Protein Senior Sabor Chocolate 750g",
+    "Ogestan Gold 30 Cápsulas",
+    "Óleo Capilar Kérastase Elixir Ultime L’huile Originale 30ml",
+    "Óleo Capilar L’Oréal Professionnel Absolut Repair 90ml",
+    "Óleo Capilar L’Oréal Paris Elseve Óleo Extraordinário 100ml",
+    "Óleo Capilar Wella Professionals Oil Reflections Smoothening 30ml",
+    "Óleo de Amêndoas Johnson’s Baby 200ml",
+    "Óleo de Semente de Abobora 1000mg Katiguá 120 Cápsulas",
+    "Óleo e Sérum Capilar Bifásico Dove Bond Intense Repair 110ml",
+    "Óleo Perfumado Salon Line Multy Cacau e Óleo De Argan 120ml",
+    "Óleo Reparador Danos Vorazes Lola Cosmetics 50ml",
+    "Ômega 3 Equaliv 90 cápsulas",
+    "Ômega 3 Nutrify 120 cápsulas",
+    "Omegafor Plus Ômega 3 Vitafor 120 Cápsulas",
+    "Pantogar Men com 30 Cápsulas",
+    "Pantogar Neo com 60 Cápsulas",
+    "Pantogar Neo com 90 Cápsulas",
+    "Pantogar Resist Silício sabor baunilha 30 Sachês",
+    "Pantogar Resist Silicio sem sabor 30 Sachês",
+    "Pointts Antiverrugas 80ml",
+    "Polivitamínico Cogmax 60 cápsulas",
+    "Polivitamínico Gerovital 30 cápsulas",
+    "Polivitamínico Gerovital 60 cápsulas",
+    "Polivitamínico Lavitan Cabelos e Unhas 60 cápsulas",
+    "Polivitamínico Vitergan Master N 70 comprimidos",
+    "Primer Blur Mágico L’Oréal Paris Revitalift 27g",
+    "Protetor Solar Bioré Aqua Rich Watery Essence FPS50 70g",
+    "Protetor Solar Corporal ISDIN Fotoprotector Gel Creme FPS50 198g",
+    "Protetor Solar Corporal La Roche-Posay Anthelios Fluido XL Protect FPS 70 200ml",
+    "Protetor Solar Creamy Watery Fluid Fps50 40ml",
+    "Protetor Solar Facial Avène Mat Perfect FPS70 Fluido Clareador Claro 40g",
+    "Protetor Solar Facial Bioderma Photoderm Cover Touch FPS50+ Dourado 40g",
+    "Protetor Solar Facial Bioderma Photoderm XDefense Ultra-Fluid Sem Cor FPS50+ 40 ml",
+    "Protetor Solar Facial Bioderma Photoderm XDefense Ultra-Fluid Sem Cor FPS50+ 40 ml",
+    "Protetor Solar Facial Cicatricure FPS50 Efeito Matte Antissinais 40g",
+    "Protetor Solar Facial Darrow Actine One FPS 50 sem cor 40g",
+    "Protetor Solar Facial Darrow Actine Toque Seco FPS60 40g",
+    "Protetor Solar Facial FPS50 Bioré UV Perfect Milk 40ml",
+    "Protetor Solar Facial L’oréal Paris Fps 60 Solar Expertise The Invisible 40ml",
+    "Protetor Solar Facial Vichy Capital Soleil UV-Clear sem cor FPS60 40g",
+    "Protetor Solar Facial Vichy Hydra Matte Capital Soleil Sem Cor Fps50 30g",
+    "Protetor Solar Facial Vichy Idéal Soleil Clarify FPS 60 Clara 40g",
+    "Protetor Solar Facial Vichy Idéal Soleil Clarify FPS 60 Média 40g",
+    "Protetor Solar Facial Vichy UV-Age Daily FPS60 40g",
+    "Protetor Solar FPS 50 Nivea Sun Protect & Hidrata 200ml",
+    "Protetor Solar Neostrata Minesol Oil Control FPS70 40g",
+    "Protetor Solar Neutrogena Sun Fresh Derm Care Facial FPS70 40g",
+    "Protetor Solar Neutrogena Sun Fresh FPS 50 200ml",
+    "Protetor Solar SkinCeuticals UV Oil Defense FPS80 40g",
+    "Reinforce Cabelos & Unhas Equaliv 30 cápsulas",
+    "Rejuvenescedor para Contorno dos Olhos Vichy Liftactiv Supreme 15ml",
+    "Reparador Labial Profuse Nutrel Lip Repair 7,5g",
+    "Roupa Íntima Bigfral Derma Plus Tamanho G/xg 24 Unidades",
+    "Roupa Íntima Descartável Plenitud Plus G/XG Absorção Intensa 32 unidades",
+    "Roupa Íntima Descartável Unissex Plenitud Plus P/M Absorção Intensa 32 unidades",
+    "Sabonete Dermotivin Salix 90g",
+    "Sabonete em Barra Antisséptico Darrow Soapelle 70g",
+    "Sabonete Esfoliante Dove Beauty Scrub Romã e Manteiga de Karité 280g",
+    "Sabonete Facial em Barra Vichy Normaderm Pele Oleosa a Acneica 40g",
+    "Sabonete Facial La Roche-Posay Effaclar Alta Tolerância 70g",
+    "Sabonete Líquido Dermotivin Soft 300ml",
+    "Sabonete Liquido Detox Vitamina C Payot 220ml",
+    "Sabonete Líquido Dove Óleo de Banho Glicerinado 240ml",
+    "Sabonete Líquido Facial Ivy C 200ml",
+    "Sabonete Líquido Granado Tradicional 500ml",
+    "Sabonete Líquido Lipikar Surgras La Roche-Posay 400ml",
+    "Sarcoplex sabor Tangerina 30 sachês",
+    "Sérum Antirrugas Noite L’Oréal Paris Revitalift Retinol 30ml",
+    "Sérum Booster Garnier SkinActive Uniform & Matte Antimarcas com Vitamina C 30ml",
+    "Sérum Capilar Antiqueda Vichy Dercos Energy+ 50ml",
+    "Sérum capilar Elseve Glycolic Gloss 100ml",
+    "Sérum Concentrado Iluminador Facial Vichy Minéral 89 Frações Probióticas 30ml",
+    "Sérum Facial Anti-Idade Eucerin Epigenetic 30ml",
+    "Sérum Facial Blemish+ Age Defense SkinCeuticals 15ml",
+    "Sérum Facial Creamy Anti Aging Retinal 30g",
+    "Sérum facial Effaclar Ultra Concentrado La Roche-Posay 30ml",
+    "Sérum Facial Eucerin Anti-Pigment Dual Sérum 30ml",
+    "Sérum Facial Eucerin Daily Booster Ultraleve 30ml",
+    "Sérum Facial Garnier Uniform & Matte Antiacne 15ml",
+    "Sérum facial La Roche-Posay Hyalu B5 Repair 30ml",
+    "Sérum Facial Nivea Cellular Luminous 630 Antimarcas 30ml",
+    "Sérum Facial Nivea Cellular Luminous 630 Antimarcas Acne FPS 60 30ml",
+    "Sérum Facial Nivea Q10 Antissinais Expert Dupla Ação 30ml",
+    "Sérum Rejuvenescedor Facial Ivy C Acqua Mantecorp 30ml",
+    "Shampoo Anticaspa Darrow Doctar Sensi 120ml",
+    "Shampoo Anticaspa La Roche-Posay Kerium 200ml",
+    "Shampoo Anticaspa Vichy Dercos DS Cabelos Normais a Oleosos 300g",
+    "Shampoo Esfoliante Vichy Dercos Micro Peel 150ml",
+    "Shampoo Johnson’s Baby Regular 750ml",
+    "Shampoo Kerastase Symbiose Bain Purete Anti Pelliculaire 250ml",
+    "Shampoo Kerasys Propolis Energy Shine180ml",
+    "Shampoo L’oreal Professionnel Absolut Repair Gold Quinoa + Protein 750ml",
+    "Shampoo Tonalizante em Gel Grecin 5 Visual de Grisalho Fácil de Aplicar 40g",
+    "Shampoo Truss Equilibrium Scalp Rpk 300ml",
+    "Shampoo Wella Fusion Intense Repair 1000ml",
+    "Shampoo Wella Invigo Blonde Recharge 250ml",
+    "Shampoo Wella Invigo Color Brilliance 250ml",
+    "Shampoo Wella Oil Reflections 250ml",
+    "Shampoo Widi Care Higienizando a Juba 500ml",
+    "Spirulina Orgânica Puravida 200 Tabletes",
+    "Suplemento Alimentar Bariat Xr 30 Comprimidos",
+    "Suplemento Alimentar Bemove 30 Comprimidos",
+    "Suplemento Alimentar Caldê Max 30 comprimidos",
+    "Suplemento Alimentar Centrum Adulto 60 cápsulas",
+    "Suplemento Alimentar Centrum Homem 150 Comprimidos",
+    "Suplemento Alimentar Centrum Mulher 150 Cápsulas",
+    "Suplemento Alimentar Condres Ultra 90 comprimidos",
+    "Suplemento Alimentar Equaliv Reinforce Cabelos E Unhas 60 cápsulas",
+    "Suplemento Alimentar Extima sabor Banana 600g",
+    "Suplemento Alimentar Extima sabor Baunilha 600g",
+    "Suplemento Alimentar Lumier Force 100mg 30 Cápsulas",
+    "Suplemento Alimentar Mtor 90 Comprimidos",
+    "Suplemento Alimentar Progress sabor Baunilha 30 sachês",
+    "Suplemento Alimentar Simfort Plus Vitafor Probiótico 30 Cápsulas",
+    "Suplemento Alimentar Sustagen Senior 50+ sabor Baunilha 370g",
+    "Suplemento Alimentar Sustagen Senior 50+ Sem Sabor 370g",
+    "Suplemento Alimentar Vitamina D 2.000UI Addera D3 30 cápsulas",
+    "Suplemento Alimentar Vitamina D Addera Max 30 comprimidos",
+    "Suplemento Polivitamínico Baristar 100 cápsulas",
+    "Suplemento Vitamínico Lavitan Ômega 3 com 120 cápsulas",
+    "Tacitá Unhas e Cabelos 30 Comprimidos",
+    "Theracne Sabonete Barra Theraskin 80g",
+    "Toalha Umedecida Meu Bebê Ultra Premium Caixa 10 Pacotes – 500 Lenços",
+    "Trifor Sabor Tangerina 30 Sachês",
+    "Venalot Creme Para Pernas e Pés com 240ml",
+    "Vitergan Zinco Pl 60 comprimidos",
+    "Whey Protein Concentrado Sabor Baunilha Dux Nutrition 900g",
+    "Whey Protein Concentrado sabor Chocolate Dux Nutrition 900g",
+    "Whey Protein Concentrado Sabor Cookies Dux Nutrition 900g",
+    "Whey Protein Concentrado Sabor Morango Dux Nutrition 900g",
+    "Whey Protein Iso Whey Max Titanium sabor Baunilha 900g",
+    "Whey Protein Iso Whey Max Titanium sabor Chocolate 900g",
+    "Whey Protein Iso Whey Max Titanium sabor Morango 900g",
+    "Whey Protein Isofort Neutro Vitafor 900g",
+    "Whey Protein Isofort sabor Baunilha Vitafor 900g",
+    "Whey Protein Isofort sabor Frutas Vermelhas Vitafor 900g",
+    "Whey Protein Isolado Dux Nutrition Sabor Baunilha 900g",
+    "Whey Protein Isolado Dux Nutrition sabor Cookies 900g",
+    "Whey Protein Isolado Dux Nutrition sabor Morango 900g"
+  ]
+}

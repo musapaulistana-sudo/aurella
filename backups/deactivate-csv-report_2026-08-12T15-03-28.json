@@ -1,0 +1,3470 @@
+{
+  "meta": {
+    "project_ref": "kktzfayiojgsgqdvdazd",
+    "csv": "c:\\importarprodutos\\exportados\\firme_forte_novos_vs_atlas_20260806_140803_woocommerce.csv",
+    "mode": "apply",
+    "exported_at": "2026-08-12T15:03:28.175Z"
+  },
+  "counts": {
+    "csvProducts": 393,
+    "storeProducts": 544,
+    "toDeactivate": 314,
+    "alreadyInactive": 0,
+    "unmatched": 78
+  },
+  "toDeactivate": [
+    {
+      "id": "3f6c2fbc-db23-47d3-8211-bfbe5ca1731b",
+      "name": "Absorvente Always Noturno Cobertura Suave com Abas Fluxo Intenso G 32 Unidades",
+      "sku": "7506339326055",
+      "gtin": "7506339326055",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Absorvente Always Noturno Cobertura Suave com Abas Fluxo Intenso G 32 Unidades"
+    },
+    {
+      "id": "f24823af-bb5d-476c-8e39-c48f4e4df73b",
+      "name": "Água Micelar Cicatricure 200ml",
+      "sku": "FF-13397",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Água Micelar Cicatricure 200ml"
+    },
+    {
+      "id": "ce9b1007-13a5-42a8-9ced-f7cc2a48423a",
+      "name": "Água Micelar Neutrogena Purified Skin 7 em 1 Demaquilante 200ml",
+      "sku": "FF-13382",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Água Micelar Neutrogena Purified Skin 7 em 1 Demaquilante 200ml"
+    },
+    {
+      "id": "a14c467c-eac3-41eb-9941-cb431c3c105a",
+      "name": "Algodão Quadrado Bellacotton Kit com 3 Pacotes",
+      "sku": "7908476214538",
+      "gtin": "7908476214538",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Algodão Quadrado Bellacotton Kit com 3 Pacotes"
+    },
+    {
+      "id": "08ce9092-0241-455e-8008-7da90b354e79",
+      "name": "Aptanutri Premium 3 Fórmula Infantil 1 a 3 Anos 800g",
+      "sku": "FF-13618",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Aptanutri Premium 3 Fórmula Infantil 1 a 3 Anos 800g"
+    },
+    {
+      "id": "4ff9b28a-cf30-4352-80b4-c0a19ae536dd",
+      "name": "Barbeador e Aparador Elétrico Philips OneBlade com Pente 5 em 1 Sem Fio e À Prova D’Água – QP1425/10 Bivolt",
+      "sku": "FF-32111",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Barbeador e Aparador Elétrico Philips OneBlade com Pente 5 em 1 Sem Fio e À Prova D’Água – QP1425/10 Bivolt"
+    },
+    {
+      "id": "0110f150-7c91-4961-b123-4b984869b8cb",
+      "name": "Base BB Cream L’Oréal Paris 5 em 1 Dermo Expertise Cor Clara FPS 20 30ml",
+      "sku": "FF-13393",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Base BB Cream L’Oréal Paris 5 em 1 Dermo Expertise Cor Clara FPS 20 30ml"
+    },
+    {
+      "id": "f21f055b-1ab6-4074-a871-6fb4fad09f41",
+      "name": "Base BB Cream L’Oréal Paris 5 em 1 Dermo Expertise Cor Média FPS 20 30ml",
+      "sku": "FF-13394",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Base BB Cream L’Oréal Paris 5 em 1 Dermo Expertise Cor Média FPS 20 30ml"
+    },
+    {
+      "id": "b85be926-87b7-4018-b0d3-8a509d589a7e",
+      "name": "Base BB Cream L’Oréal Paris 5 em 1 Dermo Expertise Cor Morena FPS 20 30ml",
+      "sku": "FF-13395",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Base BB Cream L’Oréal Paris 5 em 1 Dermo Expertise Cor Morena FPS 20 30ml"
+    },
+    {
+      "id": "eb44d618-00aa-45e4-99b4-42af77a125f4",
+      "name": "Batom Retro Matte M·A·C All Fired Up",
+      "sku": "FF-32815",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Batom Retro Matte M·A·C All Fired Up"
+    },
+    {
+      "id": "cd07ed56-06bd-4e91-a2e5-5fce4cbd5e97",
+      "name": "Batom Retro Matte M·A·C Dangerous",
+      "sku": "FF-32794",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Batom Retro Matte M·A·C Dangerous"
+    },
+    {
+      "id": "c915fddd-36f3-4517-a8db-e81548e02497",
+      "name": "Batom Retro Matte M·A·C Flat Out Fabulous",
+      "sku": "FF-32809",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Batom Retro Matte M·A·C Flat Out Fabulous"
+    },
+    {
+      "id": "46046474-b2c4-467b-afe7-4e76bd270357",
+      "name": "Batom Retro Matte M·A·C Ruby Woo",
+      "sku": "FF-32804",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Batom Retro Matte M·A·C Ruby Woo"
+    },
+    {
+      "id": "e4f733a1-f90f-439d-a0b6-738db274a6ab",
+      "name": "Batom Retro Matte M·A·C Runway Hit",
+      "sku": "FF-32799",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Batom Retro Matte M·A·C Runway Hit"
+    },
+    {
+      "id": "f31fbff8-1d9a-4bff-83f4-76ec53048868",
+      "name": "Blemish+ Age Defense SkinCeuticals 30ml",
+      "sku": "7899706135504",
+      "gtin": "7899706135504",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Blemish+ Age Defense SkinCeuticals 30ml"
+    },
+    {
+      "id": "7559e70f-968e-4a26-af25-1c3113d0b98c",
+      "name": "Body Protein Frutas Vermelhas Equaliv 600g",
+      "sku": "7895094614652",
+      "gtin": "7895094614652",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Body Protein Frutas Vermelhas Equaliv 600g"
+    },
+    {
+      "id": "158661cd-2d9d-4d81-9f64-1bcd9e9c8d98",
+      "name": "Body Protein sabor Cacau Equaliv 600g",
+      "sku": "7898687730814",
+      "gtin": "7898687730814",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Body Protein sabor Cacau Equaliv 600g"
+    },
+    {
+      "id": "13bc79df-96a9-4a6e-8f12-bd2bae488c57",
+      "name": "Caneta Delineadora Pullpen Preta By Franciny Ehlke 7g",
+      "sku": "7898969501026",
+      "gtin": "7898969501026",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Caneta Delineadora Pullpen Preta By Franciny Ehlke 7g"
+    },
+    {
+      "id": "6ef59131-2c54-4c18-a43e-8b46193a8dfd",
+      "name": "Caneta Fortalecedora de Unhas Frágeis Si-Nails ISDIN 2,5ml",
+      "sku": "8470001915528",
+      "gtin": "8470001915528",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Caneta Fortalecedora de Unhas Frágeis Si-Nails ISDIN 2,5ml"
+    },
+    {
+      "id": "75397091-888d-4d00-beb8-6f15c4854b7f",
+      "name": "Carga para Aparelho de Barbear Gillette Mach3 Sensitive 16 unidades",
+      "sku": "7506339396348",
+      "gtin": "7506339396348",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Carga para Aparelho de Barbear Gillette Mach3 Sensitive 16 unidades"
+    },
+    {
+      "id": "4d3d0c5f-6c5c-48ff-94c6-8aeedda839f7",
+      "name": "Cerave Gel De Limpeza Acne Control 340g",
+      "sku": "7908615086019",
+      "gtin": "7908615086019",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Cerave Gel De Limpeza Acne Control 340g"
+    },
+    {
+      "id": "c15530a7-e15e-48db-8c10-e5c7da2bd4c5",
+      "name": "Cetrilan Creme para Previnir Assaduras TheraSkin 120g",
+      "sku": "7897129304606",
+      "gtin": "7897129304606",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Cetrilan Creme para Previnir Assaduras TheraSkin 120g"
+    },
+    {
+      "id": "f0f42cd0-65f9-483a-9d13-f9ddf9748cf0",
+      "name": "Chapinha Lizze Profissional 480 Extreme 110v Cinza",
+      "sku": "7898949454143",
+      "gtin": "7898949454143",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Chapinha Lizze Profissional 480 Extreme 110v Cinza"
+    },
+    {
+      "id": "bb3f328d-c972-485e-a8d1-36c9e3014900",
+      "name": "Chapinha Lizze Profissional 480 Extreme 220v Cinza",
+      "sku": "7898949454144",
+      "gtin": "7898949454144",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Chapinha Lizze Profissional 480 Extreme 220v Cinza"
+    },
+    {
+      "id": "7a9fa756-6e5a-4dab-843a-c9e733d0fe1a",
+      "name": "Cicaplast Baume La Roche-Posay B5 Plus Hidratante 40ml",
+      "sku": "FF-12102",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Cicaplast Baume La Roche-Posay B5 Plus Hidratante 40ml"
+    },
+    {
+      "id": "8a85b325-93f9-4888-b343-ea31b9f73d0b",
+      "name": "Cicatricure Gel Cicatrizes e Estrias 60g",
+      "sku": "FF-13383",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Cicatricure Gel Cicatrizes e Estrias 60g"
+    },
+    {
+      "id": "d3a2a4d0-0607-4ea4-a486-a0a2d4689d41",
+      "name": "Clear Men Shampoo Anticaspa Ice Cool Menthol 400ml",
+      "sku": "FF-13475",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Clear Men Shampoo Anticaspa Ice Cool Menthol 400ml"
+    },
+    {
+      "id": "e876c222-4365-4914-aa51-cf2a023989e0",
+      "name": "Colágeno Collagen Derm Nutrify sabor Abacaxi com Hortelã 300g",
+      "sku": "7896311774388",
+      "gtin": "7896311774388",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Colágeno Collagen Derm Nutrify sabor Abacaxi com Hortelã 300g"
+    },
+    {
+      "id": "6a5e0dc1-cd0b-4029-8438-2111fd75d9a0",
+      "name": "Colágeno Collagen Derm Nutrify sabor Laranja 330g",
+      "sku": "7896311769681",
+      "gtin": "7896311769681",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Colágeno Collagen Derm Nutrify sabor Laranja 330g"
+    },
+    {
+      "id": "bb1ebc55-74c5-404f-b403-ff6949172830",
+      "name": "Colágeno Collagen Derm Nutrify sabor Limão 330g",
+      "sku": "7896311769698",
+      "gtin": "7896311769698",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Colágeno Collagen Derm Nutrify sabor Limão 330g"
+    },
+    {
+      "id": "631fc3c4-787f-4b48-985d-ea722955ac2d",
+      "name": "Colágeno Hidrolisado 2 em 1 Verisol Natural Maxinutri 250g",
+      "sku": "7793481667062",
+      "gtin": "7793481667062",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Colágeno Hidrolisado 2 em 1 Verisol Natural Maxinutri 250g"
+    },
+    {
+      "id": "c01d68e6-8276-473e-9bf9-4bb47a9e79eb",
+      "name": "Colágeno Hidrolisado em Pó Sabor Laranja com 30 Sachês",
+      "sku": "7896112401537",
+      "gtin": "7896112401537",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Colágeno Hidrolisado em Pó Sabor Laranja com 30 Sachês"
+    },
+    {
+      "id": "c6db5456-8ace-4d49-8854-5acd4e7ba462",
+      "name": "Colágeno Sanavita Duo Balance Abacaxi com Hortelã 330g",
+      "sku": "7898132544850",
+      "gtin": "7898132544850",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Colágeno Sanavita Duo Balance Abacaxi com Hortelã 330g"
+    },
+    {
+      "id": "8716d9b2-6037-4a8c-837a-6f37733484ac",
+      "name": "Colágeno Sanavita Duo Balance Hibiscus com Frutas Roxas 330g",
+      "sku": "7898132544690",
+      "gtin": "7898132544690",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Colágeno Sanavita Duo Balance Hibiscus com Frutas Roxas 330g"
+    },
+    {
+      "id": "4350c001-282f-4e89-b4f2-cc719723fdd5",
+      "name": "Colágeno Sanavita Duo Balance Neutro 285g",
+      "sku": "7895094674915",
+      "gtin": "7895094674915",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Colágeno Sanavita Duo Balance Neutro 285g"
+    },
+    {
+      "id": "be2c6610-a36b-4b47-9cd5-b7d15fb7ad4e",
+      "name": "Colflex Trio Colágeno Hidrolisado 30 sachês",
+      "sku": "7896094920255",
+      "gtin": "7896094920255",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Colflex Trio Colágeno Hidrolisado 30 sachês"
+    },
+    {
+      "id": "7d1617c0-5899-420c-8d91-1329b6434b84",
+      "name": "Collagen Protein Hidrolisado Puravida Sabor Neutro 450g",
+      "sku": "FF-11964",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Collagen Protein Hidrolisado Puravida Sabor Neutro 450g"
+    },
+    {
+      "id": "359120ba-ac45-43d4-8c6d-b4ca422bac89",
+      "name": "Composto Lácteo Milnutri Premium 800g",
+      "sku": "FF-13697",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Composto Lácteo Milnutri Premium 800g"
+    },
+    {
+      "id": "0ede3304-808d-4793-b107-72fb3e75d08c",
+      "name": "Condicionador Antiqueda Vichy Dercos Energy+ 200ml",
+      "sku": "7899706254434",
+      "gtin": "7899706254434",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Condicionador Antiqueda Vichy Dercos Energy+ 200ml"
+    },
+    {
+      "id": "cd8ef3f6-6618-499a-9cd1-9df50c100f4e",
+      "name": "Condicionador Capilar Hidro-Nutritivo Widi Care Condicionando a Juba 500ml",
+      "sku": "7898623242012",
+      "gtin": "7898623242012",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Condicionador Capilar Hidro-Nutritivo Widi Care Condicionando a Juba 500ml"
+    },
+    {
+      "id": "84db35ff-7047-4a28-9da3-b5273234b6c5",
+      "name": "Condicionador Kérastase Chroma Absolu Fondant Cica 200ml",
+      "sku": "3474637059187",
+      "gtin": "3474637059187",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Condicionador Kérastase Chroma Absolu Fondant Cica 200ml"
+    },
+    {
+      "id": "47196f64-5b1b-4f35-b598-bcb68defcaf6",
+      "name": "Condicionador Kérastase Gloss Absolu Insta Glaze Fondant 250ml",
+      "sku": "3474636874896",
+      "gtin": "3474636874896",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Condicionador Kérastase Gloss Absolu Insta Glaze Fondant 250ml"
+    },
+    {
+      "id": "c771b6f2-1a5b-4585-8990-9575a06a7e8e",
+      "name": "Condicionador Truss Nutri Infusion 300ml",
+      "sku": "7898625795479",
+      "gtin": "7898625795479",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Condicionador Truss Nutri Infusion 300ml"
+    },
+    {
+      "id": "06667533-98ad-4247-8118-5b5caa39579f",
+      "name": "Condicionador Wella Professionals Ultimate Repair Passo 2 500ml",
+      "sku": "4015600830478",
+      "gtin": "4015600830478",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Condicionador Wella Professionals Ultimate Repair Passo 2 500ml"
+    },
+    {
+      "id": "2c901899-086a-4efb-91f2-20c023a1f2c0",
+      "name": "Cotonetes Flexíveis de Algodão 300 unidades Johnson & Johnson",
+      "sku": "FF-32127",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Cotonetes Flexíveis de Algodão 300 unidades Johnson & Johnson"
+    },
+    {
+      "id": "fdc627a4-2575-43de-88ab-ddfeae87d93a",
+      "name": "Creatina Monohidratada Dux Nutrition 300g",
+      "sku": "7898641073971",
+      "gtin": "7898641073971",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creatina Monohidratada Dux Nutrition 300g"
+    },
+    {
+      "id": "8fb811f9-1b1e-45bb-9986-6620c530e56d",
+      "name": "Creatina Monohidratada Pura Dark Lab Sem sabor 1kg",
+      "sku": "FF-32104",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Creatina Monohidratada Pura Dark Lab Sem sabor 1kg"
+    },
+    {
+      "id": "3ff8d91f-10cd-4a06-90e6-608af4daec82",
+      "name": "Creme Antiestrias Cicatricure Maternity 250ml",
+      "sku": "7898636190911",
+      "gtin": "7898636190911",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Antiestrias Cicatricure Maternity 250ml"
+    },
+    {
+      "id": "6e1e77de-8dbd-404d-9f8a-ca6dbba47dc5",
+      "name": "Creme Barriguinha Cream Beleza Brasileira 200g",
+      "sku": "7898970233091",
+      "gtin": "7898970233091",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Barriguinha Cream Beleza Brasileira 200g"
+    },
+    {
+      "id": "28a8e1d8-6411-4909-a5c8-5c0257868821",
+      "name": "Creme Contorno De Olhos Cicatricure Rugas Bolsas E Olheiras 15g",
+      "sku": "7896342510182",
+      "gtin": "7896342510182",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Contorno De Olhos Cicatricure Rugas Bolsas E Olheiras 15g"
+    },
+    {
+      "id": "380c890c-65b8-4219-b9cb-9a5e5cd71836",
+      "name": "Creme Corporal Antiacne Eucerin Dermo Pure Efeito Triplo 200ml",
+      "sku": "4006000152790",
+      "gtin": "4006000152790",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Corporal Antiacne Eucerin Dermo Pure Efeito Triplo 200ml"
+    },
+    {
+      "id": "18c29c85-a9f6-489b-aaca-e0cf610d0b56",
+      "name": "Creme de Limpeza Calmante Vichy Dercos Sensi Scalp Refil 200ml",
+      "sku": "7908615000527",
+      "gtin": "7908615000527",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme de Limpeza Calmante Vichy Dercos Sensi Scalp Refil 200ml"
+    },
+    {
+      "id": "3c132f82-07e8-4d17-9dec-c5440b5130c0",
+      "name": "Creme de Olhos Eucerin Anti-Idade Firmador Hyaluron-Filler + Elasticity FPS20 15ml",
+      "sku": "FF-13463",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Creme de Olhos Eucerin Anti-Idade Firmador Hyaluron-Filler + Elasticity FPS20 15ml"
+    },
+    {
+      "id": "2a0ec5f1-68e0-47de-9ccd-940e613714d9",
+      "name": "Creme De Pentear Modelador Widi Care Encaracolando Juba 1L",
+      "sku": "7898623242654",
+      "gtin": "7898623242654",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme De Pentear Modelador Widi Care Encaracolando Juba 1L"
+    },
+    {
+      "id": "dde6def1-db3b-4aa7-b226-78d1e1d42609",
+      "name": "Creme Em Gel Effaclar La Roche-Posay Duo+ Fps30 40g",
+      "sku": "3337875598071",
+      "gtin": "3337875598071",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Em Gel Effaclar La Roche-Posay Duo+ Fps30 40g"
+    },
+    {
+      "id": "19f70d78-86cd-4714-ac5a-752be640b1d3",
+      "name": "Creme Facial Anti-idade L’Oréal Paris Revitalift Laser X3 Diurno 50ml",
+      "sku": "7898587766876",
+      "gtin": "7898587766876",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Facial Anti-idade L’Oréal Paris Revitalift Laser X3 Diurno 50ml"
+    },
+    {
+      "id": "b152f014-65cd-4e95-8ce5-1e0e6d559a2f",
+      "name": "Creme Facial Antirrugas Superativado La Roche-Posay Hyalu B5 50g",
+      "sku": "FF-13642",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Creme Facial Antirrugas Superativado La Roche-Posay Hyalu B5 50g"
+    },
+    {
+      "id": "24cf6a4b-8232-4f5a-bbcb-c28d78ecfe3a",
+      "name": "Creme Facial Antissinais Nivea Cellular Expert Lift Avançado Dia FPS30 50ml",
+      "sku": "4005900929679",
+      "gtin": "4005900929679",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Facial Antissinais Nivea Cellular Expert Lift Avançado Dia FPS30 50ml"
+    },
+    {
+      "id": "ff59e6af-f378-4e3c-ae71-eac97b6893eb",
+      "name": "Creme Facial Cicatricure Antissinais e Antirrugas 50g",
+      "sku": "FF-12981",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Creme Facial Cicatricure Antissinais e Antirrugas 50g"
+    },
+    {
+      "id": "d90de9a5-2d45-4ffc-a102-8d3d5f670712",
+      "name": "Creme Facial Fisiogel A.I. Ação Calmante FPS 20 com 40ml",
+      "sku": "FF-13398",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Creme Facial Fisiogel A.I. Ação Calmante FPS 20 com 40ml"
+    },
+    {
+      "id": "063eea38-4838-4151-b9e3-99db66191ab8",
+      "name": "Creme Facial Neostrata Oily Skin Gel Plus 125g",
+      "sku": "732013301835",
+      "gtin": "732013301835",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Facial Neostrata Oily Skin Gel Plus 125g"
+    },
+    {
+      "id": "b18de55b-d174-43b5-8539-6cbb2575afdd",
+      "name": "Creme Facial Rejuvenescedor Avène Retrinal 0.1 30ml",
+      "sku": "3282779358668",
+      "gtin": "3282779358668",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Facial Rejuvenescedor Avène Retrinal 0.1 30ml"
+    },
+    {
+      "id": "79b78f4d-a300-40d9-897b-461aef0980bc",
+      "name": "Creme Facial Vichy Minéral 89 40ml",
+      "sku": "7899706254502",
+      "gtin": "7899706254502",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Facial Vichy Minéral 89 40ml"
+    },
+    {
+      "id": "cdc02a87-a0ad-4e44-b80f-783588cb006d",
+      "name": "Creme Firmador Anti-Idade Vichy Neovadiol Phytosculpt com 50ml",
+      "sku": "FF-13699",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Creme Firmador Anti-Idade Vichy Neovadiol Phytosculpt com 50ml"
+    },
+    {
+      "id": "2fd7879d-338a-4999-b787-c6060bd7f0d8",
+      "name": "Creme Fixador de Dentadura Ultra Corega Max Fixação + Bloqueio Sem Sabor 2 unidades de 70g cada",
+      "sku": "7896015592110",
+      "gtin": "7896015592110",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Fixador de Dentadura Ultra Corega Max Fixação + Bloqueio Sem Sabor 2 unidades de 70g cada"
+    },
+    {
+      "id": "495f988f-bce9-4ff1-8f01-6291e493ec0f",
+      "name": "Creme Hidratante Antiestrias Corporal ISDIN Woman 245g",
+      "sku": "8429420142916",
+      "gtin": "8429420142916",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Hidratante Antiestrias Corporal ISDIN Woman 245g"
+    },
+    {
+      "id": "7466b1b9-6c62-4826-88cb-45cdfe8328a3",
+      "name": "Creme Hidratante Bepantol Derma creme 40g",
+      "sku": "7891106911733",
+      "gtin": "7891106911733",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Hidratante Bepantol Derma creme 40g"
+    },
+    {
+      "id": "bea45226-48ae-4452-a175-5dd014f5296e",
+      "name": "Creme Hidratante Cetaphil 453g",
+      "sku": "FF-12056",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Creme Hidratante Cetaphil 453g"
+    },
+    {
+      "id": "f407ca75-2b99-43f7-9545-e7b4aafca926",
+      "name": "Creme Hidratante Corporal CeraVe 453g",
+      "sku": "FF-11977",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Creme Hidratante Corporal CeraVe 453g"
+    },
+    {
+      "id": "027fc6b3-4008-46e1-bf52-45ad8f0a74f0",
+      "name": "Creme Hidratante Corporal Fisiogel Hipoalergênico 450g",
+      "sku": "7896026172622",
+      "gtin": "7896026172622",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Hidratante Corporal Fisiogel Hipoalergênico 450g"
+    },
+    {
+      "id": "f8e69ba4-15ef-4e65-93bd-f4b00e643510",
+      "name": "Creme Hidratante Corporal Nivea Men 4 em 1 75g",
+      "sku": "FF-11671",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Creme Hidratante Corporal Nivea Men 4 em 1 75g"
+    },
+    {
+      "id": "66a2e44d-eaa3-4e55-b719-6b3eee879f3c",
+      "name": "Creme Hidratante Facial Bioderma Sensibio AR+cream 40ml",
+      "sku": "3701129812099",
+      "gtin": "3701129812099",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Hidratante Facial Bioderma Sensibio AR+cream 40ml"
+    },
+    {
+      "id": "87869e3d-7c3f-4980-a54e-756611a93011",
+      "name": "Creme Hidratante Facial La Roche-Posay Effaclar Mat 40ml",
+      "sku": "3337872413025",
+      "gtin": "3337872413025",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Hidratante Facial La Roche-Posay Effaclar Mat 40ml"
+    },
+    {
+      "id": "5b53e120-5195-4d96-9d99-ea3a6306f890",
+      "name": "Creme Hidratante Isdin Ureadin 20 com 50g",
+      "sku": "FF-13458",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Creme Hidratante Isdin Ureadin 20 com 50g"
+    },
+    {
+      "id": "c8a50db3-be37-4b3f-b4f5-484a6bbb049f",
+      "name": "Creme Hidratante Lancôme Hydra Zen Creme 50ml",
+      "sku": "3605532026046",
+      "gtin": "3605532026046",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Hidratante Lancôme Hydra Zen Creme 50ml"
+    },
+    {
+      "id": "64fa03e6-8104-43d7-9a21-0933cab13a80",
+      "name": "Creme Hidratante Multirrestaurador Bepantol Derma Pele Extrasseca 20g",
+      "sku": "7891106907286",
+      "gtin": "7891106907286",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Hidratante Multirrestaurador Bepantol Derma Pele Extrasseca 20g"
+    },
+    {
+      "id": "c0d96473-021a-4b4d-813d-c3a132f5d29a",
+      "name": "Creme Hidratante para Mãos Isdin Ureadin Manos Plus com 51,5g",
+      "sku": "FF-13457",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Creme Hidratante para Mãos Isdin Ureadin Manos Plus com 51,5g"
+    },
+    {
+      "id": "20cc0cf0-a0d9-4084-8bd3-c5e61119a89a",
+      "name": "Creme Hidratante Revitalizante Cedraflon para Pernas 150ml",
+      "sku": "FF-13389",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Creme Hidratante Revitalizante Cedraflon para Pernas 150ml"
+    },
+    {
+      "id": "89386766-8131-4268-8c08-ed4b75fe0657",
+      "name": "Creme Hyaluronic Moisture Isdinceutics Oily Isdin 50g",
+      "sku": "8429420223349",
+      "gtin": "8429420223349",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Hyaluronic Moisture Isdinceutics Oily Isdin 50g"
+    },
+    {
+      "id": "efbacfd6-4440-491c-8e2a-d385095ca11c",
+      "name": "Creme Nutritivo Vichy Redensificador Neovadiol Menopausa 50g",
+      "sku": "3337875774031",
+      "gtin": "3337875774031",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Nutritivo Vichy Redensificador Neovadiol Menopausa 50g"
+    },
+    {
+      "id": "14f595cd-5340-443b-9ff5-507b87633a91",
+      "name": "Creme para Contorno dos Olhos Vichy Liftactiv Colágeno Specialist 16 15ml",
+      "sku": "7908785478096",
+      "gtin": "7908785478096",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme para Contorno dos Olhos Vichy Liftactiv Colágeno Specialist 16 15ml"
+    },
+    {
+      "id": "12e13c3b-cc2d-4044-811c-d1718db97c0a",
+      "name": "Creme para Pernas Cansadas Varicell com 300g",
+      "sku": "FF-13396",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Creme para Pernas Cansadas Varicell com 300g"
+    },
+    {
+      "id": "163806a7-70f0-4caf-a732-e34bfdda26e0",
+      "name": "Creme Preventivo de Assaduras Bepantol Baby 120g",
+      "sku": "7891106910248",
+      "gtin": "7891106910248",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Preventivo de Assaduras Bepantol Baby 120g"
+    },
+    {
+      "id": "6077ca82-5964-4074-b676-eec242f1f4ad",
+      "name": "Creme Rejuvenescedor Facial Creamy – Ácido Glicólico+Niacinamida 30g",
+      "sku": "7898965429058",
+      "gtin": "7898965429058",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Rejuvenescedor Facial Creamy – Ácido Glicólico+Niacinamida 30g"
+    },
+    {
+      "id": "41e4ed84-4063-43f4-8cb2-daca318e06fb",
+      "name": "Creme Vichy Liftactiv Colágeno Specialist 50ml",
+      "sku": "3337875607254",
+      "gtin": "3337875607254",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Creme Vichy Liftactiv Colágeno Specialist 50ml"
+    },
+    {
+      "id": "ea67f4fd-312e-4fd6-8151-74bda34df991",
+      "name": "Desodorante Antitranspirante Roll-On Vichy 48h 50ml",
+      "sku": "3337871320300",
+      "gtin": "3337871320300",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Desodorante Antitranspirante Roll-On Vichy 48h 50ml"
+    },
+    {
+      "id": "352b6914-bed5-4b83-8a8f-2ab5e0f0de13",
+      "name": "Desodorante Antitranspirante Roll-On Vichy Homme 72h 50ml",
+      "sku": "3337871320362",
+      "gtin": "3337871320362",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Desodorante Antitranspirante Roll-On Vichy Homme 72h 50ml"
+    },
+    {
+      "id": "a2fae2e5-d0ee-443c-8d7d-a5ea6e1855a4",
+      "name": "Desodorante Antitranspirante Roll-On Vichy Peles Sensíveis ou Depiladas 48h 50ml",
+      "sku": "3337871320324",
+      "gtin": "3337871320324",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Desodorante Antitranspirante Roll-On Vichy Peles Sensíveis ou Depiladas 48h 50ml"
+    },
+    {
+      "id": "8e821c1d-860c-40c3-b409-c1b1c190917c",
+      "name": "Desodorante em creme Antitranspirante Vichy 30ml",
+      "sku": "3337871310455",
+      "gtin": "3337871310455",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Desodorante em creme Antitranspirante Vichy 30ml"
+    },
+    {
+      "id": "41f99c6b-7477-4663-97a8-9f52516cfe9f",
+      "name": "Desodorante Roll On Perspirex – Comfort Roll-on 20ml",
+      "sku": "5701943100127",
+      "gtin": "5701943100127",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Desodorante Roll On Perspirex – Comfort Roll-on 20ml"
+    },
+    {
+      "id": "915bcded-1b72-4a22-aead-eeafdbb5c6d8",
+      "name": "Desodorante Roll-On Ideal Finish Vichy 50ml",
+      "sku": "3337871325671",
+      "gtin": "3337871325671",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Desodorante Roll-On Ideal Finish Vichy 50ml"
+    },
+    {
+      "id": "edaeaa81-3caa-4900-be3b-f5d8d460b249",
+      "name": "Desodorante Roll-on Vichy Stress Resist 72h 50ml",
+      "sku": "3337871324001",
+      "gtin": "3337871324001",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Desodorante Roll-on Vichy Stress Resist 72h 50ml"
+    },
+    {
+      "id": "ebb4b013-91d3-492d-8338-8e1faafdab23",
+      "name": "Desodorante Vichy Antitranspirante 48h 125ml",
+      "sku": "3337871310592",
+      "gtin": "3337871310592",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Desodorante Vichy Antitranspirante 48h 125ml"
+    },
+    {
+      "id": "546a2119-1c53-4fc2-bb15-927b15ca45ca",
+      "name": "Ensure sabor Banana 850g",
+      "sku": "7891158105210",
+      "gtin": "7891158105210",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Ensure sabor Banana 850g"
+    },
+    {
+      "id": "4111b3b4-31c3-4933-8498-197b49feed70",
+      "name": "Ensure sabor Baunilha 400g",
+      "sku": "7891158105203-891158105204",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Ensure sabor Baunilha 400g"
+    },
+    {
+      "id": "c1457906-539e-465f-b720-8a2c0ae7beed",
+      "name": "Ensure sabor Baunilha 850g",
+      "sku": "7891158105203",
+      "gtin": "7891158105203",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Ensure sabor Baunilha 850g"
+    },
+    {
+      "id": "ef2cb33c-ca79-4f05-8f89-3c474433d1b1",
+      "name": "Ensure sabor Chocolate 850g",
+      "sku": "7891158105227",
+      "gtin": "7891158105227",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Ensure sabor Chocolate 850g"
+    },
+    {
+      "id": "30e6cf78-5ae8-4b84-9365-885bcc540432",
+      "name": "Ensure sabor Morango 850g",
+      "sku": "7891158105234",
+      "gtin": "7891158105234",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Ensure sabor Morango 850g"
+    },
+    {
+      "id": "4df6e0fc-39a7-4388-8045-0a888f8617a4",
+      "name": "Equaliv Body Protein 100% Isolada Sabor Neutro 900g",
+      "sku": "FF-13686",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Equaliv Body Protein 100% Isolada Sabor Neutro 900g"
+    },
+    {
+      "id": "75fe058b-0874-4ef0-9bec-70d9a14a6f44",
+      "name": "Escova de Dente Elétrica Philips Colgate SonicPro 50",
+      "sku": "8710103967408",
+      "gtin": "8710103967408",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Escova de Dente Elétrica Philips Colgate SonicPro 50"
+    },
+    {
+      "id": "b22a5a2d-af39-4076-a21b-1be09c378fe7",
+      "name": "Esfoliante Facial Deep Clean Energizing Neutrogena 100g",
+      "sku": "7891010704490",
+      "gtin": "7891010704490",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Esfoliante Facial Deep Clean Energizing Neutrogena 100g"
+    },
+    {
+      "id": "93ed3a7d-e5d4-4647-9d94-b346ad6d9c75",
+      "name": "Esponja de Maquiagem Flat Blend Océane Roxo 1 unidade",
+      "sku": "FF-13459",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Esponja de Maquiagem Flat Blend Océane Roxo 1 unidade"
+    },
+    {
+      "id": "59e1f5e6-22d1-4597-b4b3-1267f91a56a8",
+      "name": "Espuma de Limpeza Facial Air Foam Cerave 150ml",
+      "sku": "7908785486190",
+      "gtin": "7908785486190",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Espuma de Limpeza Facial Air Foam Cerave 150ml"
+    },
+    {
+      "id": "4c676f51-7937-4c1e-9b7b-7f64f668936b",
+      "name": "Exímia Firmalize Age Complex com 30 sachês",
+      "sku": "7898040325374",
+      "gtin": "7898040325374",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Exímia Firmalize Age Complex com 30 sachês"
+    },
+    {
+      "id": "09d8210a-5592-4d1d-93d1-31ef3cbd23af",
+      "name": "Extima Sabor Baunilha 30 sachês",
+      "sku": "7896637032544",
+      "gtin": "7896637032544",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Extima Sabor Baunilha 30 sachês"
+    },
+    {
+      "id": "f0a8cb22-f453-4bda-bb03-eebd476d427d",
+      "name": "Fascia Prime Tangerina com 30 sachês",
+      "sku": "7896112402312",
+      "gtin": "7896112402312",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Fascia Prime Tangerina com 30 sachês"
+    },
+    {
+      "id": "b9aaf64f-05f6-48b8-a85a-12e776eb461c",
+      "name": "Fascia sabor Abacaxi 30 Sachês",
+      "sku": "7898549758413",
+      "gtin": "7898549758413",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Fascia sabor Abacaxi 30 Sachês"
+    },
+    {
+      "id": "ce8aeb28-24e6-46c7-9f7e-4c268f4fdc05",
+      "name": "Fascia sabor Laranja 30 Sachês",
+      "sku": "7898942324406",
+      "gtin": "7898942324406",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Fascia sabor Laranja 30 Sachês"
+    },
+    {
+      "id": "d1ebb801-8dd8-43c9-892c-93d198925fd4",
+      "name": "Femini Whey Protein Max Titanium sabor Baunilha 900g",
+      "sku": "7898920041820",
+      "gtin": "7898920041820",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Femini Whey Protein Max Titanium sabor Baunilha 900g"
+    },
+    {
+      "id": "5ec132f1-9e27-4e4c-9bfe-df563918a4ba",
+      "name": "Femini Whey Protein Max Titanium sabor Chocolate 900g",
+      "sku": "7898920041493",
+      "gtin": "7898920041493",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Femini Whey Protein Max Titanium sabor Chocolate 900g"
+    },
+    {
+      "id": "b7ce3165-58b1-4aee-b2ad-b220ba6a0aa2",
+      "name": "Femini Whey Protein Max Titanium sabor Morango 900g",
+      "sku": "7898920041486",
+      "gtin": "7898920041486",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Femini Whey Protein Max Titanium sabor Morango 900g"
+    },
+    {
+      "id": "232e4826-0e53-48dd-a953-0d6615e9ba75",
+      "name": "Fiber Mais Colágeno sabor limão 300g",
+      "sku": "7891000256350",
+      "gtin": "7891000256350",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Fiber Mais Colágeno sabor limão 300g"
+    },
+    {
+      "id": "59778853-4df8-4140-9ac3-0caabc13b20b",
+      "name": "FiberMais Sabor Laranja 170g",
+      "sku": "7891000127452",
+      "gtin": "7891000127452",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "FiberMais Sabor Laranja 170g"
+    },
+    {
+      "id": "846bff43-16c9-4863-8713-3283f2333ade",
+      "name": "Fixador Corega Ultra em pó 50g",
+      "sku": "7896009490682",
+      "gtin": "7896009490682",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Fixador Corega Ultra em pó 50g"
+    },
+    {
+      "id": "3a364d0e-57ac-4276-a1a9-e5969f23f9be",
+      "name": "Fletop Loção Para Pernas e Pés 200ml",
+      "sku": "7898040324438",
+      "gtin": "7898040324438",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Fletop Loção Para Pernas e Pés 200ml"
+    },
+    {
+      "id": "f4ceed3e-3b05-46e2-a560-050075f44b67",
+      "name": "Fórmula Infantil NAN Comfor HMO 0 a 6 meses 800g",
+      "sku": "FF-13602",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Fórmula Infantil NAN Comfor HMO 0 a 6 meses 800g"
+    },
+    {
+      "id": "618b78cf-528c-4c8f-92e9-1ee3b16b6325",
+      "name": "Fórmula Infantil NAN Comfor HMO de 6 a 12 meses 800g",
+      "sku": "FF-13606",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Fórmula Infantil NAN Comfor HMO de 6 a 12 meses 800g"
+    },
+    {
+      "id": "f4f442af-fd0a-44b9-8ed1-804171f75b1e",
+      "name": "Fórmula Infantil NAN Supreme Pro de 0 a 6 meses 800g",
+      "sku": "FF-13622",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Fórmula Infantil NAN Supreme Pro de 0 a 6 meses 800g"
+    },
+    {
+      "id": "bc10fa70-20c8-4c5d-8886-1c9f729ac097",
+      "name": "Fórmula Infantil Nanlac Comfor Nestlé 1 a 3 anos 800g",
+      "sku": "FF-13595",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Fórmula Infantil Nanlac Comfor Nestlé 1 a 3 anos 800g"
+    },
+    {
+      "id": "71cff2d2-35f1-4837-b95b-f62eea103d76",
+      "name": "Fórmula Infantil Nanlac Supreme Pro de 1 a 3 anos 800g",
+      "sku": "FF-13631",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Fórmula Infantil Nanlac Supreme Pro de 1 a 3 anos 800g"
+    },
+    {
+      "id": "f9ca36f3-3356-4873-b235-5a457204684d",
+      "name": "Fórmula Infantil Ninho Primeira Infância 1 a 3 Anos Nutri Fases 1+ 800g",
+      "sku": "FF-13612",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Fórmula Infantil Ninho Primeira Infância 1 a 3 Anos Nutri Fases 1+ 800g"
+    },
+    {
+      "id": "7642c56d-a0da-4b55-8f1c-3ab1a4c4792f",
+      "name": "Fortalecedor de Unha Untralnail Base Forte Profuse 7ml",
+      "sku": "7896658036972",
+      "gtin": "7896658036972",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Fortalecedor de Unha Untralnail Base Forte Profuse 7ml"
+    },
+    {
+      "id": "6e5d0199-01c1-43b6-9510-bab85c9b9a14",
+      "name": "Fralda Calça MamyPoko Premium Seca Xxg 44 Unidades",
+      "sku": "7898656390711",
+      "gtin": "7898656390711",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Fralda Calça MamyPoko Premium Seca Xxg 44 Unidades"
+    },
+    {
+      "id": "290ce4fc-a94d-41d1-9b9a-b37cb2f766e9",
+      "name": "Fralda Pampers Confort Sec XG 58 Unidades",
+      "sku": "7500435132602",
+      "gtin": "7500435132602",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Fralda Pampers Confort Sec XG 58 Unidades"
+    },
+    {
+      "id": "34e9439d-3512-40ec-851b-0426997ccd2e",
+      "name": "Fresh Whey Chocolate Belga e Avelã Dux Nutrition 900g",
+      "sku": "7898641071861",
+      "gtin": "7898641071861",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Fresh Whey Chocolate Belga e Avelã Dux Nutrition 900g"
+    },
+    {
+      "id": "d61769be-4fed-4e5b-b25c-49c7403910f0",
+      "name": "Fresh Whey sabor Frutas Vermelhas Dux Nutrition 900g",
+      "sku": "7898641071885",
+      "gtin": "7898641071885",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Fresh Whey sabor Frutas Vermelhas Dux Nutrition 900g"
+    },
+    {
+      "id": "3a5075ed-4ae1-4661-ab9e-112b250b1faa",
+      "name": "Gel Antiacne Papuless Theraskin 25g",
+      "sku": "7896658025747",
+      "gtin": "7896658025747",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Gel Antiacne Papuless Theraskin 25g"
+    },
+    {
+      "id": "9fa18a77-2ebb-42eb-8e9b-0d0ad54c9176",
+      "name": "Gel Antiacne Papuless Theraskin com 25g",
+      "sku": "FF-13391",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Gel Antiacne Papuless Theraskin com 25g"
+    },
+    {
+      "id": "4eaca3ba-1696-4511-9685-969a9b1c7765",
+      "name": "Gel Creme Bioderma Atoderm Intensive 500ml",
+      "sku": "3401399373466",
+      "gtin": "3401399373466",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Gel Creme Bioderma Atoderm Intensive 500ml"
+    },
+    {
+      "id": "94bbb4a1-0b50-45e3-9800-dbe3a354a6d9",
+      "name": "Gel Creme Facial Antissinais Neutrogena Bright Boost 50g",
+      "sku": "FF-12096",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Gel Creme Facial Antissinais Neutrogena Bright Boost 50g"
+    },
+    {
+      "id": "bed8b015-96bb-4ce3-ac15-3f5d8566d798",
+      "name": "Gel de Banho Profuse Hidradeep Pele Normal a Seca 400ml",
+      "sku": "FF-13385",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Gel de Banho Profuse Hidradeep Pele Normal a Seca 400ml"
+    },
+    {
+      "id": "8766789f-b435-4b72-8505-0a6dd01f50c3",
+      "name": "Gel de Limpeza Creamy Skincare 200ml",
+      "sku": "FF-13387",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Gel de Limpeza Creamy Skincare 200ml"
+    },
+    {
+      "id": "1888ae30-8a71-46d4-a88e-7277c7628493",
+      "name": "Gel de Limpeza Eucerin pH5 250ml",
+      "sku": "FF-13460",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Gel de Limpeza Eucerin pH5 250ml"
+    },
+    {
+      "id": "275f0b63-3803-4a31-8532-95aa8798012e",
+      "name": "Gel de Limpeza Facial La Roche-Posay Mela B3 120g",
+      "sku": "FF-12893",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Gel de Limpeza Facial La Roche-Posay Mela B3 120g"
+    },
+    {
+      "id": "dccedcfb-6d31-46be-a977-10c88d02fe88",
+      "name": "Gel de limpeza Neutrogena Acne Proofing 200ml",
+      "sku": "7891010974886",
+      "gtin": "7891010974886",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Gel de limpeza Neutrogena Acne Proofing 200ml"
+    },
+    {
+      "id": "4debf390-f76f-4951-82ff-988d9651af85",
+      "name": "Gel Facial Darrow Actine Trat Cuidado Diário 30g",
+      "sku": "3282770135442",
+      "gtin": "3282770135442",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Gel Facial Darrow Actine Trat Cuidado Diário 30g"
+    },
+    {
+      "id": "55cada91-d276-4e96-bbea-d9261e7beaba",
+      "name": "Gel Facial de Limpeza Profunda Vichy Normaderm Refil 240g",
+      "sku": "7899706188098",
+      "gtin": "7899706188098",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Gel Facial de Limpeza Profunda Vichy Normaderm Refil 240g"
+    },
+    {
+      "id": "c7d0cf7f-ef9c-4f46-be91-d06ce901c172",
+      "name": "Gel Fortalecedor De Unhas Pantogar 5ml",
+      "sku": "7896004717777",
+      "gtin": "7896004717777",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Gel Fortalecedor De Unhas Pantogar 5ml"
+    },
+    {
+      "id": "c8e68e36-8401-4e48-add7-910135d168a5",
+      "name": "Gel Lavante Mustela Suave com Abacate Orgânico 750ml",
+      "sku": "3504105035471",
+      "gtin": "3504105035471",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Gel Lavante Mustela Suave com Abacate Orgânico 750ml"
+    },
+    {
+      "id": "a1a2ea06-f0de-4eea-bc6c-9d3239d4f63b",
+      "name": "Gel Matte Hidratação Vichy Minéral 89 Sorbet 48h 50ml",
+      "sku": "3337875894104",
+      "gtin": "3337875894104",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Gel Matte Hidratação Vichy Minéral 89 Sorbet 48h 50ml"
+    },
+    {
+      "id": "c2a78724-91e0-4af1-b93d-53d45a446fb1",
+      "name": "Gel Renovador Puriance Profuse 60g",
+      "sku": "7898930341880",
+      "gtin": "7898930341880",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Gel Renovador Puriance Profuse 60g"
+    },
+    {
+      "id": "5b57f33c-b2db-40d8-bae5-6e6ba2b7b076",
+      "name": "Glucerna SR sabor Baunilha 850g",
+      "sku": "7891158103179",
+      "gtin": "7891158103179",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Glucerna SR sabor Baunilha 850g"
+    },
+    {
+      "id": "3b1107a9-46dc-46ed-93ed-d0042b8cd3b8",
+      "name": "Glutamina em Pó L-G Max Titanium 300g",
+      "sku": "7898920041868",
+      "gtin": "7898920041868",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Glutamina em Pó L-G Max Titanium 300g"
+    },
+    {
+      "id": "bd0fd9d1-2060-4871-9efd-daafadf1166a",
+      "name": "Glutamina sem sabor Integralmedica 300g",
+      "sku": "7896311708451",
+      "gtin": "7896311708451",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Glutamina sem sabor Integralmedica 300g"
+    },
+    {
+      "id": "5eaee80c-d0d9-4ca6-b520-b79a7d3463ca",
+      "name": "Hidratante Corporal Neutrogena Hydro Boost Cream 400ml",
+      "sku": "7702031310914",
+      "gtin": "7702031310914",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Hidratante Corporal Neutrogena Hydro Boost Cream 400ml"
+    },
+    {
+      "id": "597f90a7-bc83-482b-a3a1-550808b4a250",
+      "name": "Hidratante Facial Antiacne Garnier Salicílico Toque Seco 85g",
+      "sku": "FF-13379",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Hidratante Facial Antiacne Garnier Salicílico Toque Seco 85g"
+    },
+    {
+      "id": "50500e0e-208d-4a9a-a818-5c3b337e5986",
+      "name": "Hidratante Facial La Roche-Posay Hyalu B5 Aquagel 40g",
+      "sku": "FF-13636",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Hidratante Facial La Roche-Posay Hyalu B5 Aquagel 40g"
+    },
+    {
+      "id": "39711574-a7ff-4e6a-9335-bde0d625a96b",
+      "name": "Hidratante Facial Needs Beauty Vitamina C 50g",
+      "sku": "FF-13370",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Hidratante Facial Needs Beauty Vitamina C 50g"
+    },
+    {
+      "id": "1bfede68-af1c-4ea6-a821-e606716d8a75",
+      "name": "Hidratante Facial Neutrogena Face Care Intensive 3 em 1 com 100g",
+      "sku": "17891010253810",
+      "gtin": "17891010253810",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Hidratante Facial Neutrogena Face Care Intensive 3 em 1 com 100g"
+    },
+    {
+      "id": "15c11286-79ec-48c3-89c2-72244ec1aa5b",
+      "name": "Hidratante Facial Neutrogena Hydro Boost Water Gel 50g",
+      "sku": "7891010882983",
+      "gtin": "7891010882983",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Hidratante Facial Neutrogena Hydro Boost Water Gel 50g"
+    },
+    {
+      "id": "5b7dd8ea-4a8c-4f79-8ffb-ff35c823fefb",
+      "name": "Hidratante Facial Neutrogena Hydro Boost Water Gel Refil 50g",
+      "sku": "7891010255725",
+      "gtin": "7891010255725",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Hidratante Facial Neutrogena Hydro Boost Water Gel Refil 50g"
+    },
+    {
+      "id": "8c41562a-acb1-4bc5-858e-e0355985f599",
+      "name": "Hidratante Facial Nivea Gel Hialuronico Fresh 100g",
+      "sku": "FF-12074",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Hidratante Facial Nivea Gel Hialuronico Fresh 100g"
+    },
+    {
+      "id": "0fff0efe-d89e-423e-9210-da70fa5ba3ef",
+      "name": "Hidratante Labial Nivea Amora Shine 48g",
+      "sku": "4005900453259",
+      "gtin": "4005900453259",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Hidratante Labial Nivea Amora Shine 48g"
+    },
+    {
+      "id": "7190bf7e-2d8c-4799-b0e7-f0b8419fcb3a",
+      "name": "Hidratante Labial Nivea Original Care 48g",
+      "sku": "4005808850617",
+      "gtin": "4005808850617",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Hidratante Labial Nivea Original Care 48g"
+    },
+    {
+      "id": "f78e70f5-93ea-4a30-b23b-9eb11614be0c",
+      "name": "Hidratante Nutritivo Johnson’s Baby Derma Protect 200ml",
+      "sku": "7891010255954",
+      "gtin": "7891010255954",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Hidratante Nutritivo Johnson’s Baby Derma Protect 200ml"
+    },
+    {
+      "id": "11ed653e-99d2-4dba-89cf-b640ce528a32",
+      "name": "Hidratante Vichy Minéral 89 50ml",
+      "sku": "3337875543248",
+      "gtin": "3337875543248",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Hidratante Vichy Minéral 89 50ml"
+    },
+    {
+      "id": "1f11374d-2a95-4845-9b76-be4ea513afa0",
+      "name": "Huggies Fralda Supreme Care M 196 Unidades",
+      "sku": "7896007552269",
+      "gtin": "7896007552269",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Huggies Fralda Supreme Care M 196 Unidades"
+    },
+    {
+      "id": "426e13cc-e2a8-4b39-adfc-a41714259a54",
+      "name": "Imecap Face Sabor Frutas Cítricas 30 Sachês",
+      "sku": "7898040328566",
+      "gtin": "7898040328566",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Imecap Face Sabor Frutas Cítricas 30 Sachês"
+    },
+    {
+      "id": "9c7cc949-ded4-4bf3-9326-5cc3258b7797",
+      "name": "Kit Actine Darrow Gel de Limpeza 140g + Gel de Limpeza 40g",
+      "sku": "FF-13386",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Kit Actine Darrow Gel de Limpeza 140g + Gel de Limpeza 40g"
+    },
+    {
+      "id": "1dc3fedc-33b6-4666-a639-4db0f48adb9f",
+      "name": "Kit de Escovas De Dentes Colgate Slim Soft Black Com 4 Unidades",
+      "sku": "FF-11714",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Kit de Escovas De Dentes Colgate Slim Soft Black Com 4 Unidades"
+    },
+    {
+      "id": "b5961dd5-09c3-4b37-8401-91fe67810b00",
+      "name": "Kit Sabonete Dove Original em Barra 90g com 6 unidades",
+      "sku": "FF-13586",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Kit Sabonete Dove Original em Barra 90g com 6 unidades"
+    },
+    {
+      "id": "f95c1234-8c10-4ce8-807c-d7c5712eace1",
+      "name": "Kit Sabonete em Barra Nivea Creme Care 90g com 6 unidades",
+      "sku": "4005900701367",
+      "gtin": "4005900701367",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Kit Sabonete em Barra Nivea Creme Care 90g com 6 unidades"
+    },
+    {
+      "id": "cddc488d-74ce-48f5-9aec-76774ff9206b",
+      "name": "Kit Wella Professionals Invigo Nutri Enrich – Shampoo 1000ml + Condicionador 1000ml",
+      "sku": "1010428206570",
+      "gtin": "1010428206570",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Kit Wella Professionals Invigo Nutri Enrich – Shampoo 1000ml + Condicionador 1000ml"
+    },
+    {
+      "id": "5311eb5d-7252-4e17-8bf6-b86eda83c90e",
+      "name": "Kit Wella Professionals Invigo Nutri Enrich Salon Trio 3 Produtos",
+      "sku": "FF-12961",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Kit Wella Professionals Invigo Nutri Enrich Salon Trio 3 Produtos"
+    },
+    {
+      "id": "bacade69-c918-4a92-baa2-711fb62031da",
+      "name": "Leave-in Truss Fluid Fix 250ml",
+      "sku": "7898352519157",
+      "gtin": "7898352519157",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Leave-in Truss Fluid Fix 250ml"
+    },
+    {
+      "id": "42b4fbf4-9be5-4c39-b3ab-7f343064110e",
+      "name": "Loção Facial Hidratante Hada Labo Gokujyun Lotion 170ml",
+      "sku": "4901872034401",
+      "gtin": "4901872034401",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Loção Facial Hidratante Hada Labo Gokujyun Lotion 170ml"
+    },
+    {
+      "id": "e27efe3c-cd87-4502-930d-c87d7733b65d",
+      "name": "Loção Hidratante Corporal Neutrogena Norwegian 200ml",
+      "sku": "7891010254957",
+      "gtin": "7891010254957",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Loção Hidratante Corporal Neutrogena Norwegian 200ml"
+    },
+    {
+      "id": "6fbfccab-cfbb-4125-9aa7-3d58863cf19a",
+      "name": "MamyPoko Fralda Calça Premium Seca M 68 Unidades",
+      "sku": "7898656390681",
+      "gtin": "7898656390681",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "MamyPoko Fralda Calça Premium Seca M 68 Unidades"
+    },
+    {
+      "id": "7e76e43c-91a9-49b0-8787-3a0aef8b233e",
+      "name": "Máscara Capilar Danos Vorazes Lola Cosmetcs 450g",
+      "sku": "7899572812271",
+      "gtin": "7899572812271",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Máscara Capilar Danos Vorazes Lola Cosmetcs 450g"
+    },
+    {
+      "id": "1068120a-0cec-464f-a378-957b7dbb781e",
+      "name": "Máscara Capilar Danos Vorazes Lola Cosmetics 450g",
+      "sku": "FF-12027",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Máscara Capilar Danos Vorazes Lola Cosmetics 450g"
+    },
+    {
+      "id": "87777355-2771-40e2-ab5e-aa21b3b2b1f6",
+      "name": "Máscara Capilar Densidade Lola Cosmetics 230g",
+      "sku": "FF-12114",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Máscara Capilar Densidade Lola Cosmetics 230g"
+    },
+    {
+      "id": "39d3469c-5d78-4703-9af8-a9d637195d9c",
+      "name": "Máscara Capilar L’Oréal Professionnel Absolut Repair Molecular 250ml",
+      "sku": "3474637217884",
+      "gtin": "3474637217884",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Máscara Capilar L’Oréal Professionnel Absolut Repair Molecular 250ml"
+    },
+    {
+      "id": "f034d61d-0846-4f85-bb38-ea6909b4f69a",
+      "name": "Máscara Capilar L’Oréal Professionnel Pro Longer 250g",
+      "sku": "FF-12117",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Máscara Capilar L’Oréal Professionnel Pro Longer 250g"
+    },
+    {
+      "id": "b9a41d6f-29a8-4226-aa40-d4eb7d75d15d",
+      "name": "Máscara Capilar Siàge Hair-Plastia da Eudora 250g",
+      "sku": "FF-12078",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Máscara Capilar Siàge Hair-Plastia da Eudora 250g"
+    },
+    {
+      "id": "82075336-0ed4-47b2-bcf6-ee2008261a89",
+      "name": "Máscara Capilar Vichy Dercos Kera-Solutions 200ml",
+      "sku": "7899706183642",
+      "gtin": "7899706183642",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Máscara Capilar Vichy Dercos Kera-Solutions 200ml"
+    },
+    {
+      "id": "9258bfd1-30b1-4e0a-baef-bdd122182fee",
+      "name": "Máscara Capilar Wella Professionals Invigo Volume Boost 500ml",
+      "sku": "4015600891492",
+      "gtin": "4015600891492",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Máscara Capilar Wella Professionals Invigo Volume Boost 500ml"
+    },
+    {
+      "id": "a04d8658-1fd6-4355-bba0-cd68be6618a4",
+      "name": "Máscara capilar Xapadinha Disciplinante Lola Cosmetics com 450g",
+      "sku": "FF-11690",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Máscara capilar Xapadinha Disciplinante Lola Cosmetics com 450g"
+    },
+    {
+      "id": "98d17d0a-8615-4bec-af33-3a373f6202ae",
+      "name": "Máscara de Cílios Maybelline The Colossal Volum’ Express Lavável Preto 9,2ml",
+      "sku": "FF-13388",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Máscara de Cílios Maybelline The Colossal Volum’ Express Lavável Preto 9,2ml"
+    },
+    {
+      "id": "67796826-0a65-4818-9247-c72ff594c4b7",
+      "name": "Máscara de Nutrição e Hidratação para Cabelo Pantene 550ml",
+      "sku": "FF-11737",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Máscara de Nutrição e Hidratação para Cabelo Pantene 550ml"
+    },
+    {
+      "id": "bd03c0b2-51bb-4b54-8d24-dc0c3e9c888d",
+      "name": "Máscara Kérastase Nutritive Masquintense 200ml",
+      "sku": "7908615015293",
+      "gtin": "7908615015293",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Máscara Kérastase Nutritive Masquintense 200ml"
+    },
+    {
+      "id": "f2abe0f3-cc1b-4a06-972a-38060a602d7a",
+      "name": "Máscara Keune Care Keratin Smooth Mask 200ml",
+      "sku": "8719281103899",
+      "gtin": "8719281103899",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Máscara Keune Care Keratin Smooth Mask 200ml"
+    },
+    {
+      "id": "bf8062af-37fb-46d5-a0c6-25c1cd3f91ff",
+      "name": "Máscara L’Oréal Paris Elseve Bond Repair 200g",
+      "sku": "7908615092959",
+      "gtin": "7908615092959",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Máscara L’Oréal Paris Elseve Bond Repair 200g"
+    },
+    {
+      "id": "7026a394-7c3e-4b41-982d-a4b5f5b7c842",
+      "name": "Máscara para Cílios Maybelline Sensacionais 9ml",
+      "sku": "FF-11958",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Máscara para Cílios Maybelline Sensacionais 9ml"
+    },
+    {
+      "id": "54bff16a-68c0-441b-b6fc-543f134869e7",
+      "name": "N.p.p.e. Sh-rd Protein Cream Leave-in 80ml",
+      "sku": "0652418102281",
+      "gtin": "0652418102281",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "N.p.p.e. Sh-rd Protein Cream Leave-in 80ml"
+    },
+    {
+      "id": "6373843b-24a1-4afe-b1b4-20d2a78c38a1",
+      "name": "Neutrogena Gel de Limpeza Facial Purified Skin 150g",
+      "sku": "7891010245214",
+      "gtin": "7891010245214",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Neutrogena Gel de Limpeza Facial Purified Skin 150g"
+    },
+    {
+      "id": "1d012846-21cd-415e-aec2-afebc2303fbc",
+      "name": "Nivea Sun Protetor Solar Facial Seco Antissinais Fps70 40ml",
+      "sku": "FF-11940",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Nivea Sun Protetor Solar Facial Seco Antissinais Fps70 40ml"
+    },
+    {
+      "id": "05794e1b-089c-411b-bb03-b39a093477c8",
+      "name": "Normaderm Phytosolution Vichy – Gel de Limpeza Intensivo 150g",
+      "sku": "7899706171113",
+      "gtin": "7899706171113",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Normaderm Phytosolution Vichy – Gel de Limpeza Intensivo 150g"
+    },
+    {
+      "id": "8e1a2080-8cdc-4774-ad7e-e58c1abdc0c6",
+      "name": "Nouve Collagen HA Mantecorp 30 sachês",
+      "sku": "7891142983176",
+      "gtin": "7891142983176",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nouve Collagen HA Mantecorp 30 sachês"
+    },
+    {
+      "id": "aa08fb01-1393-4c8d-82fa-679495b631d2",
+      "name": "Nutradeica Hidratante Facial Isdin 50ml",
+      "sku": "8429971812611",
+      "gtin": "8429971812611",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutradeica Hidratante Facial Isdin 50ml"
+    },
+    {
+      "id": "e91a57a6-c615-46e0-903d-de9fda075b55",
+      "name": "Nutren Active sabor Baunilha 400g",
+      "sku": "7891000234006",
+      "gtin": "7891000234006",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Active sabor Baunilha 400g"
+    },
+    {
+      "id": "956df148-f351-4d91-9819-f45ab64048cd",
+      "name": "Nutren Active sabor Morango 400g",
+      "sku": "7891000234204",
+      "gtin": "7891000234204",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Active sabor Morango 400g"
+    },
+    {
+      "id": "b0ce9d94-d7c9-4f1d-9d20-95e999c53733",
+      "name": "Nutren Beauty sabor baunilha 400g",
+      "sku": "07891000256497",
+      "gtin": "07891000256497",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Beauty sabor baunilha 400g"
+    },
+    {
+      "id": "e9c35826-d05c-460f-9140-e76886eb1670",
+      "name": "Nutren Beauty sabor chocolate 400g",
+      "sku": "7891000250747",
+      "gtin": "7891000250747",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Beauty sabor chocolate 400g"
+    },
+    {
+      "id": "b6ba1ace-079b-4e94-b8f3-c61504dfcc44",
+      "name": "Nutren Control sabor Baunilha 740g",
+      "sku": "7891000401972",
+      "gtin": "7891000401972",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Control sabor Baunilha 740g"
+    },
+    {
+      "id": "ebd69c7d-ce52-4a18-9b24-421b5ed67da1",
+      "name": "Nutren Fortify sem sabor 360g",
+      "sku": "7891000312506",
+      "gtin": "7891000312506",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Fortify sem sabor 360g"
+    },
+    {
+      "id": "fd03e6bc-9281-4991-8df4-0f9c61d8fca8",
+      "name": "Nutren Protein sabor Baunilha 800g",
+      "sku": "7891000963326",
+      "gtin": "7891000963326",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Protein sabor Baunilha 800g"
+    },
+    {
+      "id": "7a415140-3e3e-4434-8625-44445357c4ce",
+      "name": "Nutren Senior Premium sabor Baunilha 370g",
+      "sku": "7891000146323",
+      "gtin": "7891000146323",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Senior Premium sabor Baunilha 370g"
+    },
+    {
+      "id": "44dba85e-7ae3-4e3a-aeb1-f95aad701acc",
+      "name": "Nutren Senior sabor Baunilha 740g",
+      "sku": "7891000287736",
+      "gtin": "7891000287736",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Senior sabor Baunilha 740g"
+    },
+    {
+      "id": "886ed42c-19aa-41f0-8fb4-22ffba08a0de",
+      "name": "Nutren Senior sabor Café com Leite 740g",
+      "sku": "7891000287699",
+      "gtin": "7891000287699",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Senior sabor Café com Leite 740g"
+    },
+    {
+      "id": "53bc7a0e-e954-4bf2-b236-080c51d147f7",
+      "name": "Nutren Senior sabor Chocolate 740g",
+      "sku": "7891000321843",
+      "gtin": "7891000321843",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Senior sabor Chocolate 740g"
+    },
+    {
+      "id": "93069f71-932a-4481-a2b1-ebe4e7365fa4",
+      "name": "Nutren Senior sabor Mix de Frutas 740g",
+      "sku": "7891000183205",
+      "gtin": "7891000183205",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Senior sabor Mix de Frutas 740g"
+    },
+    {
+      "id": "d1c259f1-4e0d-4204-a011-ce405594df4c",
+      "name": "Nutren Senior sem sabor 740g",
+      "sku": "7891000103487",
+      "gtin": "7891000103487",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Senior sem sabor 740g"
+    },
+    {
+      "id": "0e15744f-bb02-4cce-8820-2ff16a6347e8",
+      "name": "Nutren Senior Zero Lactose sabor Baunilha 740g",
+      "sku": "7891000417560",
+      "gtin": "7891000417560",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Senior Zero Lactose sabor Baunilha 740g"
+    },
+    {
+      "id": "0f15a602-2e04-4f21-b6d1-ffb2cfe8fcde",
+      "name": "Nutren Senior Zero Lactose sem sabor 740g",
+      "sku": "7891000320457",
+      "gtin": "7891000320457",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutren Senior Zero Lactose sem sabor 740g"
+    },
+    {
+      "id": "b957010a-2843-4f3a-a0ab-61a2e9dd8f77",
+      "name": "Nutridrink Protein sem Sabor 700g",
+      "sku": "7891025120940",
+      "gtin": "7891025120940",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutridrink Protein sem Sabor 700g"
+    },
+    {
+      "id": "f8e2bad7-78c3-43ab-9175-389842a7de80",
+      "name": "Nutridrink Protein Senior Sabor Chocolate 750g",
+      "sku": "7891025121459",
+      "gtin": "7891025121459",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Nutridrink Protein Senior Sabor Chocolate 750g"
+    },
+    {
+      "id": "eae350f0-44f1-4da8-ae14-ea834cad8914",
+      "name": "Óleo Capilar Kérastase Elixir Ultime L’huile Originale 30ml",
+      "sku": "3474637215170",
+      "gtin": "3474637215170",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Óleo Capilar Kérastase Elixir Ultime L’huile Originale 30ml"
+    },
+    {
+      "id": "88bbc206-3550-4b1e-977e-76bf4fb3f1de",
+      "name": "Óleo Capilar L’Oréal Professionnel Absolut Repair 90ml",
+      "sku": "3474636977369",
+      "gtin": "3474636977369",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Óleo Capilar L’Oréal Professionnel Absolut Repair 90ml"
+    },
+    {
+      "id": "4d3832f1-ed86-43d6-ac9b-922489f8a42f",
+      "name": "Óleo Capilar L’Oréal Paris Elseve Óleo Extraordinário 100ml",
+      "sku": "FF-12032",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Óleo Capilar L’Oréal Paris Elseve Óleo Extraordinário 100ml"
+    },
+    {
+      "id": "eb5fe6aa-f42e-4a36-a05b-fa52d58e4a29",
+      "name": "Óleo Capilar Wella Professionals Oil Reflections Smoothening 30ml",
+      "sku": "8005610573717",
+      "gtin": "8005610573717",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Óleo Capilar Wella Professionals Oil Reflections Smoothening 30ml"
+    },
+    {
+      "id": "b1f6b116-f9c9-46e1-b0ce-5714e92dbd35",
+      "name": "Óleo de Amêndoas Johnson’s Baby 200ml",
+      "sku": "7891010878016",
+      "gtin": "7891010878016",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Óleo de Amêndoas Johnson’s Baby 200ml"
+    },
+    {
+      "id": "df7bd835-c482-4c8c-a6d4-717592695eb5",
+      "name": "Óleo de Banho Hidratante Bioderma Atoderm 200ml",
+      "sku": "3401528519895",
+      "gtin": "3401528519895",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Óleo de Banho Hidratante Bioderma Atoderm 200ml"
+    },
+    {
+      "id": "1d51b0e2-88f6-49f4-817b-07888ebcebef",
+      "name": "Óleo e Sérum Capilar Bifásico Dove Bond Intense Repair 110ml",
+      "sku": "FF-12106",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Óleo e Sérum Capilar Bifásico Dove Bond Intense Repair 110ml"
+    },
+    {
+      "id": "9ad9823c-b2c8-4488-aae2-114e2f1a41e8",
+      "name": "Óleo Perfumado Salon Line Multy Cacau e Óleo De Argan 120ml",
+      "sku": "7908458328949",
+      "gtin": "7908458328949",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Óleo Perfumado Salon Line Multy Cacau e Óleo De Argan 120ml"
+    },
+    {
+      "id": "14eb776d-2e9b-4e50-8751-c4aff1e7fc0b",
+      "name": "Óleo Reparador Danos Vorazes Lola Cosmetics 50ml",
+      "sku": "7899572812158",
+      "gtin": "7899572812158",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Óleo Reparador Danos Vorazes Lola Cosmetics 50ml"
+    },
+    {
+      "id": "2a419b9c-7da2-474a-9bfc-47604b6396d9",
+      "name": "Pantogar Resist Silício sabor baunilha 30 Sachês",
+      "sku": "7896112408628",
+      "gtin": "7896112408628",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Pantogar Resist Silício sabor baunilha 30 Sachês"
+    },
+    {
+      "id": "274bb9b4-572d-4bae-bb55-c2ce059c5d98",
+      "name": "Pantogar Resist Silicio sem sabor 30 Sachês",
+      "sku": "7896112405962",
+      "gtin": "7896112405962",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Pantogar Resist Silicio sem sabor 30 Sachês"
+    },
+    {
+      "id": "ec41edaf-f60d-4649-9de4-1d6070ea617f",
+      "name": "Pointts Antiverrugas 80ml",
+      "sku": "650240030499",
+      "gtin": "650240030499",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Pointts Antiverrugas 80ml"
+    },
+    {
+      "id": "af0ae40a-7423-4657-be82-a74b0a0222d7",
+      "name": "Primer Blur Mágico L’Oréal Paris Revitalift 27g",
+      "sku": "7899706112444",
+      "gtin": "7899706112444",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Primer Blur Mágico L’Oréal Paris Revitalift 27g"
+    },
+    {
+      "id": "5f47628c-961f-4e22-9090-6ed31208e918",
+      "name": "Protetor Solar Bioré Aqua Rich Watery Essence FPS50 70g",
+      "sku": "4901301413246",
+      "gtin": "4901301413246",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Bioré Aqua Rich Watery Essence FPS50 70g"
+    },
+    {
+      "id": "49b98d52-5de4-4552-95fd-3d0a0be365c5",
+      "name": "Protetor Solar Corporal ISDIN Fotoprotector Gel Creme FPS50 198g",
+      "sku": "8429420079632",
+      "gtin": "8429420079632",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Corporal ISDIN Fotoprotector Gel Creme FPS50 198g"
+    },
+    {
+      "id": "fa0ccfb7-5047-440e-93c7-914381dd217c",
+      "name": "Protetor Solar Corporal La Roche-Posay Anthelios Fluido XL Protect FPS 70 200ml",
+      "sku": "7899706134217",
+      "gtin": "7899706134217",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Corporal La Roche-Posay Anthelios Fluido XL Protect FPS 70 200ml"
+    },
+    {
+      "id": "7fb83480-88bd-454b-8c34-67b1fce3f76b",
+      "name": "Protetor Solar Creamy Watery Fluid Fps50 40ml",
+      "sku": "7908791001769",
+      "gtin": "7908791001769",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Creamy Watery Fluid Fps50 40ml"
+    },
+    {
+      "id": "f9acdeef-1fe3-44c9-9da9-81651cbbf367",
+      "name": "Protetor Solar Facial Avène Mat Perfect FPS70 Fluido Clareador Claro 40g",
+      "sku": "3282770207217",
+      "gtin": "3282770207217",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Facial Avène Mat Perfect FPS70 Fluido Clareador Claro 40g"
+    },
+    {
+      "id": "3e52c07e-b409-486f-80ff-77d58d4baa0b",
+      "name": "Protetor Solar Facial Bioderma Photoderm Cover Touch FPS50+ Dourado 40g",
+      "sku": "3701129803431",
+      "gtin": "3701129803431",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Facial Bioderma Photoderm Cover Touch FPS50+ Dourado 40g"
+    },
+    {
+      "id": "2bd3181e-139c-4e20-806c-b1576fde8ef4",
+      "name": "Protetor Solar Facial Bioderma Photoderm XDefense Ultra-Fluid Sem Cor FPS50+ 40 ml",
+      "sku": "FF-12890",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Protetor Solar Facial Bioderma Photoderm XDefense Ultra-Fluid Sem Cor FPS50+ 40 ml"
+    },
+    {
+      "id": "34bb596d-79ae-4590-8df1-f6841dcd8de7",
+      "name": "Protetor Solar Facial Cicatricure FPS50 Efeito Matte Antissinais 40g",
+      "sku": "7896342510175",
+      "gtin": "7896342510175",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Facial Cicatricure FPS50 Efeito Matte Antissinais 40g"
+    },
+    {
+      "id": "27f24d6a-00f3-4614-85f3-68dc0ed6a781",
+      "name": "Protetor Solar Facial Darrow Actine One FPS 50 sem cor 40g",
+      "sku": "3282770393989",
+      "gtin": "3282770393989",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Facial Darrow Actine One FPS 50 sem cor 40g"
+    },
+    {
+      "id": "35075e09-18a3-4a75-8110-78c4723fc7f9",
+      "name": "Protetor Solar Facial Darrow Actine Toque Seco FPS60 40g",
+      "sku": "03282770206036",
+      "gtin": "03282770206036",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Facial Darrow Actine Toque Seco FPS60 40g"
+    },
+    {
+      "id": "66a4ebc5-b9d4-46c9-a8bf-51987f85d340",
+      "name": "Protetor Solar Facial FPS50 Bioré UV Perfect Milk 40ml",
+      "sku": "4901301303844",
+      "gtin": "4901301303844",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Facial FPS50 Bioré UV Perfect Milk 40ml"
+    },
+    {
+      "id": "4dcb074d-0a35-443f-b2cd-ae51d1fb44d8",
+      "name": "Protetor Solar Facial L’oréal Paris Fps 60 Solar Expertise The Invisible 40ml",
+      "sku": "7908615077710",
+      "gtin": "7908615077710",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Facial L’oréal Paris Fps 60 Solar Expertise The Invisible 40ml"
+    },
+    {
+      "id": "74761a58-bddc-4a66-88c5-d9d639b0fb9a",
+      "name": "Protetor Solar Facial Vichy Capital Soleil UV-Clear sem cor FPS60 40g",
+      "sku": "7899706251334",
+      "gtin": "7899706251334",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Facial Vichy Capital Soleil UV-Clear sem cor FPS60 40g"
+    },
+    {
+      "id": "95f543ee-0948-43d2-9825-15816b0788c8",
+      "name": "Protetor Solar Facial Vichy Hydra Matte Capital Soleil Sem Cor Fps50 30g",
+      "sku": "7899706188173",
+      "gtin": "7899706188173",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Facial Vichy Hydra Matte Capital Soleil Sem Cor Fps50 30g"
+    },
+    {
+      "id": "443e63a8-32ca-4e8d-b444-ef8dbfd017ec",
+      "name": "Protetor Solar Facial Vichy Idéal Soleil Clarify FPS 60 Clara 40g",
+      "sku": "FF-13705",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Protetor Solar Facial Vichy Idéal Soleil Clarify FPS 60 Clara 40g"
+    },
+    {
+      "id": "9e3a1b16-a0d2-41a6-976d-5329fea29adb",
+      "name": "Protetor Solar Facial Vichy Idéal Soleil Clarify FPS 60 Média 40g",
+      "sku": "FF-13712",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Protetor Solar Facial Vichy Idéal Soleil Clarify FPS 60 Média 40g"
+    },
+    {
+      "id": "dbd4d4f4-a764-477b-b833-c852baa8e9e7",
+      "name": "Protetor Solar Facial Vichy UV-Age Daily FPS60 40g",
+      "sku": "7899706193993",
+      "gtin": "7899706193993",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Facial Vichy UV-Age Daily FPS60 40g"
+    },
+    {
+      "id": "cc731760-d29c-4add-bdc5-8d7627a37cdd",
+      "name": "Protetor Solar FPS 50 Nivea Sun Protect & Hidrata 200ml",
+      "sku": "FF-13378",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Protetor Solar FPS 50 Nivea Sun Protect & Hidrata 200ml"
+    },
+    {
+      "id": "7cf34b4d-4df4-4dc0-b26c-923644ba37db",
+      "name": "Protetor Solar Neostrata Minesol Oil Control FPS70 40g",
+      "sku": "7891010248178",
+      "gtin": "7891010248178",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Neostrata Minesol Oil Control FPS70 40g"
+    },
+    {
+      "id": "bf6ee701-ac96-4eca-9b5d-bd6f8fa651a9",
+      "name": "Protetor Solar Neutrogena Sun Fresh Derm Care Facial FPS70 40g",
+      "sku": "7891010253196",
+      "gtin": "7891010253196",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar Neutrogena Sun Fresh Derm Care Facial FPS70 40g"
+    },
+    {
+      "id": "fbbd1ec1-d702-45b6-9c9b-35cc39b515c0",
+      "name": "Protetor Solar Neutrogena Sun Fresh FPS 50 200ml",
+      "sku": "FF-12046",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Protetor Solar Neutrogena Sun Fresh FPS 50 200ml"
+    },
+    {
+      "id": "ee336f44-6c40-4366-a67f-4a15dc3ce55a",
+      "name": "Protetor Solar SkinCeuticals UV Oil Defense FPS80 40g",
+      "sku": "7899706162128",
+      "gtin": "7899706162128",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Protetor Solar SkinCeuticals UV Oil Defense FPS80 40g"
+    },
+    {
+      "id": "bc9efc70-a805-41df-b6b0-7c5f877595c7",
+      "name": "Rejuvenescedor para Contorno dos Olhos Vichy Liftactiv Supreme 15ml",
+      "sku": "3337871323332",
+      "gtin": "3337871323332",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Rejuvenescedor para Contorno dos Olhos Vichy Liftactiv Supreme 15ml"
+    },
+    {
+      "id": "92ca4846-7f27-4efa-910f-ac6bd9c12916",
+      "name": "Reparador Labial Profuse Nutrel Lip Repair 7,5g",
+      "sku": "7896658033469",
+      "gtin": "7896658033469",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Reparador Labial Profuse Nutrel Lip Repair 7,5g"
+    },
+    {
+      "id": "f2efc4b8-594b-4820-a7bf-63e00084895b",
+      "name": "Roupa Íntima Bigfral Derma Plus Tamanho G/xg 24 Unidades",
+      "sku": "7896012881415",
+      "gtin": "7896012881415",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Roupa Íntima Bigfral Derma Plus Tamanho G/xg 24 Unidades"
+    },
+    {
+      "id": "1439dc8b-aa5d-42dd-9443-97e90bf41612",
+      "name": "Roupa Íntima Descartável Plenitud Plus G/XG Absorção Intensa 32 unidades",
+      "sku": "7896007551729",
+      "gtin": "7896007551729",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Roupa Íntima Descartável Plenitud Plus G/XG Absorção Intensa 32 unidades"
+    },
+    {
+      "id": "17479f57-2c0d-4461-bb15-f1ddd7297e38",
+      "name": "Roupa Íntima Descartável Unissex Plenitud Plus P/M Absorção Intensa 32 unidades",
+      "sku": "7896007551712",
+      "gtin": "7896007551712",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Roupa Íntima Descartável Unissex Plenitud Plus P/M Absorção Intensa 32 unidades"
+    },
+    {
+      "id": "6fa9b004-f6ea-41e7-8bdb-522ce10ddb18",
+      "name": "Sabonete Dermotivin Salix 90g",
+      "sku": "7896658001673",
+      "gtin": "7896658001673",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sabonete Dermotivin Salix 90g"
+    },
+    {
+      "id": "c6564ea6-2241-4334-9db4-19ad6f04927e",
+      "name": "Sabonete em Barra Antisséptico Darrow Soapelle 70g",
+      "sku": "3282770388640",
+      "gtin": "3282770388640",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sabonete em Barra Antisséptico Darrow Soapelle 70g"
+    },
+    {
+      "id": "7a67b7c8-318f-4ad2-b1ec-980db70e7b48",
+      "name": "Sabonete Esfoliante Dove Beauty Scrub Romã e Manteiga de Karité 280g",
+      "sku": "FF-13581",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Sabonete Esfoliante Dove Beauty Scrub Romã e Manteiga de Karité 280g"
+    },
+    {
+      "id": "cc90e852-aa86-4567-923b-19f19d75d5fa",
+      "name": "Sabonete Facial em Barra Vichy Normaderm Pele Oleosa a Acneica 40g",
+      "sku": "7899706154062",
+      "gtin": "7899706154062",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sabonete Facial em Barra Vichy Normaderm Pele Oleosa a Acneica 40g"
+    },
+    {
+      "id": "b05daf1d-5f71-40b4-8e4b-a1f4b6fc5022",
+      "name": "Sabonete Facial La Roche-Posay Effaclar Alta Tolerância 70g",
+      "sku": "7899706149198",
+      "gtin": "7899706149198",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sabonete Facial La Roche-Posay Effaclar Alta Tolerância 70g"
+    },
+    {
+      "id": "bb0b2eb2-ba94-48b0-a981-3c2df83108f5",
+      "name": "Sabonete Líquido Dermotivin Soft 300ml",
+      "sku": "7897930777538",
+      "gtin": "7897930777538",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sabonete Líquido Dermotivin Soft 300ml"
+    },
+    {
+      "id": "9ff1bd64-e130-4c12-bf42-fef5b301fdec",
+      "name": "Sabonete Liquido Detox Vitamina C Payot 220ml",
+      "sku": "FF-12894",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Sabonete Liquido Detox Vitamina C Payot 220ml"
+    },
+    {
+      "id": "02c3d5bb-53f2-4590-8116-eebc46bf714a",
+      "name": "Sabonete Líquido Dove Óleo de Banho Glicerinado 240ml",
+      "sku": "FF-13576",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Sabonete Líquido Dove Óleo de Banho Glicerinado 240ml"
+    },
+    {
+      "id": "20eab2fd-3bd0-46eb-8def-d1368f0a6f68",
+      "name": "Sabonete Líquido Facial Ivy C 200ml",
+      "sku": "7891142207036",
+      "gtin": "7891142207036",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sabonete Líquido Facial Ivy C 200ml"
+    },
+    {
+      "id": "3cf10217-4b3a-4857-b448-7a6c249080b3",
+      "name": "Sabonete Líquido Granado Tradicional 500ml",
+      "sku": "FF-12036",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Sabonete Líquido Granado Tradicional 500ml"
+    },
+    {
+      "id": "4a2e0474-1741-448d-84a0-09bbcbe00185",
+      "name": "Sabonete Líquido Lipikar Surgras La Roche-Posay 400ml",
+      "sku": "3433422408586",
+      "gtin": "3433422408586",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sabonete Líquido Lipikar Surgras La Roche-Posay 400ml"
+    },
+    {
+      "id": "73aba3e6-ae0a-4fb0-970e-74007c2a31a3",
+      "name": "Sarcoplex sabor Tangerina 30 sachês",
+      "sku": "7896112402602",
+      "gtin": "7896112402602",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sarcoplex sabor Tangerina 30 sachês"
+    },
+    {
+      "id": "acb74df3-5503-49f6-98e0-f8bd9b7857cd",
+      "name": "Sérum Antirrugas Noite L’Oréal Paris Revitalift Retinol 30ml",
+      "sku": "3600524057336",
+      "gtin": "3600524057336",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sérum Antirrugas Noite L’Oréal Paris Revitalift Retinol 30ml"
+    },
+    {
+      "id": "c2b42d10-dffc-4e52-a09d-2a3af46151a1",
+      "name": "Sérum Booster Garnier SkinActive Uniform & Matte Antimarcas com Vitamina C 30ml",
+      "sku": "FF-13392",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Sérum Booster Garnier SkinActive Uniform & Matte Antimarcas com Vitamina C 30ml"
+    },
+    {
+      "id": "4c09461f-52ce-4758-98c8-05db7c730a36",
+      "name": "Sérum Capilar Antiqueda Vichy Dercos Energy+ 50ml",
+      "sku": "7899706254311",
+      "gtin": "7899706254311",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sérum Capilar Antiqueda Vichy Dercos Energy+ 50ml"
+    },
+    {
+      "id": "525d96b7-5af9-4917-b2e5-01df019a5b11",
+      "name": "Sérum capilar Elseve Glycolic Gloss 100ml",
+      "sku": "7908615055183",
+      "gtin": "7908615055183",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sérum capilar Elseve Glycolic Gloss 100ml"
+    },
+    {
+      "id": "a2c23474-c286-4982-8cdd-bd9b7d4e8d72",
+      "name": "Sérum Concentrado Iluminador Facial Vichy Minéral 89 Frações Probióticas 30ml",
+      "sku": "FF-13464",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Sérum Concentrado Iluminador Facial Vichy Minéral 89 Frações Probióticas 30ml"
+    },
+    {
+      "id": "c6f76127-1699-4c66-843b-c3603fb46d80",
+      "name": "Sérum Facial Anti-Idade Eucerin Epigenetic 30ml",
+      "sku": "4005805461649",
+      "gtin": "4005805461649",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sérum Facial Anti-Idade Eucerin Epigenetic 30ml"
+    },
+    {
+      "id": "a6c2244f-6af6-4f84-8339-6913b5a2ea80",
+      "name": "Sérum Facial Blemish+ Age Defense SkinCeuticals 15ml",
+      "sku": "7899706150477",
+      "gtin": "7899706150477",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sérum Facial Blemish+ Age Defense SkinCeuticals 15ml"
+    },
+    {
+      "id": "c08205c4-6845-47e9-b713-5f90fc3b16d3",
+      "name": "Sérum Facial Creamy Anti Aging Retinal 30g",
+      "sku": "7908791000366",
+      "gtin": "7908791000366",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sérum Facial Creamy Anti Aging Retinal 30g"
+    },
+    {
+      "id": "57358d6e-7b4b-40ac-8855-d3e9182cbc9b",
+      "name": "Sérum facial Effaclar Ultra Concentrado La Roche-Posay 30ml",
+      "sku": "7899706191951",
+      "gtin": "7899706191951",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sérum facial Effaclar Ultra Concentrado La Roche-Posay 30ml"
+    },
+    {
+      "id": "1070a7ac-914d-47c2-a5aa-bc61d7817650",
+      "name": "Sérum Facial Eucerin Anti-Pigment Dual Sérum 30ml",
+      "sku": "7319470066786",
+      "gtin": "7319470066786",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sérum Facial Eucerin Anti-Pigment Dual Sérum 30ml"
+    },
+    {
+      "id": "9387510a-e07f-46e9-a114-66e2d9191a7c",
+      "name": "Sérum Facial Eucerin Daily Booster Ultraleve 30ml",
+      "sku": "FF-13461",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Sérum Facial Eucerin Daily Booster Ultraleve 30ml"
+    },
+    {
+      "id": "5ab29cbe-8d98-4c66-865d-6370bb56107a",
+      "name": "Sérum Facial Garnier Uniform & Matte Antiacne 15ml",
+      "sku": "FF-13462",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Sérum Facial Garnier Uniform & Matte Antiacne 15ml"
+    },
+    {
+      "id": "a0fe1263-f6e9-4e0a-9f34-8df87b93ba66",
+      "name": "Sérum facial La Roche-Posay Hyalu B5 Repair 30ml",
+      "sku": "7899706158213",
+      "gtin": "7899706158213",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sérum facial La Roche-Posay Hyalu B5 Repair 30ml"
+    },
+    {
+      "id": "5ee44767-fd27-4571-b2a6-04842f63fdce",
+      "name": "Sérum Facial Nivea Cellular Luminous 630 Antimarcas 30ml",
+      "sku": "4005900813053",
+      "gtin": "4005900813053",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sérum Facial Nivea Cellular Luminous 630 Antimarcas 30ml"
+    },
+    {
+      "id": "eddece57-4806-464f-8509-e762a5ff8099",
+      "name": "Sérum Facial Nivea Cellular Luminous 630 Antimarcas Acne FPS 60 30ml",
+      "sku": "FF-13650",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Sérum Facial Nivea Cellular Luminous 630 Antimarcas Acne FPS 60 30ml"
+    },
+    {
+      "id": "43e1af28-a476-4a54-bf1a-16acbac6d083",
+      "name": "Sérum Facial Nivea Q10 Antissinais Expert Dupla Ação 30ml",
+      "sku": "FF-32097",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Sérum Facial Nivea Q10 Antissinais Expert Dupla Ação 30ml"
+    },
+    {
+      "id": "d4737523-cc03-46b0-8abb-4555585ca81d",
+      "name": "Sérum Rejuvenescedor Facial Ivy C Acqua Mantecorp 30ml",
+      "sku": "7891142982377",
+      "gtin": "7891142982377",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sérum Rejuvenescedor Facial Ivy C Acqua Mantecorp 30ml"
+    },
+    {
+      "id": "fe57c7c2-b00e-4d8f-88d2-bbcd4b065c50",
+      "name": "Sérum Reviline Retinol Mantecorp 30ml",
+      "sku": "7891142984005",
+      "gtin": "7891142984005",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Sérum Reviline Retinol Mantecorp 30ml"
+    },
+    {
+      "id": "33cfcbf9-2613-40ad-827a-d74f0629614f",
+      "name": "Shampoo Anticaspa Darrow Doctar Sensi 120ml",
+      "sku": "FF-12111",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Shampoo Anticaspa Darrow Doctar Sensi 120ml"
+    },
+    {
+      "id": "cdb47dff-cea1-43a4-8711-4928d30e2c5c",
+      "name": "Shampoo Anticaspa La Roche-Posay Kerium 200ml",
+      "sku": "7899706157117",
+      "gtin": "7899706157117",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Shampoo Anticaspa La Roche-Posay Kerium 200ml"
+    },
+    {
+      "id": "a69e23d8-8d68-4d55-8d46-41c6ca8e0f67",
+      "name": "Shampoo Anticaspa Vichy Dercos DS Cabelos Normais a Oleosos 300g",
+      "sku": "7908615087610",
+      "gtin": "7908615087610",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Shampoo Anticaspa Vichy Dercos DS Cabelos Normais a Oleosos 300g"
+    },
+    {
+      "id": "aad34676-d7e9-4b74-9bd7-ced6f10d806e",
+      "name": "Shampoo Esfoliante Vichy Dercos Micro Peel 150ml",
+      "sku": "7899706170338",
+      "gtin": "7899706170338",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Shampoo Esfoliante Vichy Dercos Micro Peel 150ml"
+    },
+    {
+      "id": "0e75ca5d-79ca-47c8-a661-d9ca24c09ec5",
+      "name": "Shampoo Johnson’s Baby Regular 750ml",
+      "sku": "FF-13476",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Shampoo Johnson’s Baby Regular 750ml"
+    },
+    {
+      "id": "2e5ea644-aa16-4688-92c1-92efb2be378e",
+      "name": "Shampoo Kerastase Symbiose Bain Purete Anti Pelliculaire 250ml",
+      "sku": "3474637135713",
+      "gtin": "3474637135713",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Shampoo Kerastase Symbiose Bain Purete Anti Pelliculaire 250ml"
+    },
+    {
+      "id": "9cf45fe2-6aa8-4b92-802b-144b93127cb5",
+      "name": "Shampoo Kerasys Propolis Energy Shine180ml",
+      "sku": "FF-12969",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Shampoo Kerasys Propolis Energy Shine180ml"
+    },
+    {
+      "id": "5771c8d1-5f01-489d-ab5a-e9ae17244686",
+      "name": "Shampoo L’oreal Professionnel Absolut Repair Gold Quinoa + Protein 750ml",
+      "sku": "7898522359019",
+      "gtin": "7898522359019",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Shampoo L’oreal Professionnel Absolut Repair Gold Quinoa + Protein 750ml"
+    },
+    {
+      "id": "2f052468-8d30-4194-bed5-083db796e31e",
+      "name": "Shampoo Tonalizante em Gel Grecin 5 Visual de Grisalho Fácil de Aplicar 40g",
+      "sku": "FF-13474",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Shampoo Tonalizante em Gel Grecin 5 Visual de Grisalho Fácil de Aplicar 40g"
+    },
+    {
+      "id": "3b96ee52-d633-4329-ba70-2938cef656ec",
+      "name": "Shampoo Truss Equilibrium Scalp Rpk 300ml",
+      "sku": "7898625791893",
+      "gtin": "7898625791893",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Shampoo Truss Equilibrium Scalp Rpk 300ml"
+    },
+    {
+      "id": "ef1cf7f9-4aff-49f5-bb38-e9e92b239657",
+      "name": "Shampoo Wella Fusion Intense Repair 1000ml",
+      "sku": "4064666318233",
+      "gtin": "4064666318233",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Shampoo Wella Fusion Intense Repair 1000ml"
+    },
+    {
+      "id": "b3dde5a1-f2a4-4400-b79a-067b7f4362a1",
+      "name": "Shampoo Wella Invigo Blonde Recharge 250ml",
+      "sku": "FF-12965",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Shampoo Wella Invigo Blonde Recharge 250ml"
+    },
+    {
+      "id": "d4b07ae0-5452-408b-83a6-b78e31a7a658",
+      "name": "Shampoo Wella Invigo Color Brilliance 250ml",
+      "sku": "4064666316246",
+      "gtin": "4064666316246",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Shampoo Wella Invigo Color Brilliance 250ml"
+    },
+    {
+      "id": "e81deed6-2132-4357-aec3-65dcf8a4781b",
+      "name": "Shampoo Wella Oil Reflections 250ml",
+      "sku": "FF-12966",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Shampoo Wella Oil Reflections 250ml"
+    },
+    {
+      "id": "e589f691-99e7-48bd-b104-4f53347672bf",
+      "name": "Shampoo Widi Care Higienizando a Juba 500ml",
+      "sku": "FF-11951",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Shampoo Widi Care Higienizando a Juba 500ml"
+    },
+    {
+      "id": "85660b2c-6718-4d90-a9cc-b107fdbfccf0",
+      "name": "Spirulina Orgânica Puravida 200 Tabletes",
+      "sku": "7898956903116",
+      "gtin": "7898956903116",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Spirulina Orgânica Puravida 200 Tabletes"
+    },
+    {
+      "id": "af44e40b-3839-4178-9420-4ddc3c6b1436",
+      "name": "Suplemento Alimentar Extima sabor Banana 600g",
+      "sku": "7896637032513",
+      "gtin": "7896637032513",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Suplemento Alimentar Extima sabor Banana 600g"
+    },
+    {
+      "id": "0cc78155-9d42-47c5-8a50-307214086e01",
+      "name": "Suplemento Alimentar Extima sabor Baunilha 600g",
+      "sku": "7896637032537",
+      "gtin": "7896637032537",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Suplemento Alimentar Extima sabor Baunilha 600g"
+    },
+    {
+      "id": "abbf3b1f-dae1-47af-8bf4-e3af7a5aadd1",
+      "name": "Suplemento Alimentar Progress sabor Baunilha 30 sachês",
+      "sku": "789 665 803 526 5",
+      "gtin": "7896658035265",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Suplemento Alimentar Progress sabor Baunilha 30 sachês"
+    },
+    {
+      "id": "2e78e844-1955-4132-b695-94bec38ecf98",
+      "name": "Suplemento Alimentar Sustagen Senior 50+ sabor Baunilha 370g",
+      "sku": "7898941911294",
+      "gtin": "7898941911294",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Suplemento Alimentar Sustagen Senior 50+ sabor Baunilha 370g"
+    },
+    {
+      "id": "4c85e853-9d22-45bb-aef1-b4148d13fb92",
+      "name": "Suplemento Alimentar Sustagen Senior 50+ Sem Sabor 370g",
+      "sku": "7898941911119",
+      "gtin": "7898941911119",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Suplemento Alimentar Sustagen Senior 50+ Sem Sabor 370g"
+    },
+    {
+      "id": "cb1d2584-a369-49dc-b9d2-7f371fd0a1b8",
+      "name": "Theracne Sabonete Barra Theraskin 80g",
+      "sku": "7896658020520",
+      "gtin": "7896658020520",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Theracne Sabonete Barra Theraskin 80g"
+    },
+    {
+      "id": "5c0d416a-7a56-4da1-991e-ebdb7c3e3fbb",
+      "name": "Toalha Umedecida Meu Bebê Ultra Premium Caixa 10 Pacotes – 500 Lenços",
+      "sku": "FF-32133",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Toalha Umedecida Meu Bebê Ultra Premium Caixa 10 Pacotes – 500 Lenços"
+    },
+    {
+      "id": "56baa3eb-b622-4f85-ace9-ecd9ce042fa6",
+      "name": "Trifor Sabor Tangerina 30 Sachês",
+      "sku": "7896112402411",
+      "gtin": "7896112402411",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Trifor Sabor Tangerina 30 Sachês"
+    },
+    {
+      "id": "56e4de31-46ff-443c-9fec-9e24846f5fbf",
+      "name": "Venalot Creme Para Pernas e Pés com 240ml",
+      "sku": "FF-13377",
+      "gtin": null,
+      "active": true,
+      "reason": "sku",
+      "csvName": "Venalot Creme Para Pernas e Pés com 240ml"
+    },
+    {
+      "id": "8e27dc25-534f-4dee-9485-24517defa94b",
+      "name": "Whey Protein Concentrado Sabor Baunilha Dux Nutrition 900g",
+      "sku": "7898641070338",
+      "gtin": "7898641070338",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Whey Protein Concentrado Sabor Baunilha Dux Nutrition 900g"
+    },
+    {
+      "id": "41546864-cb34-4bc0-b445-c4851fae25cc",
+      "name": "Whey Protein Concentrado sabor Chocolate Dux Nutrition 900g",
+      "sku": "7898641070345",
+      "gtin": "7898641070345",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Whey Protein Concentrado sabor Chocolate Dux Nutrition 900g"
+    },
+    {
+      "id": "9169c7c2-ca49-4beb-948b-b85435c374b8",
+      "name": "Whey Protein Concentrado Sabor Cookies Dux Nutrition 900g",
+      "sku": "07898641070888",
+      "gtin": "07898641070888",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Whey Protein Concentrado Sabor Cookies Dux Nutrition 900g"
+    },
+    {
+      "id": "9c9dc550-e574-4ea5-9ef4-116f8bd9e4d2",
+      "name": "Whey Protein Concentrado Sabor Morango Dux Nutrition 900g",
+      "sku": "7898641070352",
+      "gtin": "7898641070352",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Whey Protein Concentrado Sabor Morango Dux Nutrition 900g"
+    },
+    {
+      "id": "c2ae225b-c1d6-4607-9e94-aed5f777e4c5",
+      "name": "Whey Protein Iso Whey Max Titanium sabor Baunilha 900g",
+      "sku": "07899941201781",
+      "gtin": "07899941201781",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Whey Protein Iso Whey Max Titanium sabor Baunilha 900g"
+    },
+    {
+      "id": "5d4998e1-ef4d-4660-a17a-310ce3e41675",
+      "name": "Whey Protein Iso Whey Max Titanium sabor Chocolate 900g",
+      "sku": "7899941201798",
+      "gtin": "7899941201798",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Whey Protein Iso Whey Max Titanium sabor Chocolate 900g"
+    },
+    {
+      "id": "345205a9-4e6d-47ec-8035-a2e6ef8e65ad",
+      "name": "Whey Protein Iso Whey Max Titanium sabor Morango 900g",
+      "sku": "07899941201811",
+      "gtin": "07899941201811",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Whey Protein Iso Whey Max Titanium sabor Morango 900g"
+    },
+    {
+      "id": "14cd5e25-3c8b-4de6-a9be-bcb8dcbeb20b",
+      "name": "Whey Protein Isofort Neutro Vitafor 900g",
+      "sku": "7898919865154",
+      "gtin": "7898919865154",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Whey Protein Isofort Neutro Vitafor 900g"
+    },
+    {
+      "id": "c7c52e6e-7bd9-4555-9f63-4eab7701760c",
+      "name": "Whey Protein Isofort sabor Baunilha Vitafor 900g",
+      "sku": "7898665432204",
+      "gtin": "7898665432204",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Whey Protein Isofort sabor Baunilha Vitafor 900g"
+    },
+    {
+      "id": "a47fb326-95be-4719-ac8a-d63e8331333f",
+      "name": "Whey Protein Isofort sabor Frutas Vermelhas Vitafor 900g",
+      "sku": "7898665432181",
+      "gtin": "7898665432181",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Whey Protein Isofort sabor Frutas Vermelhas Vitafor 900g"
+    },
+    {
+      "id": "7816be77-0e90-4ab2-a013-a76a75650210",
+      "name": "Whey Protein Isolado Dux Nutrition Sabor Baunilha 900g",
+      "sku": "7898641070369",
+      "gtin": "7898641070369",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Whey Protein Isolado Dux Nutrition Sabor Baunilha 900g"
+    },
+    {
+      "id": "0aa2996f-6e38-4cdf-acbc-cd16e099129c",
+      "name": "Whey Protein Isolado Dux Nutrition sabor Cookies 900g",
+      "sku": "7898641073230",
+      "gtin": "7898641073230",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Whey Protein Isolado Dux Nutrition sabor Cookies 900g"
+    },
+    {
+      "id": "7d1ddd04-07a5-4061-9218-8712fa05f746",
+      "name": "Whey Protein Isolado Dux Nutrition sabor Morango 900g",
+      "sku": "7898641070383",
+      "gtin": "7898641070383",
+      "active": true,
+      "reason": "gtin",
+      "csvName": "Whey Protein Isolado Dux Nutrition sabor Morango 900g"
+    }
+  ],
+  "alreadyInactive": [],
+  "unmatched": [
+    {
+      "row": 7,
+      "name": "Artromobil HA 30 comprimidos",
+      "slug": "artromobil-ha-30-comprimidos",
+      "sku": "7896676440843",
+      "gtin": "7896676440843",
+      "nameNorm": "artromobil ha 30 comprimidos"
+    },
+    {
+      "row": 17,
+      "name": "Bio Mag Puravida Magnésio Quelato 60 cápsulas",
+      "slug": "bio-mag-puravida-magnesio-quelato-60-capsulas",
+      "sku": "7898661012981",
+      "gtin": "7898661012981",
+      "nameNorm": "bio mag puravida magnesio quelato 60 capsulas"
+    },
+    {
+      "row": 18,
+      "name": "Bio Vit C+ Vitamina C Puravida 60 Cápsulas",
+      "slug": "bio-vit-c-vitamina-c-puravida-60-capsulas",
+      "sku": "7898661010505",
+      "gtin": "7898661010505",
+      "nameNorm": "bio vit c vitamina c puravida 60 capsulas"
+    },
+    {
+      "row": 19,
+      "name": "BioTrimag Trimagnésio Puravida 60 cápsulas",
+      "slug": "biotrimag-trimagnesio-puravida-60-capsulas",
+      "sku": "7898661013940",
+      "gtin": "7898661013940",
+      "nameNorm": "biotrimag trimagnesio puravida 60 capsulas"
+    },
+    {
+      "row": 23,
+      "name": "Cafeína Dux Nutrition 90 cápsulas",
+      "slug": "cafeina-dux-nutrition-90-capsulas",
+      "sku": "FF-13473",
+      "gtin": null,
+      "nameNorm": "cafeina dux nutrition 90 capsulas"
+    },
+    {
+      "row": 24,
+      "name": "Cálcio + Vitamina D Prosso 30 comprimidos",
+      "slug": "calcio-vitamina-d-prosso-30-comprimidos",
+      "sku": "FF-13693",
+      "gtin": null,
+      "nameNorm": "calcio vitamina d prosso 30 comprimidos"
+    },
+    {
+      "row": 35,
+      "name": "Coenzima Q10 200mg Vitafor 60 Cápsulas",
+      "slug": "coenzima-q10-200mg-vitafor-60-capsulas",
+      "sku": "7898919865390",
+      "gtin": "7898919865390",
+      "nameNorm": "coenzima q10 200mg vitafor 60 capsulas"
+    },
+    {
+      "row": 41,
+      "name": "Colágeno Motilex 60 Cápsulas",
+      "slug": "colageno-motilex-60-capsulas",
+      "sku": "7896637030861",
+      "gtin": "7896637030861",
+      "nameNorm": "colageno motilex 60 capsulas"
+    },
+    {
+      "row": 45,
+      "name": "Colágeno Tipo II – Cartliv 40Mg Equaliv 60 Cápsulas",
+      "slug": "colageno-tipo-ii-cartliv-40mg-equaliv-60-capsulas",
+      "sku": "7898946435535",
+      "gtin": "7898946435535",
+      "nameNorm": "colageno tipo ii cartliv 40mg equaliv 60 capsulas"
+    },
+    {
+      "row": 55,
+      "name": "Condres AH Colágeno Tipo II 90 Capsulas",
+      "slug": "condres-ah-colageno-tipo-ii-90-capsulas",
+      "sku": "FF-32780",
+      "gtin": null,
+      "nameNorm": "condres ah colageno tipo ii 90 capsulas"
+    },
+    {
+      "row": 56,
+      "name": "Condres Colágeno Não Hidrolisado Tipo II 40mg 90 cápsulas",
+      "slug": "condres-colageno-nao-hidrolisado-tipo-ii-40mg-90-capsulas",
+      "sku": "7894916515207",
+      "gtin": "7894916515207",
+      "nameNorm": "condres colageno nao hidrolisado tipo ii 40mg 90 capsulas"
+    },
+    {
+      "row": 98,
+      "name": "Darrow Doctar Forcecaps 30 comprimidos",
+      "slug": "darrow-doctar-forcecaps-30-comprimidos",
+      "sku": "3282770149630",
+      "gtin": "3282770149630",
+      "nameNorm": "darrow doctar forcecaps 30 comprimidos"
+    },
+    {
+      "row": 99,
+      "name": "Darrow Doctar Forcecaps 90 comprimidos",
+      "slug": "darrow-doctar-forcecaps-90-comprimidos",
+      "sku": "3282770149647",
+      "gtin": "3282770149647",
+      "nameNorm": "darrow doctar forcecaps 90 comprimidos"
+    },
+    {
+      "row": 108,
+      "name": "Ducray Anacaps Activ+ 90 Cápsulas",
+      "slug": "ducray-anacaps-activ-90-capsulas",
+      "sku": "3282779138758",
+      "gtin": "3282779138758",
+      "nameNorm": "ducray anacaps activ 90 capsulas"
+    },
+    {
+      "row": 114,
+      "name": "Equaliv Beauty + 60 Cápsulas",
+      "slug": "equaliv-beauty-60-capsulas",
+      "sku": "FF-13690",
+      "gtin": null,
+      "nameNorm": "equaliv beauty 60 capsulas"
+    },
+    {
+      "row": 121,
+      "name": "Eximia Fortalize Kera D 30 comprimidos",
+      "slug": "eximia-fortalize-kera-d-30-comprimidos",
+      "sku": "FF-11994",
+      "gtin": null,
+      "nameNorm": "eximia fortalize kera d 30 comprimidos"
+    },
+    {
+      "row": 122,
+      "name": "Exímia Fortalize Pro 30 cápsulas",
+      "slug": "eximia-fortalize-pro-30-capsulas",
+      "sku": "FF-13572",
+      "gtin": null,
+      "nameNorm": "eximia fortalize pro 30 capsulas"
+    },
+    {
+      "row": 123,
+      "name": "Exímia Fortalize S com 30 Comprimidos",
+      "slug": "eximia-fortalize-s-com-30-comprimidos",
+      "sku": "7898040329181",
+      "gtin": "7898040329181",
+      "nameNorm": "eximia fortalize s com 30 comprimidos"
+    },
+    {
+      "row": 124,
+      "name": "Exímia Fortalize S com 90 Comprimidos",
+      "slug": "eximia-fortalize-s-com-90-comprimidos",
+      "sku": "7898040329181-898040329182",
+      "gtin": "7898040329181898040329182",
+      "nameNorm": "eximia fortalize s com 90 comprimidos"
+    },
+    {
+      "row": 125,
+      "name": "Exímia Probiac 30 Comprimidos",
+      "slug": "eximia-probiac-30-comprimidos",
+      "sku": "FF-13381",
+      "gtin": null,
+      "nameNorm": "eximia probiac 30 comprimidos"
+    },
+    {
+      "row": 135,
+      "name": "Fish Oil Ômega 3 Dux Nutrition 120 Cápsulas",
+      "slug": "fish-oil-omega-3-dux-nutrition-120-capsulas",
+      "sku": "7898641070253",
+      "gtin": "7898641070253",
+      "nameNorm": "fish oil omega 3 dux nutrition 120 capsulas"
+    },
+    {
+      "row": 145,
+      "name": "Fralda Calça Huggies Supreme Care Roupinha M 80 unidades",
+      "slug": "fralda-calca-huggies-supreme-care-roupinha-m-80-unidades",
+      "sku": "7896007552863",
+      "gtin": "7896007552863",
+      "nameNorm": "fralda calca huggies supreme care roupinha m 80 unidades"
+    },
+    {
+      "row": 146,
+      "name": "Fralda Calça Huggies Supreme Care XXXG 70 unidades",
+      "slug": "fralda-calca-huggies-supreme-care-xxxg-70-unidades",
+      "sku": "7896007553761",
+      "gtin": "7896007553761",
+      "nameNorm": "fralda calca huggies supreme care xxxg 70 unidades"
+    },
+    {
+      "row": 148,
+      "name": "Fralda Huggies Pants Supreme Care XG 80 Unidades",
+      "slug": "fralda-huggies-pants-supreme-care-xg-80-unidades",
+      "sku": "FF-12091",
+      "gtin": null,
+      "nameNorm": "fralda huggies pants supreme care xg 80 unidades"
+    },
+    {
+      "row": 149,
+      "name": "Fralda Huggies Roupinha Supreme Care G 88 unidades",
+      "slug": "fralda-huggies-roupinha-supreme-care-g-88-unidades",
+      "sku": "7896007553624",
+      "gtin": "7896007553624",
+      "nameNorm": "fralda huggies roupinha supreme care g 88 unidades"
+    },
+    {
+      "row": 150,
+      "name": "Fralda Huggies Roupinha Supreme Care XXG 72 unidades",
+      "slug": "fralda-huggies-roupinha-supreme-care-xxg-72-unidades",
+      "sku": "7896007553655",
+      "gtin": "7896007553655",
+      "nameNorm": "fralda huggies roupinha supreme care xxg 72 unidades"
+    },
+    {
+      "row": 151,
+      "name": "Fralda Huggies Supreme Care G com 66 Unidades",
+      "slug": "fralda-huggies-supreme-care-g-com-66-unidades",
+      "sku": "7896007552795",
+      "gtin": "7896007552795",
+      "nameNorm": "fralda huggies supreme care g com 66 unidades"
+    },
+    {
+      "row": 152,
+      "name": "Fralda Pampers Confort Sec G 98 Unidades",
+      "slug": "fralda-pampers-confort-sec-g-98-unidades",
+      "sku": "07500435209199",
+      "gtin": "07500435209199",
+      "nameNorm": "fralda pampers confort sec g 98 unidades"
+    },
+    {
+      "row": 153,
+      "name": "Fralda Pampers Confort Sec M 70 Unidades",
+      "slug": "fralda-pampers-confort-sec-m-70-unidades",
+      "sku": "7500435106665",
+      "gtin": "7500435106665",
+      "nameNorm": "fralda pampers confort sec m 70 unidades"
+    },
+    {
+      "row": 154,
+      "name": "Fralda Pampers Confort Sec P 72 Unidades",
+      "slug": "fralda-pampers-confort-sec-p-72-unidades",
+      "sku": "7500435181297",
+      "gtin": "7500435181297",
+      "nameNorm": "fralda pampers confort sec p 72 unidades"
+    },
+    {
+      "row": 156,
+      "name": "Fralda Pampers Confort Sec XXG Com 52 Unidades",
+      "slug": "fralda-pampers-confort-sec-xxg-com-52-unidades",
+      "sku": "7500435205238",
+      "gtin": "7500435205238",
+      "nameNorm": "fralda pampers confort sec xxg com 52 unidades"
+    },
+    {
+      "row": 157,
+      "name": "Fralda Pampers Confort Sec Xxxg 44 Unidades",
+      "slug": "fralda-pampers-confort-sec-xxxg-44-unidades",
+      "sku": "7500435232944",
+      "gtin": "7500435232944",
+      "nameNorm": "fralda pampers confort sec xxxg 44 unidades"
+    },
+    {
+      "row": 191,
+      "name": "Imecap Face com 30 cápsulas",
+      "slug": "imecap-face-com-30-capsulas",
+      "sku": "7898414853106",
+      "gtin": "7898414853106",
+      "nameNorm": "imecap face com 30 capsulas"
+    },
+    {
+      "row": 193,
+      "name": "Imecap Hair Max 90 Cápsulas",
+      "slug": "imecap-hair-max-90-capsulas",
+      "sku": "7898040329891",
+      "gtin": "7898040329891",
+      "nameNorm": "imecap hair max 90 capsulas"
+    },
+    {
+      "row": 195,
+      "name": "Kit Centrum Adulto Embalagem Econômica Com 90 Cápsulas",
+      "slug": "kit-centrum-adulto-embalagem-economica-com-90-capsulas",
+      "sku": "7896015592998",
+      "gtin": "7896015592998",
+      "nameNorm": "kit centrum adulto embalagem economica com 90 capsulas"
+    },
+    {
+      "row": 197,
+      "name": "Kit Lenço Umedecido Huggies Recém Nascido 192 unidades em 4 pacotes",
+      "slug": "kit-lenco-umedecido-huggies-recem-nascido-192-unidades-em-4-pacotes",
+      "sku": "7896018704022",
+      "gtin": "7896018704022",
+      "nameNorm": "kit lenco umedecido huggies recem nascido 192 unidades em 4 pacotes"
+    },
+    {
+      "row": 198,
+      "name": "Kit Lenço Umedecido Pampers Aroma de Aloe Vera 4 pacotes",
+      "slug": "kit-lenco-umedecido-pampers-aroma-de-aloe-vera-4-pacotes",
+      "sku": "7500435145251",
+      "gtin": "7500435145251",
+      "nameNorm": "kit lenco umedecido pampers aroma de aloe vera 4 pacotes"
+    },
+    {
+      "row": 199,
+      "name": "Kit Loreal Absolut Repair Shampoo 750ml e Condicionador 750ml",
+      "slug": "kit-loreal-absolut-repair-shampoo-750ml-e-condicionador-750ml",
+      "sku": "7898759912155",
+      "gtin": "7898759912155",
+      "nameNorm": "kit loreal absolut repair shampoo 750ml e condicionador 750ml"
+    },
+    {
+      "row": 200,
+      "name": "Kit Polivitamínico Centrum Essentials Homem de A a Zinco 60 + 30 comprimidos",
+      "slug": "kit-polivitaminico-centrum-essentials-homem-de-a-a-zinco-60-30-comprimidos",
+      "sku": "7896015593018",
+      "gtin": "7896015593018",
+      "nameNorm": "kit polivitaminico centrum essentials homem de a a zinco 60 30 comprimidos"
+    },
+    {
+      "row": 224,
+      "name": "Mega Pack Power Workout Darkness 30 sachês",
+      "slug": "mega-pack-power-workout-darkness-30-saches",
+      "sku": "789 6311 771547",
+      "gtin": "7896311771547",
+      "nameNorm": "mega pack power workout darkness 30 saches"
+    },
+    {
+      "row": 225,
+      "name": "Motilex Ha 60 Cápsulas",
+      "slug": "motilex-ha-60-capsulas",
+      "sku": "07896637031844",
+      "gtin": "07896637031844",
+      "nameNorm": "motilex ha 60 capsulas"
+    },
+    {
+      "row": 226,
+      "name": "Multivitamínico Dux Nutrition 90 Cápsulas",
+      "slug": "multivitaminico-dux-nutrition-90-capsulas",
+      "sku": "7898641070222",
+      "gtin": "7898641070222",
+      "nameNorm": "multivitaminico dux nutrition 90 capsulas"
+    },
+    {
+      "row": 228,
+      "name": "Neosil Attack 90 Comprimidos",
+      "slug": "neosil-attack-90-comprimidos",
+      "sku": "FF-13390",
+      "gtin": null,
+      "nameNorm": "neosil attack 90 comprimidos"
+    },
+    {
+      "row": 229,
+      "name": "Neovite Max 60 cápsulas",
+      "slug": "neovite-max-60-capsulas",
+      "sku": "7896046304133",
+      "gtin": "7896046304133",
+      "nameNorm": "neovite max 60 capsulas"
+    },
+    {
+      "row": 233,
+      "name": "Nouve Biotin Mantecorp 30 Cápsulas",
+      "slug": "nouve-biotin-mantecorp-30-capsulas",
+      "sku": "7891142982216",
+      "gtin": "7891142982216",
+      "nameNorm": "nouve biotin mantecorp 30 capsulas"
+    },
+    {
+      "row": 235,
+      "name": "Nouve Silício D Mantecorp 30 Cápsulas",
+      "slug": "nouve-silicio-d-mantecorp-30-capsulas",
+      "sku": "7891142982230",
+      "gtin": "7891142982230",
+      "nameNorm": "nouve silicio d mantecorp 30 capsulas"
+    },
+    {
+      "row": 254,
+      "name": "Ogestan Gold 30 Cápsulas",
+      "slug": "ogestan-gold-30-capsulas",
+      "sku": "7898948648476",
+      "gtin": "7898948648476",
+      "nameNorm": "ogestan gold 30 capsulas"
+    },
+    {
+      "row": 261,
+      "name": "Óleo de Semente de Abobora 1000mg Katiguá 120 Cápsulas",
+      "slug": "oleo-de-semente-de-abobora-1000mg-katigua-120-capsulas",
+      "sku": "7898714760661",
+      "gtin": "7898714760661",
+      "nameNorm": "oleo de semente de abobora 1000mg katigua 120 capsulas"
+    },
+    {
+      "row": 265,
+      "name": "Ômega 3 Equaliv 90 cápsulas",
+      "slug": "omega-3-equaliv-90-capsulas",
+      "sku": "FF-13465",
+      "gtin": null,
+      "nameNorm": "omega 3 equaliv 90 capsulas"
+    },
+    {
+      "row": 266,
+      "name": "Ômega 3 Nutrify 120 cápsulas",
+      "slug": "omega-3-nutrify-120-capsulas",
+      "sku": "7896311767854",
+      "gtin": "7896311767854",
+      "nameNorm": "omega 3 nutrify 120 capsulas"
+    },
+    {
+      "row": 267,
+      "name": "Omegafor Plus Ômega 3 Vitafor 120 Cápsulas",
+      "slug": "omegafor-plus-omega-3-vitafor-120-capsulas",
+      "sku": "7898949730514",
+      "gtin": "7898949730514",
+      "nameNorm": "omegafor plus omega 3 vitafor 120 capsulas"
+    },
+    {
+      "row": 268,
+      "name": "Pantogar Men com 30 Cápsulas",
+      "slug": "pantogar-men-com-30-capsulas",
+      "sku": "7896112400332",
+      "gtin": "7896112400332",
+      "nameNorm": "pantogar men com 30 capsulas"
+    },
+    {
+      "row": 269,
+      "name": "Pantogar Neo com 60 Cápsulas",
+      "slug": "pantogar-neo-com-60-capsulas",
+      "sku": "7896112400448",
+      "gtin": "7896112400448",
+      "nameNorm": "pantogar neo com 60 capsulas"
+    },
+    {
+      "row": 270,
+      "name": "Pantogar Neo com 90 Cápsulas",
+      "slug": "pantogar-neo-com-90-capsulas",
+      "sku": "7896112407164",
+      "gtin": "7896112407164",
+      "nameNorm": "pantogar neo com 90 capsulas"
+    },
+    {
+      "row": 274,
+      "name": "Polivitamínico Cogmax 60 cápsulas",
+      "slug": "polivitaminico-cogmax-60-capsulas",
+      "sku": "7891317192389",
+      "gtin": "7891317192389",
+      "nameNorm": "polivitaminico cogmax 60 capsulas"
+    },
+    {
+      "row": 275,
+      "name": "Polivitamínico Gerovital 30 cápsulas",
+      "slug": "polivitaminico-gerovital-30-capsulas",
+      "sku": "7896004770185",
+      "gtin": "7896004770185",
+      "nameNorm": "polivitaminico gerovital 30 capsulas"
+    },
+    {
+      "row": 276,
+      "name": "Polivitamínico Gerovital 60 cápsulas",
+      "slug": "polivitaminico-gerovital-60-capsulas",
+      "sku": "7896004717999",
+      "gtin": "7896004717999",
+      "nameNorm": "polivitaminico gerovital 60 capsulas"
+    },
+    {
+      "row": 277,
+      "name": "Polivitamínico Lavitan Cabelos e Unhas 60 cápsulas",
+      "slug": "polivitaminico-lavitan-cabelos-e-unhas-60-capsulas",
+      "sku": "FF-13376",
+      "gtin": null,
+      "nameNorm": "polivitaminico lavitan cabelos e unhas 60 capsulas"
+    },
+    {
+      "row": 278,
+      "name": "Polivitamínico Vitergan Master N 70 comprimidos",
+      "slug": "polivitaminico-vitergan-master-n-70-comprimidos",
+      "sku": "7896226110127",
+      "gtin": "7896226110127",
+      "nameNorm": "polivitaminico vitergan master n 70 comprimidos"
+    },
+    {
+      "row": 303,
+      "name": "Reinforce Cabelos & Unhas Equaliv 30 cápsulas",
+      "slug": "reinforce-cabelos-unhas-equaliv-30-capsulas",
+      "sku": "7898946433784",
+      "gtin": "7898946433784",
+      "nameNorm": "reinforce cabelos unhas equaliv 30 capsulas"
+    },
+    {
+      "row": 347,
+      "name": "Shampoo Redken All Soft 300ml",
+      "slug": "shampoo-redken-all-soft-300ml",
+      "sku": "FF-12051",
+      "gtin": null,
+      "nameNorm": "shampoo redken all soft 300ml"
+    },
+    {
+      "row": 356,
+      "name": "Suplemento Alimentar Bariat Xr 30 Comprimidos",
+      "slug": "suplemento-alimentar-bariat-xr-30-comprimidos",
+      "sku": "FF-13467",
+      "gtin": null,
+      "nameNorm": "suplemento alimentar bariat xr 30 comprimidos"
+    },
+    {
+      "row": 357,
+      "name": "Suplemento Alimentar Bemove 30 Comprimidos",
+      "slug": "suplemento-alimentar-bemove-30-comprimidos",
+      "sku": "7891317023232",
+      "gtin": "7891317023232",
+      "nameNorm": "suplemento alimentar bemove 30 comprimidos"
+    },
+    {
+      "row": 358,
+      "name": "Suplemento Alimentar Caldê Max 30 comprimidos",
+      "slug": "suplemento-alimentar-calde-max-30-comprimidos",
+      "sku": "FF-13469",
+      "gtin": null,
+      "nameNorm": "suplemento alimentar calde max 30 comprimidos"
+    },
+    {
+      "row": 359,
+      "name": "Suplemento Alimentar Centrum Adulto 60 cápsulas",
+      "slug": "suplemento-alimentar-centrum-adulto-60-capsulas",
+      "sku": "7896009498138",
+      "gtin": "7896009498138",
+      "nameNorm": "suplemento alimentar centrum adulto 60 capsulas"
+    },
+    {
+      "row": 360,
+      "name": "Suplemento Alimentar Centrum Homem 150 Comprimidos",
+      "slug": "suplemento-alimentar-centrum-homem-150-comprimidos",
+      "sku": "7896009498145",
+      "gtin": "7896009498145",
+      "nameNorm": "suplemento alimentar centrum homem 150 comprimidos"
+    },
+    {
+      "row": 361,
+      "name": "Suplemento Alimentar Centrum Mulher 150 Cápsulas",
+      "slug": "suplemento-alimentar-centrum-mulher-150-capsulas",
+      "sku": "7896009498152",
+      "gtin": "7896009498152",
+      "nameNorm": "suplemento alimentar centrum mulher 150 capsulas"
+    },
+    {
+      "row": 362,
+      "name": "Suplemento Alimentar Condres Ultra 90 comprimidos",
+      "slug": "suplemento-alimentar-condres-ultra-90-comprimidos",
+      "sku": "7894916515214",
+      "gtin": "7894916515214",
+      "nameNorm": "suplemento alimentar condres ultra 90 comprimidos"
+    },
+    {
+      "row": 363,
+      "name": "Suplemento Alimentar Equaliv Reinforce Cabelos E Unhas 60 cápsulas",
+      "slug": "suplemento-alimentar-equaliv-reinforce-cabelos-e-unhas-60-capsulas",
+      "sku": "7898946433791",
+      "gtin": "7898946433791",
+      "nameNorm": "suplemento alimentar equaliv reinforce cabelos e unhas 60 capsulas"
+    },
+    {
+      "row": 366,
+      "name": "Suplemento Alimentar Lumier Force 100mg 30 Cápsulas",
+      "slug": "suplemento-alimentar-lumier-force-100mg-30-capsulas",
+      "sku": "FF-32774",
+      "gtin": null,
+      "nameNorm": "suplemento alimentar lumier force 100mg 30 capsulas"
+    },
+    {
+      "row": 367,
+      "name": "Suplemento Alimentar Mtor 90 Comprimidos",
+      "slug": "suplemento-alimentar-mtor-90-comprimidos",
+      "sku": "FF-13466",
+      "gtin": null,
+      "nameNorm": "suplemento alimentar mtor 90 comprimidos"
+    },
+    {
+      "row": 369,
+      "name": "Suplemento Alimentar Simfort Plus Vitafor Probiótico 30 Cápsulas",
+      "slug": "suplemento-alimentar-simfort-plus-vitafor-probiotico-30-capsulas",
+      "sku": "FF-13468",
+      "gtin": null,
+      "nameNorm": "suplemento alimentar simfort plus vitafor probiotico 30 capsulas"
+    },
+    {
+      "row": 372,
+      "name": "Suplemento Alimentar Vitamina D 2.000UI Addera D3 30 cápsulas",
+      "slug": "suplemento-alimentar-vitamina-d-2-000ui-addera-d3-30-capsulas",
+      "sku": "FF-13470",
+      "gtin": null,
+      "nameNorm": "suplemento alimentar vitamina d 2 000ui addera d3 30 capsulas"
+    },
+    {
+      "row": 373,
+      "name": "Suplemento Alimentar Vitamina D Addera Max 30 comprimidos",
+      "slug": "suplemento-alimentar-vitamina-d-addera-max-30-comprimidos",
+      "sku": "FF-13472",
+      "gtin": null,
+      "nameNorm": "suplemento alimentar vitamina d addera max 30 comprimidos"
+    },
+    {
+      "row": 374,
+      "name": "Suplemento Polivitamínico Baristar 100 cápsulas",
+      "slug": "suplemento-polivitaminico-baristar-100-capsulas",
+      "sku": "7896422544917",
+      "gtin": "7896422544917",
+      "nameNorm": "suplemento polivitaminico baristar 100 capsulas"
+    },
+    {
+      "row": 375,
+      "name": "Suplemento Vitamínico Lavitan Ômega 3 com 120 cápsulas",
+      "slug": "suplemento-vitaminico-lavitan-omega-3-com-120-capsulas",
+      "sku": "7897947607750",
+      "gtin": "7897947607750",
+      "nameNorm": "suplemento vitaminico lavitan omega 3 com 120 capsulas"
+    },
+    {
+      "row": 376,
+      "name": "Tacitá Unhas e Cabelos 30 Comprimidos",
+      "slug": "tacita-unhas-e-cabelos-30-comprimidos",
+      "sku": "7896676438550",
+      "gtin": "7896676438550",
+      "nameNorm": "tacita unhas e cabelos 30 comprimidos"
+    },
+    {
+      "row": 381,
+      "name": "Vitergan Zinco Pl 60 comprimidos",
+      "slug": "vitergan-zinco-pl-60-comprimidos",
+      "sku": "FF-13593",
+      "gtin": null,
+      "nameNorm": "vitergan zinco pl 60 comprimidos"
+    }
+  ]
+}

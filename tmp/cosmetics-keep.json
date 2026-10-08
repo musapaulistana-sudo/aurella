@@ -1,0 +1,6444 @@
+{
+  "keepSkus": [
+    "PFB6280172",
+    "PFB7538561",
+    "PFB7538876",
+    "LOR7078840",
+    "LOR6031906",
+    "LOR7078857",
+    "LOR7252361",
+    "LOR6031880",
+    "LOR6500843",
+    "LOR7289876",
+    "LOR7575340",
+    "LOR6031971",
+    "LOR6031989",
+    "LOR6031997",
+    "LOR6031815",
+    "LOR6031807",
+    "LOR6031823",
+    "LOR7528844",
+    "LOR6032037",
+    "LOR6032045",
+    "LOR6323071",
+    "LOR6323055",
+    "LOR7087890",
+    "LOR6031898",
+    "LOR6031864",
+    "LOR7404988",
+    "LOR7246538",
+    "LOR7115196",
+    "LOR6031930",
+    "LOR6031948",
+    "LOR7404954",
+    "LOR6032011",
+    "LOR7074385",
+    "LOR7074393",
+    "LOR6032029",
+    "LOR7127498",
+    "LOR7287631",
+    "SVR6059568",
+    "SVR7073619",
+    "SVR6342097",
+    "SVR6233676",
+    "SVR6233668",
+    "SVR7100586",
+    "SVR6235176",
+    "SVR7248849",
+    "SVR6089599",
+    "SVR6360180",
+    "SVR7249649",
+    "SVR7290866",
+    "SVR6841585",
+    "LOR7330795",
+    "LOR6876607",
+    "LOR6948687",
+    "LOR7080242",
+    "LOR6887752",
+    "LOR6876631",
+    "LOR6865063",
+    "LOR6877522",
+    "LOR6943134",
+    "LOR6876649",
+    "LOR6964643",
+    "LOR7537753",
+    "LOR7588814",
+    "BDR6634865",
+    "BDR7252924",
+    "BDR6090514",
+    "BDR7407007",
+    "BDR6642652",
+    "BDR6090548",
+    "BDR6923706",
+    "BDR6923672",
+    "BDR7577239",
+    "BDR7577197",
+    "BDR7552349",
+    "BDR6465096",
+    "BDR6584003",
+    "BDR7275081",
+    "BDR6330696",
+    "BDR7252940",
+    "BDR7252916",
+    "BDR6006635",
+    "BDR6006643",
+    "BDR6384792",
+    "BDR6819755",
+    "BDR6812743",
+    "BDR6879783",
+    "BDR6812750",
+    "BDR6337584",
+    "BDR6602805",
+    "BDR7606129",
+    "BDR7606111",
+    "BDR7406926",
+    "BDR7522789",
+    "BDR7595678",
+    "BDR6079889",
+    "BDR7522680",
+    "BDR6878298",
+    "BDR7253526",
+    "BDR6352195",
+    "BDR6642660",
+    "BDR6642678",
+    "BDR7252908",
+    "BDR7527697",
+    "BDR7259499",
+    "BDR7269399",
+    "BDR7080671",
+    "BDR6276311",
+    "BDR6050849",
+    "BDR6050906",
+    "BDR6050799",
+    "BDR6050757",
+    "BDR7259481",
+    "BDR6050864",
+    "BDR6050856",
+    "BDR7466466",
+    "BDR7464289",
+    "SVR7269837",
+    "LOR7089383",
+    "LOR6670976",
+    "LOR6670984",
+    "LOR7103044",
+    "LOR7103051",
+    "LOR7314385",
+    "LOR7304824",
+    "LOR6948240",
+    "LOR7254342",
+    "LOR7304816",
+    "LOR7523126",
+    "LOR7260026",
+    "LOR7103077",
+    "LOR7260018",
+    "LOR7260000",
+    "LOR7259986",
+    "LOR6670240",
+    "LOR7103028",
+    "LOR7530139",
+    "LOR7257451",
+    "LOR7127290",
+    "LOR7127282",
+    "LOR6964254",
+    "LOR6922898",
+    "LOR6922906",
+    "LOR6006429",
+    "LOR7098632",
+    "LOR7329748",
+    "LOR7421818",
+    "LOR7468652",
+    "LOR7329730",
+    "LOR7614669",
+    "LOR6994590",
+    "LOR7521179",
+    "LOR7539668",
+    "LOR6464131",
+    "LOR6479824",
+    "LOR7523886",
+    "LOR7289496",
+    "LOR7468165",
+    "LOR7530147",
+    "LOR6388041",
+    "LOR7552182",
+    "LOR7290221",
+    "LOR7290213",
+    "LOR6347286",
+    "LOR7103168",
+    "LOR7103176",
+    "LOR6829333",
+    "LOR7602607",
+    "LOR7589069",
+    "LOR7487942",
+    "LOR6385849",
+    "LOR6724252",
+    "LOR6044982",
+    "LOR7127316",
+    "LOR7558841",
+    "LOR7558858",
+    "LOR6343327",
+    "LOR6063701",
+    "LOR7080853",
+    "6891762",
+    "7270579",
+    "SVR6503607",
+    "SVR7523860",
+    "SVR7126581",
+    "SVR7245266",
+    "SVR6035519",
+    "SVR6287821",
+    "SVR7125005",
+    "SVR6287870",
+    "SVR6287862",
+    "SVR6287847",
+    "SVR7515650",
+    "SVR7528059",
+    "SVR6050930",
+    "SVR6392027",
+    "SVR6392035",
+    "SVR6677310",
+    "SVR7299420",
+    "SVR7304725",
+    "SVR6677302",
+    "SVR7124982",
+    "SVR6967968",
+    "SVR7471268",
+    "SVR7290841",
+    "SVR7126482",
+    "SVR7092825",
+    "SVR7260364",
+    "SVR7477372",
+    "SVR7254086",
+    "SVR7269597",
+    "SVR6392001",
+    "SVR7477331",
+    "SVR7477349",
+    "SVR6291286",
+    "SVR7111005",
+    "SVR7260372",
+    "SVR7477380",
+    "SVR6050674",
+    "SVR7111013",
+    "SVR6287896",
+    "SVR6287888",
+    "SVR7085530",
+    "SVR7239434",
+    "SVR6963546",
+    "SVR7087569",
+    "SVR6393173",
+    "SVR7406207",
+    "SVR6503524",
+    "LOR7576207",
+    "LOR7576199",
+    "LOR7576215",
+    "LOR7576223",
+    "SVR7112698",
+    "SVR6959460",
+    "SVR6977413",
+    "LAZ6618942",
+    "LAZ6618934",
+    "LAZ7085209",
+    "LAZ6618876",
+    "EDO4748",
+    "EDO7775957",
+    "EDO7575209",
+    "EDO4743",
+    "EDO015",
+    "EDO4747",
+    "BAR6565192",
+    "BAR7078931",
+    "BAR7078949",
+    "BAR7612457",
+    "LAZ6342279",
+    "LAZ6342287",
+    "LAZ6605451",
+    "LAZ6342188",
+    "LAZ6342204",
+    "LAZ6342212",
+    "LAZ6342196",
+    "BAR7297309",
+    "NOR6891127",
+    "FFA041473",
+    "FFA024695",
+    "FFA024694",
+    "FFA020074",
+    "FFA027045",
+    "FFA041476",
+    "FFA020058",
+    "FFA020059",
+    "FFA042797",
+    "FFA027118",
+    "FFA040092",
+    "FFA025864",
+    "FFA027051",
+    "FFA027161",
+    "LAZ7304741",
+    "LAZ7420091",
+    "LAZ7291294",
+    "LAZ6342261",
+    "LAZ6342329",
+    "8000PFM.LEVEL1",
+    "LAZ7312116",
+    "SEGSE021",
+    "LAZ7278903",
+    "LAZ6342378",
+    "LAZ6618900",
+    "LAZ6618892",
+    "LAZ6618884",
+    "LAZ6618868",
+    "LAZ6618850",
+    "LAZ7085191",
+    "LAZ6618843",
+    "LOR7563296",
+    "LOR7563304",
+    "LOR7563288",
+    "LOR7304808",
+    "LOR7563346",
+    "LOR7563338",
+    "FAE6589168",
+    "FAE7011593",
+    "FAE6116269",
+    "EDO4746",
+    "PFB6079657",
+    "PFB6426551",
+    "PFB7530980",
+    "PFB6916759",
+    "PFB6280180",
+    "PFB7248997",
+    "PFB7062992",
+    "PFB7081646",
+    "PFB7556092",
+    "PFB7536433",
+    "PFB7518449",
+    "PFB7541151",
+    "PFB7438614",
+    "PFB7560763",
+    "PFB6595777",
+    "PFB6576199",
+    "PFB6595785",
+    "PFB7530782",
+    "PFB7486472",
+    "PFB7103564",
+    "PFB7491407",
+    "PFB7553578",
+    "PFB7553586",
+    "PFB7559021",
+    "PFB7559245",
+    "PFB7559252",
+    "GEN9924605",
+    "BAR6875484",
+    "BAR6895599",
+    "BAR6011874",
+    "BAY8677104",
+    "BAY6081216",
+    "BAY6412536",
+    "BAY8445205",
+    "LOR7597260",
+    "LOR7597294",
+    "LOR7543967",
+    "LOR7560938",
+    "LOR7560946",
+    "LOR7528810",
+    "LOR7537696",
+    "LOR7528828",
+    "LOR7597302",
+    "LOR7560904",
+    "LOR7560920",
+    "LOR7560896",
+    "LOR7532838",
+    "LOR7551663",
+    "LOR7539254",
+    "LOR7575332",
+    "LOR7543942",
+    "LOR7543959",
+    "BRA503",
+    "URI7486209",
+    "URI7260935",
+    "URI7586610",
+    "URI7533430",
+    "DIS6264820",
+    "DIS6495184",
+    "URG7462374",
+    "URG7462382",
+    "BRM002",
+    "F003",
+    "NAT011",
+    "F004",
+    "F010",
+    "PFB7771600",
+    "PFB7536441",
+    "FFA952144",
+    "FFA944758",
+    "FFA944693",
+    "FFA944695",
+    "FFA944697",
+    "FFA958484",
+    "FFA958486",
+    "FFA958492",
+    "FFA958494",
+    "FFA954895",
+    "FFA954871",
+    "FFA951868",
+    "FFA937192",
+    "FFA932396",
+    "FFA958512",
+    "FFA958513",
+    "FFA958514",
+    "FFA924203",
+    "FFA958319",
+    "FFA958322",
+    "FFA949156",
+    "FFA074205",
+    "FFA049439",
+    "FFA048751",
+    "FFA958326",
+    "FFA073908",
+    "FFA054321",
+    "FFA954179",
+    "FFA944197",
+    "FFA949032",
+    "FFA222161",
+    "FFA920724",
+    "FFA051602",
+    "FFA939387",
+    "FFA925544",
+    "FFA925545",
+    "FFA958342",
+    "FFA049441",
+    "FFA938169",
+    "FFA938173",
+    "FFA942142",
+    "FFA942133",
+    "FFA759389",
+    "FFA077202",
+    "FFA938125",
+    "FFA942206",
+    "FFA942193",
+    "FFA951871",
+    "FFA951873",
+    "FFA954296",
+    "FFA958496",
+    "FFA940894",
+    "FFA944648",
+    "FFA938194"
+  ],
+  "products": [
+    {
+      "sku": "PFB6280172",
+      "name": "Avene Cicalfate Creme 100ml",
+      "brand": "Avène",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "PFB7538561",
+      "name": "AVENE Hyaluron Activ Procedure Cr Olhos e Lábios",
+      "brand": "Avène",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "PFB7538876",
+      "name": "AVENE Hyaluron Activ Procedure Creme Lifting 0,1%",
+      "brand": "Avène",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7078840",
+      "name": "Cerave Acne Gel Limpeza Anti-Imperf. 236 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6031906",
+      "name": "Cerave Agua Micelar 295 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7078857",
+      "name": "Cerave AHA BHA Serum Gel Anti-Imperf 40 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7252361",
+      "name": "Cerave Balsamo Reparador Avançado 50 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6031880",
+      "name": "Cerave Creme Espuma de Limpeza 473 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6500843",
+      "name": "Cerave Creme Espuma de Limpeza Hidratante 236 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7289876",
+      "name": "Cerave Creme Espuma de Limpeza Hidratante 473ML",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7575340",
+      "name": "Cerave Creme Hidratante 177 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6031971",
+      "name": "Cerave Creme Hidratante 177 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6031989",
+      "name": "Cerave Creme Hidratante 340 gr",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6031997",
+      "name": "Cerave Creme Hidratante 454 gr",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6031815",
+      "name": "Cerave Creme Hidratante de Limpeza 1 L",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6031807",
+      "name": "Cerave Creme Hidratante de Limpeza 236 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6031823",
+      "name": "Cerave Creme Hidratante de Limpeza 473 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7528844",
+      "name": "Cerave Creme Hidratante Refill 454 gr",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6032037",
+      "name": "Cerave Creme Renovador de pes SA Smoothing 88 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6032045",
+      "name": "Cerave Creme Reparador de Maos 50 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6323071",
+      "name": "Cerave Creme SA Smoothing 340 gr",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6323055",
+      "name": "Cerave Gel de Limpeza SA Smoothing 236 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7087890",
+      "name": "Cerave Gel de Limpeza SA Smoothing 473 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6031898",
+      "name": "Cerave Gel Espuma de Limpeza 1 L",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6031864",
+      "name": "Cerave Gel Espuma de Limpeza 236 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7404988",
+      "name": "Cerave Loçao Facial Hidratante Oil Control 52 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7246538",
+      "name": "Cerave Loçao Facial Hidratante SPF30 52 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7115196",
+      "name": "Cerave Loçao Facial Hidratante SPF50 52 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6031930",
+      "name": "Cerave loçao hidratante 236 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6031948",
+      "name": "Cerave Loçao Hidratante 473 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7404954",
+      "name": "Cerave Loçao Hidratante Intensiva 473 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6032011",
+      "name": "Cerave Loçao Hidratante Rosto 52 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7074385",
+      "name": "Cerave Oleo-Espuma de Limpeza Hidratante 236 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7074393",
+      "name": "Cerave Oleo-Espuma de Limpeza Hidratante 473 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6032029",
+      "name": "Cerave Reparador Contorno Olhos 14 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7127498",
+      "name": "Cerave Retinol Serum Antimarcas 30 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7287631",
+      "name": "Cerave Serum Acido Hialuronico 30 ml",
+      "brand": "CeraVe",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6059568",
+      "name": "Cicavit DM+ Cicatrizes SVR 15gr",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7073619",
+      "name": "Cicavit+ Creme de Mãos SVR 75gr",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6342097",
+      "name": "Cicavit+ Creme SPF50+ SVR 40ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6233676",
+      "name": "Cicavit+ Creme SVR 100ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6233668",
+      "name": "Cicavit+ Creme SVR 40ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7100586",
+      "name": "Cicavit+ Gel Moussant SVR 200ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6235176",
+      "name": "Cicavit+ SOS Prurido SVR 40ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7248849",
+      "name": "Clairial Ampoule Despigmentante SVR 30ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6089599",
+      "name": "Clairial Creme de Dia Despigmentante SVR 30ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6360180",
+      "name": "Clairial Night Peel SVR 50ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7249649",
+      "name": "Clairial SPF50+ Creme despigmentante SVR 40ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7290866",
+      "name": "Densitium Creme Antienv. SPF30 SVR 50ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6841585",
+      "name": "Densitium Creme Contorno dos Olhos SVR 15ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7330795",
+      "name": "Dercos Champo Anticaspa 2em1 390 ml",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6876607",
+      "name": "Dercos Champo Anticaspa DS 200 ml",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6948687",
+      "name": "Dercos Champo Anticaspa Oleosos 390 ml",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7080242",
+      "name": "Dercos Champo Anticaspa Queratorredutor PSO 200 ml",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6887752",
+      "name": "Dercos Champo Anticaspa Sensitive 200 ml",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6876631",
+      "name": "Dercos Champo Energy+ Antiqueda 200 ml",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6865063",
+      "name": "Dercos Champo Energy+ Antiqueda 400 ml",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6877522",
+      "name": "Dercos Champo Mineral Soft Fortificante 400 ml",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6943134",
+      "name": "Dercos Champo Neogenic Redensificador 400 ml",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6876649",
+      "name": "Dercos Champo Sebo Regulador 200 ml",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6964643",
+      "name": "Dercos Champo Seco Anticaspa 390 ml",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7537753",
+      "name": "Dercos Condicionador Anticaspa 200 ml",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7588814",
+      "name": "Dercos Duplo Champo Anticaspa Oleosos 390 ml+Refil",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6634865",
+      "name": "Eucerin After Sun Sensitive Relief Gel Creme 200 m",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7252924",
+      "name": "Eucerin Anti-Pigment Contorno de Olhos 15 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6090514",
+      "name": "Eucerin Anti-Pigment Creme de Dia SPF30 50 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7407007",
+      "name": "Eucerin Anti-Pigment Gel de Limpeza 400 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6642652",
+      "name": "Eucerin Anti-Pigment Serum Iluminador 30 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6090548",
+      "name": "Eucerin Anti-Pigment Stick Corretor Manchas 5 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6923706",
+      "name": "Eucerin Atopi Control Creme Calmante 40 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6923672",
+      "name": "Eucerin Atopi Control Loçao Calmante 400 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7577239",
+      "name": "Eucerin Coffret Anti-Pigment Serum+Dia SPF30",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7577197",
+      "name": "Eucerin Coffret Elasticity Rose SPF30+Elast Noite",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7552349",
+      "name": "Eucerin Duo Atopi Control Loçao Apazig 24X400 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6465096",
+      "name": "Eucerin Duo Gel de Higien Intima 2X250 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6584003",
+      "name": "Eucerin Duo Gel de Higiene Intima 250 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7275081",
+      "name": "Eucerin Duo Urea Repair Creme Pes 10% Ureia 2X100m",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6330696",
+      "name": "Eucerin Elasticity Contorno de Olhos 15 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7252940",
+      "name": "Eucerin Elasticity Creme Corpo 200 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7252916",
+      "name": "Eucerin Elasticity Creme de Dia Rose SPF30 50 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6006635",
+      "name": "Eucerin Elasticity Creme de Dia SPF15 50 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6006643",
+      "name": "Eucerin Elasticity Creme de Noite 50 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6384792",
+      "name": "Eucerin Elasticity Serum 3D 30 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6819755",
+      "name": "Eucerin HF 3X Effect Contorno dos Olhos 15 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6812743",
+      "name": "Eucerin HF 3X Effect Creme de Dia SPF15 50 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6879783",
+      "name": "Eucerin HF 3X Effect Creme de Dia SPF15 PNM 50 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6812750",
+      "name": "Eucerin HF 3X Effect Creme de Noite 50 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6337584",
+      "name": "Eucerin HF 3X Effect Moisture Booster 30 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6602805",
+      "name": "Eucerin HF 3X Effect Skin Refining 30 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7606129",
+      "name": "Eucerin Hyaluron Filler Serum Epigenetic 30 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7606111",
+      "name": "Eucerin Hyaluron Filler Serum Epigenetic 30 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7406926",
+      "name": "Eucerin Hyaluron Filler Serum Epigenetic 30 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7522789",
+      "name": "Eucerin PH5 Gel e Oleo Duche Recarga 400 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7595678",
+      "name": "Eucerin PH5 Oleo de Duche 1 LT",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6079889",
+      "name": "Eucerin PH5 Oleo de Duche 1 LT",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7522680",
+      "name": "Eucerin PH5 Oleo e Gel 1 LT",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6878298",
+      "name": "Eucerin Sun Allergy Protect Gel Creme SPF50+ 150ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7253526",
+      "name": "Eucerin Sun Gel Creme Oil Control DT SPF30 50 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6352195",
+      "name": "Eucerin Sun Gel Creme Oil Control DT SPF50+ 200ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6642660",
+      "name": "Eucerin Sun Gel Creme Oil Control Tinted Claro 50m",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6642678",
+      "name": "Eucerin Sun Gel Creme Oil Control Tinted Medio 50m",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7252908",
+      "name": "Eucerin Sun Hydra Protect Flui UL SPF50+ 50 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7527697",
+      "name": "Eucerin Sun Hydroprotect Teinted Claro SPF50+ 50ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7259499",
+      "name": "Eucerin Sun Kids Sensit Protect Spray SPF50+ 250ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7269399",
+      "name": "Eucerin Sun Pigm Control Tinted Claro SPF50+ 50ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7080671",
+      "name": "Eucerin Sun Pigm Control Tinted Medio SPF50+ 50ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6276311",
+      "name": "Eucerin Sun Pigment Control Fluid SPF50+ 50 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6050849",
+      "name": "Eucerin Sun Protec Oil Control DT Spray Tran 200ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6050906",
+      "name": "Eucerin Sun Protect Kids Sensit Spray SPF50+ 200ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6050799",
+      "name": "Eucerin Sun Sensit Protect Body Spray SPF50+ 200ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6050757",
+      "name": "Eucerin Sun Sensitive Protect Creme SPF50+ 50 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7259481",
+      "name": "Eucerin Sun Sensitive Protect Kids DT SPF50+ 400ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6050864",
+      "name": "Eucerin Sun Spray Transp Oil Control DT SPF50 50ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR6050856",
+      "name": "Eucerin Sun Spray Transp Oil Control SPF30 50ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7466466",
+      "name": "Eucerin Urea Repair Creme Pes 10% Ureia 100 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "BDR7464289",
+      "name": "Eucerin Urea Repair Loçao 10% Ureia 400 ml",
+      "brand": "Eucerin",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7269837",
+      "name": "Hydraliane Creme Hidratante SVR 50ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7089383",
+      "name": "La Roche-Posay Anthelios 100 KA+ Med Creme 50ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6670976",
+      "name": "La Roche-Posay Anthelios Age Correct com Cor SPF50 50ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6670984",
+      "name": "La Roche-Posay Anthelios Age Correct s/ Cor SPF50 50ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7103044",
+      "name": "La Roche-Posay Anthelios Creme Hidratante c/ Cor UVmune 400",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7103051",
+      "name": "La Roche-Posay Anthelios Creme Hidratante UVmune 400 SPF50+",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7314385",
+      "name": "La Roche-Posay Anthelios Dermo-Pediátrico Spray SPF50+ Duo (",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7304824",
+      "name": "La Roche-Posay Anthelios Dermo-Pediatrics Fluido Invisível S",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6948240",
+      "name": "La Roche-Posay Anthelios Dermo-Pediatrics Leite Bebé SPF50+",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7254342",
+      "name": "La Roche-Posay Anthelios Dermo-Pediatrics Loção Wet Skin SPF",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7304816",
+      "name": "La Roche-Posay Anthelios Dermo-Pediatrics Spray SPF50+ 200ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7523126",
+      "name": "La Roche-Posay Anthelios Fluido Antimanchas UVMune 400 SPF50",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7260026",
+      "name": "La Roche-Posay Anthelios Fluido c/ Cor Oil Control UVmune 40",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7103077",
+      "name": "La Roche-Posay Anthelios Fluido Invisível UVmune 400 SPF50+",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7260018",
+      "name": "La Roche-Posay Anthelios Fluido Oil Control UVmune 400 SPF50",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7260000",
+      "name": "La Roche-Posay Anthelios Gel-Creme c/ Cor SPF50+ 50ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7259986",
+      "name": "La Roche-Posay Anthelios Gel-Creme Oil Control SPF50+ Sem Pe",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6670240",
+      "name": "La Roche-Posay Anthelios Leite Hidratante SPF50+ Sem Perfume",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7103028",
+      "name": "La Roche-Posay Anthelios Spray Familiar SPF50+ 300ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7530139",
+      "name": "La Roche-Posay Anthelios Wet Skin Dermo-Pediatrics SPF50+ 20",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7257451",
+      "name": "La Roche-Posay Cicaplast B5 Sérum Reparador 30ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7127290",
+      "name": "La Roche-Posay Cicaplast Bálsamo B5+ 100ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7127282",
+      "name": "La Roche-Posay Cicaplast Bálsamo B5+ 40ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6964254",
+      "name": "La Roche-Posay Cicaplast Bálsamo B5+ SPF50 40ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6922898",
+      "name": "La Roche-Posay Cicaplast Bálsamo Labial 7.5ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6922906",
+      "name": "La Roche-Posay Cicaplast Creme de Mãos 50ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6006429",
+      "name": "La Roche-Posay Cicaplast Gel B5 40ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7098632",
+      "name": "La Roche-Posay Lipikar Bálsamo Light AP+M 400ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7329748",
+      "name": "La Roche-Posay Lipikar Gel Lavante 1L",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7421818",
+      "name": "La Roche-Posay Lipikar Gel Ureia 30% 50ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7468652",
+      "name": "La Roche-Posay Lipikar Leite Corporal AP 48h 750ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7329730",
+      "name": "La Roche-Posay Lipikar Óleo Lavante AP+ 1L",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7614669",
+      "name": "La Roche-Posay Lipikar Óleo Lavante AP+ Recarga 400ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6994590",
+      "name": "La Roche-Posay Lipikar Syndet AP+ Creme Lavante 400ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7521179",
+      "name": "La Roche-Posay Pack Mela B3 Sérum 30ml + Anthelios UVmune 40",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7539668",
+      "name": "La Roche-Posay Pack Retinol B3 Sérum + Anthelios UVmune 400",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6464131",
+      "name": "LRP EAU THERMALE 150ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6479824",
+      "name": "LRP EAU THERMALE 300ML",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7523886",
+      "name": "LRP Effaclar AZ Gel Creme Anti-Imperfeiçoes 40 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7289496",
+      "name": "LRP Effaclar Duo+ M Tratamento Corretor AI 40 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7468165",
+      "name": "LRP Effaclar Duo+ SPF30 40ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7530147",
+      "name": "LRP Effaclar Duo+M Patch Anti-Imperfeiçoes 22 un",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6388041",
+      "name": "LRP Effaclar Foaming Gel Cleanser Refill 400 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7552182",
+      "name": "LRP Effaclar Gel de Limpeza Purificante 400 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7290221",
+      "name": "LRP Effaclar Gel Limpador Purificante 200 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7290213",
+      "name": "LRP Effaclar Gel Limpador Purificante 400 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6347286",
+      "name": "LRP Effaclar Gel Purific Micro Esfoliante 200 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7103168",
+      "name": "LRP Effaclar H Iso-Biome Calmante/ Reparador 40 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7103176",
+      "name": "LRP Effaclar H Iso-Biome Creme Lavante 200 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6829333",
+      "name": "LRP Effaclar Mat+ Hidratante 40 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7602607",
+      "name": "LRP Effaclar MAT+ Hidratatante 40 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7589069",
+      "name": "LRP Effaclar MAT+ Hidratatante 40 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7487942",
+      "name": "LRP Effaclar MAT+ Hidratatante 40 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6385849",
+      "name": "LRP Effaclar Serum Ultra Concentrado 30 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6724252",
+      "name": "LRP Hyalu B5 Aquagel SPF30 50 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6044982",
+      "name": "LRP Hyalu B5 Cuidado Reparador 40 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7127316",
+      "name": "LRP Hyalu B5 Serum Olhos 15 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7558841",
+      "name": "LRP Pack Rotina Antimanchas Mela B3 Serum+Creme E",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7558858",
+      "name": "LRP Pack Rotina Antimanchas Mela B3 Serum+Pigment",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6343327",
+      "name": "LRP Pure Vitamine C Fluido Anti-Rugas 40 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR6063701",
+      "name": "LRP Redermic Retinol Concentrado 30 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7080853",
+      "name": "LRP Toleriane Dermallergo Olhos 20 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "6891762",
+      "name": "LRP Toleriane Espuma Agua Micelar 150 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "7270579",
+      "name": "LRP Toleriane Foaming Gel Cleanser 400 ml",
+      "brand": "La Roche Posay",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6503607",
+      "name": "Mascara Hydra Intensiva SVR 12gr",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7523860",
+      "name": "Promo Sebiaclear Serum OFT Micro-Peel SVR30ml+30ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7126581",
+      "name": "Promo Topialyse Baume Protect+ SVR 2X400ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7245266",
+      "name": "Recarga Sebiaclear Agua Micelar SVR 400ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6035519",
+      "name": "Sebiaclear Agua Micelar SVR 400ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6287821",
+      "name": "Sensifine Dermo-Nettoyant Desmaquilhante 400ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7125005",
+      "name": "Spirial Deo Douche SVR 400ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6287870",
+      "name": "Spirial Deo Roll-on Vegetal Antitransp SVR 50ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6287862",
+      "name": "Spirial Deo Spray Antitranspirante SVR 75ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6287847",
+      "name": "Spirial Duo Deo Roll-on 2-1 Antitransp SVR 2x50ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7515650",
+      "name": "Spirial Extreme Antitranspirante SVR 20ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7528059",
+      "name": "SVR [C] EYE Biotic 15ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6050930",
+      "name": "SVR AK Secure DM Protect 50ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6392027",
+      "name": "SVR Ampoule B 30 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6392035",
+      "name": "SVR Ampoule C 30 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6677310",
+      "name": "SVR C20biotic 50 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7299420",
+      "name": "SVR Fluide Photo Age SPS50 40 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7304725",
+      "name": "SVR Gommage Corps 100 gr",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6677302",
+      "name": "SVR Hyalubiotic 50 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7124982",
+      "name": "SVR Sebiaclear Ampoule AZ 30 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6967968",
+      "name": "SVR Sebiaclear Cicapeel 15 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7471268",
+      "name": "SVR Sebiaclear Hydra 40 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7290841",
+      "name": "SVR Sebiaclear Spray Corps 150 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7126482",
+      "name": "SVR Sensifine Aquagel 40 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7092825",
+      "name": "SVR Sensifine AR Creme Teinte 40 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7260364",
+      "name": "SVR Sun Secure Blur Teinte Hale SPF50+ 50 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7477372",
+      "name": "SVR Sun Secure Creme SPF50+ 50ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7254086",
+      "name": "SVR Sun Secure Eau Solaire SPF30 200ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7269597",
+      "name": "SVR Sun Secure Eau Solaire SPF50+ 100ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6392001",
+      "name": "SVR Sun Secure Eau Solaire SPF50+ 200ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7477331",
+      "name": "SVR Sun Secure Ecra Mineral Teintee PNM 50 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7477349",
+      "name": "SVR Sun Secure Ecra Mineral Teintee PS 50 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6291286",
+      "name": "SVR Sun Secure Extreme SPF50+ 50 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7111005",
+      "name": "SVR Sun Secure Lait Apres Soleil 200 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7260372",
+      "name": "SVR Sun Secure Lait Sem Perfume 250ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7477380",
+      "name": "SVR Sun Secure Leite SPF50+ 100 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6050674",
+      "name": "SVR Sun Secure Oleo SPF50 200ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7111013",
+      "name": "SVR Sun Secure Spray Pocket 20 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6287896",
+      "name": "SVR Sun Secure Spray SPF50+ 200 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6287888",
+      "name": "SVR Sun Secure Stick SPF50+ 10gr",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7085530",
+      "name": "SVR Topialyse Gel Lavante Eco-Refil 1 ltl",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7239434",
+      "name": "SVR Xerial Psoriasis DM 200 ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6963546",
+      "name": "Topialyse Creme Palpebral SVR 15ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7087569",
+      "name": "Topialyse Oleo Lavante Eco-Refill SVR1L",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6393173",
+      "name": "Topialyse Oleo Lavante Preço Especial SVR 1lt",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7406207",
+      "name": "Topialyse Palpebral Baume Rosto SVR 30ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6503524",
+      "name": "Topialyse Palpebral Desmaquilhante SVR 125ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7576207",
+      "name": "VICHY Coffret Anti-Idade Homem",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7576199",
+      "name": "VICHY Coffret Collagen Specialist Serum+ Creme Dia",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7576215",
+      "name": "VICHY Coffret Lifactiv Pigment Special. Dia/ Noite",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LOR7576223",
+      "name": "VICHY Coffret Neovadiol Magistral Dia/ Noite",
+      "brand": "Vichy",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR7112698",
+      "name": "Xerial 10 Leite Corpo SVR 400ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6959460",
+      "name": "Xerial 50 Extreme Creme Pés SVR 50ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "SVR6977413",
+      "name": "Xerial Creme Fissuras e Gretas SVR 50ml",
+      "brand": "SVR",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 160,
+      "published": true
+    },
+    {
+      "sku": "LAZ6618942",
+      "name": "1.00 Coloração Permanente - Preto LAZARTIGUE",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ6618934",
+      "name": "4.00 Coloração Permanente - Castanho LAZARTIGUE",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ7085209",
+      "name": "5.35 Coloração Permanente - Chocolate LAZARTIGUE",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ6618876",
+      "name": "7.00 Coloração Permanente - Louro LAZARTIGUE",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "EDO4748",
+      "name": "ATL CREME GORDO 100G",
+      "brand": "ATL",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "EDO7775957",
+      "name": "ATL CREME HIDRATANTE 100G",
+      "brand": "ATL",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "EDO7575209",
+      "name": "ATL CREME HIDRATANTE 100G",
+      "brand": "ATL",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "EDO4743",
+      "name": "ATL CREME HIDRATANTE 100G",
+      "brand": "ATL",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "EDO015",
+      "name": "ATL CREME HIDRATANTE 1KG",
+      "brand": "ATL",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "EDO4747",
+      "name": "ATL PASTA DE LASSAR 50G",
+      "brand": "ATL",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "BAR6565192",
+      "name": "Barral Creme Gordo 200ml",
+      "brand": "Barral",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "BAR7078931",
+      "name": "Barral Intima Neutro 200 ml",
+      "brand": "Barral",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "BAR7078949",
+      "name": "Barral Intima Prevenção 200 ml",
+      "brand": "Barral",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "BAR7612457",
+      "name": "Barral MotherProtect Creme Gordo Olea Amend 200ml",
+      "brand": "Barral",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ6342279",
+      "name": "Champô Equilibrante LAZARTIGUE 250ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ6342287",
+      "name": "Champô Extra Suave LAZARTIGUE 250ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ6605451",
+      "name": "Champô Extra Suave LAZARTIGUE 50ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ6342188",
+      "name": "Champô Fortificante LAZARTIGUE 250ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ6342204",
+      "name": "Champô Proteção Luminosida e Cor LAZARTIGUE 250ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ6342212",
+      "name": "Champô Purificante LAZARTIGUE 250ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ6342196",
+      "name": "Champô Reparação Intensa LAZARTIGUE 250ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "BAR7297309",
+      "name": "CREME BARRAL DP HYDRA+ 1KG",
+      "brand": "Barral",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "NOR6891127",
+      "name": "CREME NOR LIPOLEUM CR HYDRAPLUS 1KG",
+      "brand": "Noreva",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA041473",
+      "name": "Essence Lapis de Olhos - LongLasting Azul 09",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA024695",
+      "name": "Essence Lapis de Olhos - LongLasting Chocolate 02",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA024694",
+      "name": "Essence Lapis de Olhos - LongLasting Preto 01",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA020074",
+      "name": "Essence Lapis de Olhos Kajal Branco 04",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA027045",
+      "name": "Essence Lapis de Olhos Kajal Castanho 08",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA041476",
+      "name": "Essence Lapis de Olhos Kajal Cinza 15",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA020058",
+      "name": "Essence Lapis de Sobrancelhas Eyebrow Designer 01",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA020059",
+      "name": "Essence Lapis de Sobrancelhas Eyebrow Designer 02",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA042797",
+      "name": "Essence Mascara de Volume - All Eyes On Me",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA027118",
+      "name": "Essence Mascara Gel Sobranc e Pest - Lash & Brow",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA040092",
+      "name": "Essence Po Bronzeador Mate Sun Club 01",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA025864",
+      "name": "Essence Po Bronzeador Mate Sun Club 02",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA027051",
+      "name": "Essence Po Compacto Matificante 02",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "FFA027161",
+      "name": "Essence Po Compacto Matificante 04",
+      "brand": "Essence",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ7304741",
+      "name": "LAZARTIGUE Champo Cica-Calm Dermosuavizante 250 ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ7420091",
+      "name": "LAZARTIGUE Champo Extra-Gentle Eco-Refill 500 ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ7291294",
+      "name": "LAZARTIGUE Champo Neutralize Antiamarelec 250 ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ6342261",
+      "name": "LAZARTIGUE Champo Volumize 250 ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ6342329",
+      "name": "LAZARTIGUE Mascara Reparaçao Intensa 250 ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "8000PFM.LEVEL1",
+      "name": "PENSO ID FOR MEN (LEVEL1) 10UN",
+      "brand": "ID",
+      "categories": [
+        {
+          "slug": "cosmetica",
+          "name": "Cosmética"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ7312116",
+      "name": "Promo Champô Solido Oferta Sabonet LAZARTIGUE75gr",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "SEGSE021",
+      "name": "Segle Cleansing Oil 150 ml",
+      "brand": "Segle",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ7278903",
+      "name": "Spray Definição de Caracois LAZARTIGUE 250ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ6342378",
+      "name": "Spray Estruturante Volume Lazartigue 100ml",
+      "brand": "Lazartigue",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 110,
+      "published": true
+    },
+    {
+      "sku": "LAZ6618900",
+      "name": "5.00 Coloração Permanente - Castanho Claro LAZART",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LAZ6618892",
+      "name": "6.00 Coloração Permanente - Louro Escuro LAZARTIG",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LAZ6618884",
+      "name": "6.30 Coloração Perman-Louro Escuro Dourado LAZART",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LAZ6618868",
+      "name": "7.30 Coloração Permanente - Louro Dourado LAZARTI",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LAZ6618850",
+      "name": "8.00 Coloração Permanente - Louro Claro LAZARTIGU",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LAZ7085191",
+      "name": "8.30 Coloração Permanente - Louro Dourado LAZARTI",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LAZ6618843",
+      "name": "9.00 Coloração Perman-Louro Muito Claro LAZARTIGU",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7563296",
+      "name": "ANTHELIOS UV AIR LIGHT SPF50+ 50 ML",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7563304",
+      "name": "ANTHELIOS UV AIR MEDIUM SPF50+ 50 ML",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7563288",
+      "name": "ANTHELIOS UV AIR SPF50+ 50 ML",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7304808",
+      "name": "ANTHELIOS UV-MUNE 400 DERMOPEDIATRICS LEITE FPS50+ 250ML",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7563346",
+      "name": "ANTHELIOS UVSPORT BRUMA FPS50+ 200ML",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7563338",
+      "name": "ANTHELIOS UVSPORT LOCAO WET SKIN FPS50+ 200ML",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FAE6589168",
+      "name": "Arnidol Gel Stick 15 g",
+      "brand": "Faes Farma",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FAE7011593",
+      "name": "Arnidol Pic Roll-on 30 ml",
+      "brand": "Faes Farma",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FAE6116269",
+      "name": "Arnidol Spray Glaciar 150 ml",
+      "brand": "Faes Farma",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "EDO4746",
+      "name": "ATL SUSPENSÃO ÓXIDO DE ZINCO 150G",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB6079657",
+      "name": "AVENE AGUA TERMAL 150ML OFERTA 50ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB6426551",
+      "name": "AVENE AGUA TERMAL 50ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7530980",
+      "name": "AVENE CICALFATE BALSAMOS REPARADOR LABIOS 10ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB6916759",
+      "name": "AVENE CICALFATE CREME REPARADOR MAOS 100ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB6280180",
+      "name": "AVENE CICALFATE+ CREME 40ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7248997",
+      "name": "AVENE CICALFATE+ CREME SPF50+ 30ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7062992",
+      "name": "AVENE CICALFATE+ EMULSAO HIDRATANTE 40ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7081646",
+      "name": "AVENE CICALFATE+ GEL LAVANTE 200ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7556092",
+      "name": "AVENE CICALFATE+ GEL MASSAGEM CICATRIZES 30ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7536433",
+      "name": "AVENE DUO AGUA TERMAL 300ML 50% DESC. 2ª UNI",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7518449",
+      "name": "AVENE ESFOLIANTE CORPO 200ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7541151",
+      "name": "AVENE HYALURON ACTIV PROCEDURE SERUM 10% 18ML+2ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7438614",
+      "name": "AVENE SOLAR ANTI-PIGMENTACAO 40ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7560763",
+      "name": "AVENE SOLAR AUTOBRONZEADOR HIDRA 100ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB6595777",
+      "name": "AVENE SOLAR COMPACTO AREIA",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB6576199",
+      "name": "AVENE SOLAR COMPACTO DOURADO",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB6595785",
+      "name": "AVENE SOLAR LEITE 50+ 100ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7530782",
+      "name": "AVENE SOLAR ULTRA FLUIDO INIVISIVELSPF50 50ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7486472",
+      "name": "AVENE SOLAR ULTRA FLUIDO LUMINOSIDADE",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7103564",
+      "name": "AVENE SOLAR ULTRA FLUIDO MAT C/ COR",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7491407",
+      "name": "AVENE SOLAR ULTRA FLUIDO OIL CONTROL 50ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7553578",
+      "name": "AVENE SOLAR ULTRA SERUM SPF50+ HIDRATA",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7553586",
+      "name": "AVENE SOLAR ULTRA SERUM SPF50+ LUMINOSIDADE",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7559021",
+      "name": "AVENE SOLAR ULTRA SERUM SPF50+ PREENCHE",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7559245",
+      "name": "AVENE SOLAR ULTRA STICK INVISIVEL SPF50+ 20G",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7559252",
+      "name": "AVENE SOLAR ULTRA STICK INVISIVEL SPF50+ 45G",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "GEN9924605",
+      "name": "Bacitracina Zimaia 500 U.I./g + 2000 U.I./g 10 g",
+      "brand": "Generis",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "BAR6875484",
+      "name": "BARRAL DERMAPROTECT CREME ANTIPRURIDO 100 ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "BAR6895599",
+      "name": "BARRAL DERMAPROTECT CREME BANHO 1000 ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "BAR6011874",
+      "name": "BARRAL STOP 24 CREME 40 GR",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "BAY8677104",
+      "name": "Bepanthene 50 mg/g 30 g creme",
+      "brand": "Bayer",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "BAY6081216",
+      "name": "Bepanthene Baby Pomada 100 gr",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "BAY6412536",
+      "name": "Bepanthene Eczema 50 g",
+      "brand": "Bayer",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "BAY8445205",
+      "name": "Bepanthene Pomada 50 mg/g 30 g",
+      "brand": "Bayer",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7597260",
+      "name": "CERAVE CREME ANTI-RUGOSIDADES SA SMOOTHING 2X340GR",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7597294",
+      "name": "CERAVE CREME HIDRATANTE 340GR C/ 50% DESC. 2ª UN",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7543967",
+      "name": "CERAVE CREME HIDRATANTE INTENSIVO 340GR",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7560938",
+      "name": "CERAVE FLUIDO SOLAR HIDRATANTE INIVISIVEL SPF50+",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7560946",
+      "name": "CERAVE FLUIDO SOLAR OIL CONTROL INIVISIVEL SPF50+",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7528810",
+      "name": "Cerave Gel Limpador Espuma Refill 473 ml",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7537696",
+      "name": "Cerave Gel Limpeza Controlo Imperfeiçoes 473 ml",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7528828",
+      "name": "CERAVE LIMPADORA HIDRATANTE REFILL 473 ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7597302",
+      "name": "CERAVE LOÇAO HIDRATANTE 465 GR C/ 50% DESC. 2ªUN",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7560904",
+      "name": "CERAVE LOCAO SOLAR HIDRATANTE INIVISIVEL SPF30+ 75",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7560920",
+      "name": "CERAVE LOCAO SOLAR HIDRATANTE INIVISIVEL SPF50+ 75",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7560896",
+      "name": "CERAVE LOCAO SOLAR HIDRATANTE INVISIVEL SPF30+ 177",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7532838",
+      "name": "Cerave Mousse Limpeza Reequilibrante 148 ml",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7551663",
+      "name": "CERAVE PACK GEL ESPUMA LIMPEZA+CREME HIDRATANTE",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7539254",
+      "name": "CERAVE PATCH CONTROLO IMPERFEICOES 22 UN",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7575332",
+      "name": "CERAVE SKIN RENEWAL CREME REAFIRMANTE OLHOS 15 ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7543942",
+      "name": "CERAVE SKIN RENEWAL NOITE CREME COM PEPTIDOS 48 ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "LOR7543959",
+      "name": "CERAVE SKIN RENEWAL SERUM RETINOL 30 ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "BRA503",
+      "name": "CHAMPO MENALIND 500ML",
+      "brand": "Hartmann",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        },
+        {
+          "slug": "higiene-pessoal",
+          "name": "Higiene Pessoal"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "URI7486209",
+      "name": "Colagenius Beauty Carteiras 30x11.5 gr",
+      "brand": "Colagenius",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "URI7260935",
+      "name": "Colagenius Beauty Total 60 gummies",
+      "brand": "Colagenius",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "URI7586610",
+      "name": "Colagenius Beauty Total Gold 14 ampolas",
+      "brand": "Colagenius",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "URI7533430",
+      "name": "Colagenius Beauty Total Po 30 saquetas",
+      "brand": "Colagenius",
+      "categories": [
+        {
+          "slug": "protecao-solar",
+          "name": "Proteção Solar"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "DIS6264820",
+      "name": "Corp Cr Regenerador 5% Pantanol 100ml",
+      "brand": "Farline",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "DIS6495184",
+      "name": "Corp Pom Regenerad. 5% Pantanol 100ml",
+      "brand": "Farline",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "URG7462374",
+      "name": "Corpitol Oleo 20 ml",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "URG7462382",
+      "name": "Corpitol Oleo 50 ml",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "BRM002",
+      "name": "CREME DERMOPROTETOR MOLICARE (C/OXIDO ZINCO) 200ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "F003",
+      "name": "CREME GORDO 1000ML EMB. GLOBUS",
+      "brand": "Evakare",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "NAT011",
+      "name": "CREME GORDO C/OLEO AMENDOAS DOCES 500ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "F004",
+      "name": "CREME HIDRATANTE C/OLEO DE JOJOBA 1L",
+      "brand": "Evakare",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "F010",
+      "name": "CREME HIDRATANTE CORPORAL VEGAN 1L EVAKARE",
+      "brand": "Evakare",
+      "categories": [
+        {
+          "slug": "cuidados-do-corpo",
+          "name": "Cuidados do Corpo"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7771600",
+      "name": "DUCRAY EXTRA DOUX CHAMPO 400 ML OFT CHAMPO 200 ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "PFB7536441",
+      "name": "DUCRAY KELUAL DS INTENSIVE CHAMPO 100 ML",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "cabelo",
+          "name": "Cabelo"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA952144",
+      "name": "ESSENCE ACABAMENTO SOMBRA OLHOS EM GEL - FABOWLOUS",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA944758",
+      "name": "ESSENCE BASE HIDRATANTE - SKIN TINT 100",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA944693",
+      "name": "ESSENCE BASE HIDRATANTE - SKIN TINT 20",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA944695",
+      "name": "ESSENCE BASE HIDRATANTE - SKIN TINT 30",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA944697",
+      "name": "ESSENCE BASE HIDRATANTE - SKIN TINT 40",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA958484",
+      "name": "ESSENCE CREME DE LABIOS MATE BLUR SOUFFLE 01",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA958486",
+      "name": "ESSENCE CREME DE LABIOS MATE BLUR SOUFFLE 02",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA958492",
+      "name": "ESSENCE CREME DE LABIOS MATE BLUR SOUFFLE 05",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA958494",
+      "name": "ESSENCE CREME DE LABIOS MATE BLUR SOUFFLE 06",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA954895",
+      "name": "ESSENCE DISNEY ALICE EM WONDERLAND MASCARA PESTANAS FALSAS",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA954871",
+      "name": "ESSENCE DISNEY ALICE EM WONDERLAND PALETA SOMBRA OLHOS 01",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA951868",
+      "name": "ESSENCE LIPGLOSS DE VOLUME WHAT THE FAKE 01",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA937192",
+      "name": "ESSENCE LIPGLOSS DE VOLUME WHAT THE FAKE 02",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA932396",
+      "name": "ESSENCE LIPGLOSS DE VOLUME WHAT THE FAKE 03",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA958512",
+      "name": "ESSENCE LIPGLOSS DE VOLUME WHAT THE FAKE 100",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA958513",
+      "name": "ESSENCE LIPGLOSS DE VOLUME WHAT THE FAKE 101",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA958514",
+      "name": "ESSENCE LIPGLOSS DE VOLUME WHAT THE FAKE 102",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA924203",
+      "name": "ESSENCE MASCARA - MAXIMUM DEFINITION WATERPROOF",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA958319",
+      "name": "ESSENCE MASCARA DE COMPRIMENTO EXTREMO WHAT THE LENGTH PRETA",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA958322",
+      "name": "ESSENCE MASCARA DE COMPRIMENTO WHAT THE LENGTH WATERPROOF",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA949156",
+      "name": "ESSENCE MASCARA DE LABIOS EM GEL - LIP CARE 02",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA074205",
+      "name": "ESSENCE MASCARA DE VOLUME - ALL EYES ON ME WATERPR",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA049439",
+      "name": "Essence Mascara de Volume Get Big Lashes",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        },
+        {
+          "slug": "cuidados-com-a-pele",
+          "name": "Cuidados com a Pele"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA048751",
+      "name": "ESSENCE MASCARA DE VOLUME I LOVE EXTREME",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA958326",
+      "name": "ESSENCE MASCARA DE VOLUME I LOVE EXTREME CRASY WATERP. CASTA",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA073908",
+      "name": "ESSENCE MASCARA DE VOLUME I LOVE EXTREME CRAZY",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA054321",
+      "name": "ESSENCE MASCARA DE VOLUME I LOVE EXTREME WATERPROO",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA954179",
+      "name": "ESSENCE MASCARA EFEITO PEST FALSAS BURGUNDY LASH PRIN",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA944197",
+      "name": "ESSENCE MASCARA EFEITO PEST FALSAS CALL ME QUEEN DRAM",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA949032",
+      "name": "ESSENCE MASCARA EFEITO PEST FALSAS CALL ME QUEEN WATE",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA222161",
+      "name": "ESSENCE MASCARA EFEITO PEST FALSAS LASH PRIN DEF+VOL",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA920724",
+      "name": "ESSENCE MASCARA EFEITO PEST FALSAS LASH PRIN PR/CAST",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA051602",
+      "name": "ESSENCE MASCARA EFEITO PEST FALSAS LASH PRIN WATERPRO",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA939387",
+      "name": "ESSENCE MASCARA EFEITO PESTANAS FALS LASH PRINCESS",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA925544",
+      "name": "ESSENCE MASCARA GEL SOBRANCELHAS - MAKE ME BROW 04",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA925545",
+      "name": "ESSENCE MASCARA GEL SOBRANCELHAS - MAKE ME BROW 05",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA958342",
+      "name": "ESSENCE MASCARA GET BIG BOOSTING DE CURVATURA",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA049441",
+      "name": "ESSENCE MASCARA GET BIG VOLUME",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA938169",
+      "name": "ESSENCE MASCARA LASH LIKE A BOSS ULTRA PRETA",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA938173",
+      "name": "ESSENCE MASCARA LASH LIKE A BOSS WATERPROOF",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA942142",
+      "name": "ESSENCE MASCARA VOL COMPR CAST-LASH WITHOUT LIMITS 02",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA942133",
+      "name": "ESSENCE MASCARA VOL E COMPR-LASH WITHOUT LIMITS EX 01",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA759389",
+      "name": "ESSENCE MASCARA VOLUME E CURVATURA EFEITO FALSAS PESTANAS",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA077202",
+      "name": "ESSENCE MASCARA VOLUME E CURVATURA GET BIG LASHES",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA938125",
+      "name": "ESSENCE MASCARA VOLUME I LOVE EXTREME CRAZY WATERP",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA942206",
+      "name": "ESSENCE OLEO DE LABIOS HYDRA KISS 01",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA942193",
+      "name": "ESSENCE OLEO DE LABIOS HYDRA KISS 03",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA951871",
+      "name": "ESSENCE OLEO DE LABIOS HYDRA KISS 06",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA951873",
+      "name": "ESSENCE OLEO DE LABIOS HYDRA KISS 08",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA954296",
+      "name": "ESSENCE OLEO DE LABIOS HYDRA KISS 09",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA958496",
+      "name": "ESSENCE OLEO DE LABIOS HYDRA KISS 10",
+      "brand": "Opuscare",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA940894",
+      "name": "ESSENCE OLEO DE UNHAS THE NAIL REPAIR",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA944648",
+      "name": "ESSENCE PINCEL DE SOMBRA DE OLHOS EYESHADOW BRUSH",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    },
+    {
+      "sku": "FFA938194",
+      "name": "ESSENCE PRIMER MASCARA LASH PRINCESS EXTRA COM+VOL",
+      "brand": "Mednord",
+      "categories": [
+        {
+          "slug": "maquilhagem",
+          "name": "Maquilhagem"
+        }
+      ],
+      "priority": 10,
+      "published": true
+    }
+  ],
+  "taxonomy": [
+    {
+      "slug": "cuidados-com-a-pele",
+      "name": "Cuidados com a Pele"
+    },
+    {
+      "slug": "cuidados-do-corpo",
+      "name": "Cuidados do Corpo"
+    },
+    {
+      "slug": "protecao-solar",
+      "name": "Proteção Solar"
+    },
+    {
+      "slug": "cabelo",
+      "name": "Cabelo"
+    },
+    {
+      "slug": "higiene-pessoal",
+      "name": "Higiene Pessoal"
+    },
+    {
+      "slug": "maquilhagem",
+      "name": "Maquilhagem"
+    },
+    {
+      "slug": "saude-oral",
+      "name": "Saúde Oral"
+    },
+    {
+      "slug": "cosmetica",
+      "name": "Cosmética"
+    }
+  ]
+}

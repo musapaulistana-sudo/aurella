@@ -1,0 +1,6 @@
+
+UPDATE products p
+SET brand_id = b.id, updated_at = now()
+FROM brands b
+WHERE b.slug = 'essence'
+  AND p.sku IN ('FFA041473','FFA024695','FFA024694','FFA020074','FFA027045','FFA041476','FFA020058','FFA020059','FFA042797','FFA027118','FFA040092','FFA025864','FFA027051','FFA027161');

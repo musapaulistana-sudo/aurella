@@ -1,0 +1,108 @@
+import type { FooterData } from '@/lib/layout/get-footer-data'
+import type { SiteLayoutData } from '@/types/layout'
+import type { StoreProfile } from '@/lib/store-profile/queries'
+import { toStoreMediaUrl } from '@/lib/media/store-media-url'
+import { absoluteUrl } from '@/lib/seo/site-url'
+import { organizationId } from '@/lib/seo/json-ld/merchant-schemas'
+
+type StoreJsonLdInput = {
+  layout: SiteLayoutData
+  footer: FooterData
+  profile: StoreProfile
+}
+
+function formatTelephone(profile: StoreProfile): string | null {
+  if (profile.phone_href?.trim()) {
+    const digits = profile.phone_href.replace(/\D/g, '')
+    if (digits.length >= 10) {
+      if (digits.startsWith('55') && digits.length >= 12) {
+        return `+${digits.slice(0, 2)}-${digits.slice(2, 4)}-${digits.slice(4)}`
+      }
+      return `+55-${digits.slice(0, 2)}-${digits.slice(2)}`
+    }
+  }
+
+  const digits = `${profile.phone_area_code}${profile.phone_number}`.replace(/\D/g, '')
+  if (digits.length < 10) return null
+  return `+55-${digits.slice(0, 2)}-${digits.slice(2)}`
+}
+
+function buildPostalAddress(profile: StoreProfile): Record<string, unknown> | null {
+  const streetParts = [
+    profile.store_street,
+    profile.store_street_number,
+    profile.store_complement,
+  ].filter(Boolean)
+
+  if (streetParts.length === 0 && !profile.store_city) {
+    return null
+  }
+
+  return {
+    '@type': 'PostalAddress',
+    streetAddress: streetParts.join(', ') || undefined,
+    addressLocality: profile.store_city ?? undefined,
+    addressRegion: profile.store_state ?? undefined,
+    postalCode: profile.store_postal_code ?? undefined,
+    addressCountry: profile.store_country || 'BR',
+  }
+}
+
+export function buildStoreJsonLd({
+  layout,
+  footer,
+  profile,
+}: StoreJsonLdInput): Record<string, unknown> | null {
+  const siteUrl = absoluteUrl('/')
+  const orgId = organizationId()
+  if (!siteUrl || !orgId) return null
+
+  const displayName = profile.store_name.trim() || layout.storeName || footer.legal.storeName
+  const legalName =
+    profile.company_legal_name?.trim() ||
+    footer.legal.companyLegalName?.trim() ||
+    displayName
+
+  const store: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'Store',
+    '@id': orgId,
+    name: displayName,
+    legalName,
+    url: siteUrl,
+  }
+
+  const rawLogo = profile.logo_image_url || layout.logo.imageUrl
+  const logo = toStoreMediaUrl(rawLogo)
+  if (logo) {
+    store.logo = logo
+  }
+
+  const description = profile.store_description?.trim()
+  if (description) store.description = description
+
+  const email = profile.contact_email?.trim() || footer.contact.email?.trim()
+  const phone = formatTelephone(profile)
+  if (email) store.email = email
+  if (phone) store.telephone = phone
+
+  const taxId = profile.cnpj?.trim() || footer.legal.cnpj?.trim()
+  if (taxId) store.taxID = taxId
+
+  const address = buildPostalAddress(profile)
+  if (address) store.address = address
+
+  if (profile.store_opening_hours.length > 0) {
+    store.openingHoursSpecification = profile.store_opening_hours.map((slot) => ({
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: slot.dayOfWeek,
+      opens: slot.opens,
+      closes: slot.closes,
+    }))
+  }
+
+  return store
+}
+
+/** @deprecated use buildStoreJsonLd */
+export const buildOrganizationJsonLd = buildStoreJsonLd
