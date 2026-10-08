@@ -225,7 +225,7 @@ function FooterTrustStrip({ footerData }: { footerData: FooterData }) {
             {footerData.paymentHeading}
           </h3>
           {footerData.paymentMethodIcons.length > 0 ? (
-            <PaymentIconsRow icons={footerData.paymentMethodIcons} size="lg" />
+            <PaymentIconsRow icons={footerData.paymentMethodIcons} size="xl" />
           ) : footerData.paymentMethodLabels.length > 0 ? (
             <ul
               className="flex flex-wrap items-center gap-3"
