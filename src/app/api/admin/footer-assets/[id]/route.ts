@@ -1,5 +1,5 @@
 import { revalidateTag } from 'next/cache'
-import { createClient } from '@/lib/supabase/server'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { jsonError, jsonSuccess } from '@/lib/api/response'
 import { requireAdminUser } from '@/lib/auth/require-admin'
 import { updateFooterAssetSchema } from '@/schemas/footer-asset-schema'
@@ -41,7 +41,7 @@ export async function PATCH(request: Request, context: RouteContext) {
     return jsonError('Dados inválidos', 400)
   }
 
-  const supabase = await createClient()
+  const supabase = createAdminClient()
   const { data, error } = await supabase
     .from('footer_assets')
     .update(parsed.data)
@@ -50,7 +50,10 @@ export async function PATCH(request: Request, context: RouteContext) {
     .single()
 
   if (error || !data) {
-    return jsonError('Não foi possível atualizar o ícone', 400)
+    return jsonError(
+      error?.message ? `Não foi possível atualizar o ícone: ${error.message}` : 'Não foi possível atualizar o ícone',
+      400
+    )
   }
 
   revalidateTag('site-layout', 'max')
@@ -63,7 +66,7 @@ export async function DELETE(_request: Request, context: RouteContext) {
   if (auth instanceof Response) return auth
 
   const { id } = await context.params
-  const supabase = await createClient()
+  const supabase = createAdminClient()
   const { error } = await supabase.from('footer_assets').delete().eq('id', id)
 
   if (error) {

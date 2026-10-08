@@ -191,7 +191,8 @@ function FooterTrustStrip({ footerData }: { footerData: FooterData }) {
   const showSecurity =
     footerData.securityAssets.length > 0 || Boolean(legal.securityText)
   const showPayment =
-    footerData.paymentMethodIcons.length > 0 || Boolean(footerData.paymentText)
+    footerData.paymentMethodIcons.length > 0 ||
+    footerData.paymentMethodLabels.length > 0
 
   if (!showSecurity && !showPayment) return null
 
@@ -223,12 +224,23 @@ function FooterTrustStrip({ footerData }: { footerData: FooterData }) {
           <h3 className="mb-4 text-sm font-bold uppercase tracking-wide text-text-primary">
             {footerData.paymentHeading}
           </h3>
-          {footerData.paymentText && (
-            <p className="mb-4 text-xs text-text-secondary">{footerData.paymentText}</p>
-          )}
-          {footerData.paymentMethodIcons.length > 0 && (
-            <PaymentIconsRow icons={footerData.paymentMethodIcons} size="sm" />
-          )}
+          {footerData.paymentMethodIcons.length > 0 ? (
+            <PaymentIconsRow icons={footerData.paymentMethodIcons} size="lg" />
+          ) : footerData.paymentMethodLabels.length > 0 ? (
+            <ul
+              className="flex flex-wrap items-center gap-3"
+              aria-label="Formas de pagamento"
+            >
+              {footerData.paymentMethodLabels.map((label) => (
+                <li
+                  key={label}
+                  className="rounded border border-border px-3.5 py-2 text-sm font-medium text-text-secondary"
+                >
+                  {label}
+                </li>
+              ))}
+            </ul>
+          ) : null}
         </div>
       )}
     </div>
@@ -300,8 +312,8 @@ export function Footer({ footerData }: FooterProps) {
             className={`space-y-3 text-center text-xs leading-relaxed text-text-muted ${
               footerData.securityAssets.length > 0 ||
               footerData.paymentMethodIcons.length > 0 ||
-              Boolean(legal.securityText) ||
-              Boolean(footerData.paymentText)
+              footerData.paymentMethodLabels.length > 0 ||
+              Boolean(legal.securityText)
                 ? 'mt-10 border-t border-border pt-8'
                 : ''
             }`}

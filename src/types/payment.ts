@@ -14,12 +14,9 @@ export type PaymentMethodIcon = {
 export const PAYMENT_METHOD_SUGGESTIONS: { id: string; label: string }[] = [
   { id: 'visa', label: 'Visa' },
   { id: 'mastercard', label: 'Mastercard' },
-  { id: 'elo', label: 'Elo' },
+  { id: 'mbway', label: 'MB Way' },
+  { id: 'multibanco', label: 'Multibanco' },
   { id: 'amex', label: 'American Express' },
-  { id: 'pix', label: 'Pix' },
-  { id: 'boleto', label: 'Boleto' },
-  { id: 'pagseguro', label: 'PagSeguro' },
-  { id: 'mercadopago', label: 'Mercado Pago' },
 ]
 
 export type PaymentSettings = {

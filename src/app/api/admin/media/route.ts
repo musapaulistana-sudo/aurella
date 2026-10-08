@@ -115,8 +115,15 @@ export async function POST(request: Request) {
     if (process.env.NODE_ENV === 'development') {
       console.error('[media/upload]', uploadError.message)
     }
+    const detail = uploadError.message?.toLowerCase() ?? ''
+    if (detail.includes('mime') || detail.includes('not supported') || detail.includes('invalid')) {
+      return jsonError(
+        `Formato não aceite neste bucket (${file.type || 'desconhecido'}). Use JPEG, PNG, WebP, GIF ou SVG.`,
+        400
+      )
+    }
     return jsonError(
-      'Falha no upload. Verifique se PARTE_4_storage.sql foi executado no Supabase.',
+      `Falha no upload: ${uploadError.message || 'erro no armazenamento'}.`,
       400
     )
   }

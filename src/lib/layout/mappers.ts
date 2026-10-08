@@ -18,7 +18,8 @@ function mapSocialLink(row: LayoutQueryResult['socialLinks'][number]): SocialLin
   }
 }
 
-export const DEFAULT_SHIPPING_PROMO_TEXT = 'Portes grátis em encomendas acima de 100 €'
+export const DEFAULT_SHIPPING_PROMO_TEXT =
+  'Envios grátis em compras superiores a 40€ (Portugal Continental)'
 
 export function mapToSiteLayoutData(result: LayoutQueryResult): SiteLayoutData {
   const { settings, policyLinks, socialLinks, menuItems } = result

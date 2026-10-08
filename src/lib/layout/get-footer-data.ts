@@ -13,8 +13,8 @@ import { getStoreProfile } from '@/lib/store-profile/queries'
 import { createPublicClient, isSupabasePublicConfigured } from '@/lib/supabase/public'
 import { buildPaymentMethodIcons } from '@/lib/payment/build-payment-method-icons'
 import { parsePaymentMethods } from '@/lib/payment/parse-payment-methods'
-import type { PaymentMethodIcon } from '@/types/payment'
 import type { FooterAssetRow, FooterMenuRow } from '@/types/database-layout'
+import type { PaymentMethodIcon } from '@/types/payment'
 import type { SocialLink } from '@/types/layout'
 import { z } from 'zod'
 
@@ -47,6 +47,7 @@ export type FooterData = {
   brand: FooterBrand | null
   menus: FooterMenuRow[]
   paymentMethodIcons: PaymentMethodIcon[]
+  paymentMethodLabels: string[]
   securityAssets: FooterAssetRow[]
   socialLinks: SocialLink[]
   contact: FooterContact
@@ -73,14 +74,6 @@ function mapSocial(row: {
   }
 }
 
-function buildFooterPaymentIcons(settings: {
-  payment_methods_config?: unknown
-  payment_methods?: unknown
-  payment_method_images?: unknown
-}): PaymentMethodIcon[] {
-  return buildPaymentMethodIcons(parsePaymentMethods(settings))
-}
-
 function buildBrand(
   storeProfile: Awaited<ReturnType<typeof getStoreProfile>>,
   settings: Awaited<ReturnType<typeof getSiteSettings>>
@@ -99,6 +92,7 @@ function emptyFooterData(): FooterData {
     brand: null,
     menus: [],
     paymentMethodIcons: [],
+    paymentMethodLabels: [],
     securityAssets: [],
     socialLinks: [],
     contact: {
@@ -175,10 +169,13 @@ export async function getFooterData(): Promise<FooterData> {
       settings.contact_whatsapp_href ?? whatsappSocial?.href ?? null,
   }
 
+  const paymentMethods = parsePaymentMethods(settings)
+
   return {
     brand,
     menus,
-    paymentMethodIcons: buildFooterPaymentIcons(settings),
+    paymentMethodIcons: buildPaymentMethodIcons(paymentMethods),
+    paymentMethodLabels: paymentMethods.map((method) => method.label),
     securityAssets: assets.filter((a) => a.asset_type === 'security'),
     socialLinks,
     contact,

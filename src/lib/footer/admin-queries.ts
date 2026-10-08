@@ -58,7 +58,7 @@ const DEFAULTS: Omit<FooterSettings, '_footerColumnsAvailable'> = {
   business_hours: null,
   contact_whatsapp_label: 'WhatsApp',
   contact_whatsapp_href: null,
-  contact_page_label: 'Fale Conosco',
+  contact_page_label: 'Fale Connosco',
   contact_page_href: '',
   contact_email: null,
   contact_address: null,

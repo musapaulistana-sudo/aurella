@@ -1,4 +1,5 @@
 import { revalidateTag } from 'next/cache'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { createClient } from '@/lib/supabase/server'
 import { jsonError, jsonSuccess } from '@/lib/api/response'
 import { requireAdminUser } from '@/lib/auth/require-admin'
@@ -66,7 +67,7 @@ export async function POST(request: Request) {
     return jsonError('Dados inválidos', 400)
   }
 
-  const supabase = await createClient()
+  const supabase = createAdminClient()
   const { data, error } = await supabase
     .from('footer_assets')
     .insert(parsed.data)
@@ -74,7 +75,12 @@ export async function POST(request: Request) {
     .single()
 
   if (error || !data) {
-    return jsonError('Não foi possível criar o ícone do rodapé', 400)
+    return jsonError(
+      error?.message
+        ? `Não foi possível criar o ícone do rodapé: ${error.message}`
+        : 'Não foi possível criar o ícone do rodapé',
+      400
+    )
   }
 
   revalidateTag('site-layout', 'max')
