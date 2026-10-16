@@ -87,9 +87,11 @@ function parseCheckoutPaymentConfig(raw: unknown): CheckoutPaymentSettings {
   if (!raw || typeof raw !== 'object') return DEFAULT_CHECKOUT_PAYMENT_SETTINGS
   const row = raw as Record<string, unknown>
   return {
-    pixEnabled: row.pixEnabled !== false,
+    pixEnabled: row.pixEnabled === true,
     pixDiscount: Math.max(0, Math.min(100, Number(row.pixDiscount ?? 0) || 0)),
-    cardEnabled: row.cardEnabled !== false,
+    cardEnabled: row.cardEnabled === true,
+    mbwayEnabled: row.mbwayEnabled !== false,
+    multibancoEnabled: row.multibancoEnabled !== false,
   }
 }
 

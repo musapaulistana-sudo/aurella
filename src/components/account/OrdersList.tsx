@@ -55,6 +55,8 @@ const STATUS_LABELS: Record<string, string> = {
 }
 
 const PAYMENT_METHOD_LABELS: Record<string, string> = {
+  mbway: 'MB WAY',
+  multibanco: 'Multibanco',
   pix: 'MB Way / Multibanco',
   credit_card: 'Cartão de crédito',
   card: 'Cartão de crédito',

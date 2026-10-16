@@ -36,6 +36,12 @@ yarn-error.log*
 .env.*.local
 !.env.example
 
+# NSQPAY — ficheiros do dashboard com credenciais (nunca no git)
+vorkpay-integration.md
+vorkpay-setup.js
+vorkpay-node-integration.zip
+/tmp/
+
 # vercel
 .vercel
 

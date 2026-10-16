@@ -52,10 +52,16 @@ export type CheckoutPaymentSettings = {
   pixEnabled: boolean
   pixDiscount: number
   cardEnabled: boolean
+  mbwayEnabled?: boolean
+  multibancoEnabled?: boolean
+  vorkpayPublicKey?: string | null
 }
 
 export const DEFAULT_CHECKOUT_PAYMENT_SETTINGS: CheckoutPaymentSettings = {
   pixEnabled: false,
   pixDiscount: 0,
-  cardEnabled: true,
+  cardEnabled: false,
+  mbwayEnabled: true,
+  multibancoEnabled: true,
+  vorkpayPublicKey: null,
 }

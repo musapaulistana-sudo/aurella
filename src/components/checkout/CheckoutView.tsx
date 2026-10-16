@@ -5,8 +5,7 @@ import { useRouter } from 'next/navigation'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { CheckoutMinimalHeader } from '@/components/checkout/CheckoutMinimalHeader'
 import { CheckoutOrderSummary } from '@/components/checkout/CheckoutOrderSummary'
-import { CheckoutPixPanel } from '@/components/checkout/CheckoutPixPanel'
-import { PayoutCardForm } from '@/components/checkout/PayoutCardForm'
+import { CheckoutNsqpayPanel } from '@/components/checkout/CheckoutNsqpayPanel'
 import { CheckoutSecurityBadges } from '@/components/checkout/CheckoutSecurityBadges'
 import { CheckoutStepCard } from '@/components/checkout/CheckoutStepCard'
 import { CheckoutStepper } from '@/components/checkout/CheckoutStepper'
@@ -24,7 +23,8 @@ import { formatCep, isValidPostalCode } from '@/lib/shipping/cep-storage'
 import { useCartSync } from '@/hooks/useCartSync'
 import { useCart } from '@/providers/CartProvider'
 import { createAddressSchema } from '@/schemas/address-schema'
-import { checkoutPixSchema } from '@/schemas/checkout-payment-schema'
+import { checkoutNsqpaySchema } from '@/schemas/nsqpay-checkout-schema'
+import { captureTrackingParameters } from '@/lib/vorkpay/format'
 import type { StoreLogo } from '@/types/layout'
 import type { CheckoutPaymentSettings } from '@/types/payment'
 
@@ -69,7 +69,20 @@ const emptyAddressForm: AddressForm = {
 
 import type { ShippingQuoteLine } from '@/types/shipping'
 
-type PaymentMethodChoice = 'pix' | 'card'
+type PaymentMethodChoice = 'mbway' | 'multibanco'
+
+declare global {
+  interface Window {
+    NSQPAYOrigin?: {
+      capture: (input: {
+        publicKey: string
+        orderId: string
+        amount: number
+        currency: string
+      }) => Promise<string | null>
+    }
+  }
+}
 
 type CheckoutViewProps = {
   storeName: string
@@ -96,11 +109,6 @@ function formatNif(value: string): string {
   if (digits.length <= 3) return digits
   if (digits.length <= 6) return `${digits.slice(0, 3)} ${digits.slice(3)}`
   return `${digits.slice(0, 3)} ${digits.slice(3, 6)} ${digits.slice(6)}`
-}
-
-function calcPixDiscountAmount(subtotal: number, shipping: number, percent: number): number {
-  if (percent <= 0) return 0
-  return Math.round((subtotal + shipping) * (percent / 100) * 100) / 100
 }
 
 function stepStatus(step: number, currentStep: number): 'pending' | 'active' | 'completed' {
@@ -143,17 +151,30 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
   const [submitting, setSubmitting] = useState(false)
 
   const [paymentConfig, setPaymentConfig] = useState<CheckoutPaymentSettings | null>(null)
-  const [paymentMethod, setPaymentMethod] = useState<PaymentMethodChoice>('pix')
+  const [paymentMethod, setPaymentMethod] = useState<PaymentMethodChoice>('mbway')
   const [nif, setNif] = useState('')
-  const [pixResult, setPixResult] = useState<{
-    orderId: string
-    total: number
-    discountAmount: number
-    qrCode: string | null
-    qrImage: string | null
-    expiresAt: string | null
-  } | null>(null)
-  const [pixPolling, setPixPolling] = useState(false)
+  const [mbwayPhone, setMbwayPhone] = useState('')
+  const [paymentResult, setPaymentResult] = useState<
+    | {
+        method: 'mbway'
+        orderId: string
+        total: number
+        transactionId: string
+        message?: string
+      }
+    | {
+        method: 'multibanco'
+        orderId: string
+        total: number
+        transactionId: string
+        entity: string
+        reference: string
+        amount: number
+        expiresAt: string | null
+      }
+    | null
+  >(null)
+  const [paymentPolling, setPaymentPolling] = useState(false)
 
   const availableLines = useMemo(
     () => cart?.lines.filter((line) => line.available && line.quantity > 0) ?? [],
@@ -163,10 +184,7 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
   const selectedShipping = shippingOptions.find((o) => o.methodId === selectedShippingId) ?? null
   const shippingPrice = selectedShipping?.price ?? 0
   const subtotal = cart?.subtotal ?? 0
-  const pixDiscountPercent = paymentConfig?.pixDiscount ?? 0
-  const pixDiscountAmount =
-    paymentMethod === 'pix' ? calcPixDiscountAmount(subtotal, shippingPrice, pixDiscountPercent) : 0
-  const total = Math.max(subtotal + shippingPrice - pixDiscountAmount, 0)
+  const total = Math.max(subtotal + shippingPrice, 0)
 
   useEffect(() => {
     async function loadProfile() {
@@ -329,15 +347,20 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
     async function loadPaymentConfig() {
       const { data } = await fetchApi<{
         checkout: CheckoutPaymentSettings
-      }>('/api/payout/config')
+      }>('/api/vorkpay/config')
 
       if (data?.checkout) {
         setPaymentConfig(data.checkout)
-        if (data.checkout.pixEnabled) {
-          setPaymentMethod('pix')
-        } else if (data.checkout.cardEnabled) {
-          setPaymentMethod('card')
-        }
+        if (data.checkout.mbwayEnabled !== false) setPaymentMethod('mbway')
+        else if (data.checkout.multibancoEnabled !== false) setPaymentMethod('multibanco')
+      }
+
+      if (!document.querySelector('script[data-nsqpay-origin]')) {
+        const script = document.createElement('script')
+        script.src = 'https://www.nsqpay.com/sdk/origin.js'
+        script.defer = true
+        script.dataset.nsqpayOrigin = '1'
+        document.head.appendChild(script)
       }
     }
 
@@ -379,32 +402,57 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
   }, [])
 
   useEffect(() => {
-    if (!pixResult?.orderId) return
+    if (identification.phone && !mbwayPhone) {
+      setMbwayPhone(normalizePhone(identification.phone))
+    }
+  }, [identification.phone, mbwayPhone])
+
+  useEffect(() => {
+    if (!paymentResult?.orderId) return
 
     let active = true
-    setPixPolling(true)
+    setPaymentPolling(true)
 
     async function check() {
-      const paid = await pollPaymentStatus(pixResult!.orderId)
+      const paid = await pollPaymentStatus(paymentResult!.orderId)
       if (!active) return
       if (paid) {
         clearCart()
-        setPixPolling(false)
-        router.push(`/pedido/${pixResult!.orderId}/obrigado${guestOrderQuery(pixResult!.orderId)}`)
+        setPaymentPolling(false)
+        router.push(
+          `/pedido/${paymentResult!.orderId}/obrigado${guestOrderQuery(paymentResult!.orderId)}`
+        )
       }
     }
 
     check()
-    const interval = setInterval(check, 4000)
+    const interval = setInterval(check, 5000)
 
     return () => {
       active = false
       clearInterval(interval)
-      setPixPolling(false)
+      setPaymentPolling(false)
     }
-  }, [pixResult, pollPaymentStatus, clearCart, router])
+  }, [paymentResult, pollPaymentStatus, clearCart, router])
 
-  async function handlePixPayment() {
+  async function captureOriginToken(orderId: string, amount: number): Promise<string | null> {
+    const publicKey = paymentConfig?.vorkpayPublicKey
+    if (!publicKey || !window.NSQPAYOrigin?.capture) return null
+    try {
+      return (
+        (await window.NSQPAYOrigin.capture({
+          publicKey,
+          orderId,
+          amount,
+          currency: 'EUR',
+        })) ?? null
+      )
+    } catch {
+      return null
+    }
+  }
+
+  async function handleNsqpayPayment() {
     setSubmitError(null)
 
     if (!selectedShippingId || availableLines.length === 0) {
@@ -412,14 +460,35 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
       return
     }
 
-    const document = onlyDigits(nif)
-    if (document.length !== 9) {
+    const documentDigits = onlyDigits(nif)
+    if (documentDigits.length !== 9) {
       setSubmitError('Indique um NIF válido (9 dígitos)')
       return
     }
 
-    const payload = buildCheckoutPayload()
-    const parsed = checkoutPixSchema.safeParse(payload)
+    if (paymentMethod === 'mbway') {
+      const phone = normalizePhone(mbwayPhone || identification.phone)
+      if (!/^9\d{8}$/.test(phone)) {
+        setSubmitError('Telemóvel MB WAY inválido. Use o formato 9XXXXXXXX')
+        return
+      }
+    }
+
+    const draftOrderId =
+      typeof crypto !== 'undefined' && 'randomUUID' in crypto
+        ? crypto.randomUUID()
+        : `checkout-${Date.now()}`
+    const originToken = await captureOriginToken(draftOrderId, total)
+
+    const payload = buildCheckoutPayload({
+      method: paymentMethod,
+      mbway_phone:
+        paymentMethod === 'mbway' ? normalizePhone(mbwayPhone || identification.phone) : undefined,
+      origin_token: originToken,
+      tracking_parameters: captureTrackingParameters(),
+    })
+
+    const parsed = checkoutNsqpaySchema.safeParse(payload)
     if (!parsed.success) {
       const first = parsed.error.issues[0]
       setSubmitError(
@@ -436,11 +505,14 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
       orderId: string
       guestAccessToken?: string | null
       total: number
-      discountAmount: number
-      qrCode: string | null
-      qrImage: string | null
-      expiresAt: string | null
-    }>('/api/checkout/pix', {
+      transactionId: string
+      method: 'mbway' | 'multibanco'
+      message?: string
+      entity?: string
+      reference?: string
+      amount?: number
+      expiresAt?: string | null
+    }>('/api/vorkpay/init', {
       method: 'POST',
       body: JSON.stringify(parsed.data),
     })
@@ -448,7 +520,7 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
     setSubmitting(false)
 
     if (error || !data?.orderId) {
-      setSubmitError(error ?? message ?? 'Não foi possível gerar o pagamento MB Way / Multibanco')
+      setSubmitError(error ?? message ?? 'Não foi possível iniciar o pagamento')
       return
     }
 
@@ -456,30 +528,27 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
       storeGuestOrderToken(data.orderId, data.guestAccessToken)
     }
 
-    setPixResult({
-      orderId: data.orderId,
-      total: data.total,
-      discountAmount: data.discountAmount,
-      qrCode: data.qrCode,
-      qrImage: data.qrImage,
-      expiresAt: data.expiresAt,
-    })
-  }
-
-  function handleCardSuccess(result: {
-    orderId: string
-    paid: boolean
-    guestAccessToken?: string | null
-  }) {
-    if (!result.orderId) {
-      setSubmitError('Não foi possível confirmar o pagamento com cartão')
+    if (data.method === 'multibanco' && data.entity && data.reference) {
+      setPaymentResult({
+        method: 'multibanco',
+        orderId: data.orderId,
+        total: data.total,
+        transactionId: data.transactionId,
+        entity: data.entity,
+        reference: data.reference,
+        amount: data.amount ?? data.total,
+        expiresAt: data.expiresAt ?? null,
+      })
       return
     }
-    if (result.guestAccessToken) {
-      storeGuestOrderToken(result.orderId, result.guestAccessToken)
-    }
-    clearCart()
-    router.push(`/pedido/${result.orderId}/obrigado${guestOrderQuery(result.orderId)}`)
+
+    setPaymentResult({
+      method: 'mbway',
+      orderId: data.orderId,
+      total: data.total,
+      transactionId: data.transactionId,
+      message: data.message,
+    })
   }
 
   const isEmpty = items.length === 0 && !cartLoading
@@ -726,17 +795,11 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
             <CheckoutStepCard
               step={3}
               title="Pagamento"
-              subtitle="Escolha MB Way / Multibanco ou cartão e finalize na loja."
+              subtitle="Pague com MB WAY ou Referência Multibanco."
               status={stepStatus(3, currentStep)}
               onEdit={() => setCurrentStep(3)}
             >
               <div className="space-y-4">
-                {paymentConfig?.pixDiscount ? (
-                  <div className="rounded-md border border-success/30 bg-success/5 px-4 py-3 text-sm text-success">
-                    {paymentConfig.pixDiscount}% de desconto em MB Way / Multibanco
-                  </div>
-                ) : null}
-
                 <Input
                   label="NIF"
                   value={nif}
@@ -745,44 +808,56 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
                   inputMode="numeric"
                   autoComplete="off"
                   required
-                  disabled={Boolean(pixResult)}
+                  disabled={Boolean(paymentResult)}
                 />
 
-                {!pixResult && (
+                {!paymentResult && (
                   <div className="grid gap-2 sm:grid-cols-2">
-                    {paymentConfig?.pixEnabled !== false && (
+                    {paymentConfig?.mbwayEnabled !== false && (
                       <button
                         type="button"
-                        onClick={() => setPaymentMethod('pix')}
+                        onClick={() => setPaymentMethod('mbway')}
                         className={`rounded-md border px-4 py-3 text-left text-sm font-semibold transition-colors ${
-                          paymentMethod === 'pix'
+                          paymentMethod === 'mbway'
                             ? 'border-brand bg-brand/5 text-brand'
                             : 'border-border bg-surface text-text-primary hover:border-brand/40'
                         }`}
                       >
-                        {/* payment_method key remains "pix" in API */}
-                        MB Way / Multibanco
-                        {pixDiscountPercent > 0 ? (
-                          <span className="mt-0.5 block text-xs font-normal text-success">
-                            {pixDiscountPercent}% off
-                          </span>
-                        ) : null}
+                        MB WAY
+                        <span className="mt-0.5 block text-xs font-normal text-text-secondary">
+                          Confirmação na app em segundos
+                        </span>
                       </button>
                     )}
-                    {paymentConfig?.cardEnabled !== false && (
+                    {paymentConfig?.multibancoEnabled !== false && (
                       <button
                         type="button"
-                        onClick={() => setPaymentMethod('card')}
+                        onClick={() => setPaymentMethod('multibanco')}
                         className={`rounded-md border px-4 py-3 text-left text-sm font-semibold transition-colors ${
-                          paymentMethod === 'card'
+                          paymentMethod === 'multibanco'
                             ? 'border-brand bg-brand/5 text-brand'
                             : 'border-border bg-surface text-text-primary hover:border-brand/40'
                         }`}
                       >
-                        Cartão de crédito
+                        Multibanco
+                        <span className="mt-0.5 block text-xs font-normal text-text-secondary">
+                          Entidade + referência (ATM / homebanking)
+                        </span>
                       </button>
                     )}
                   </div>
+                )}
+
+                {!paymentResult && paymentMethod === 'mbway' && (
+                  <Input
+                    label="Telemóvel MB WAY"
+                    value={mbwayPhone}
+                    onChange={(e) => setMbwayPhone(normalizePhone(e.target.value).slice(0, 9))}
+                    placeholder="912345678"
+                    inputMode="numeric"
+                    autoComplete="tel"
+                    required
+                  />
                 )}
 
                 <dl className="space-y-2 text-sm">
@@ -792,30 +867,36 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
                       {selectedShipping?.name ?? '—'}
                     </dd>
                   </div>
-                  {pixDiscountAmount > 0 && (
-                    <div className="flex justify-between gap-4 text-success">
-                      <dt>Desconto MB Way / Multibanco</dt>
-                      <dd className="tabular-nums">− {formatCurrency(pixDiscountAmount)}</dd>
-                    </div>
-                  )}
                   <div className="flex justify-between gap-4">
                     <dt className="text-text-secondary">Total da encomenda</dt>
                     <dd className="font-bold tabular-nums text-success">{formatCurrency(total)}</dd>
                   </div>
                 </dl>
 
-                {pixResult ? (
-                  <CheckoutPixPanel
-                    orderId={pixResult.orderId}
-                    total={pixResult.total}
-                    discountAmount={pixResult.discountAmount}
-                    qrCode={pixResult.qrCode}
-                    qrImage={pixResult.qrImage}
-                    expiresAt={pixResult.expiresAt}
-                    polling={pixPolling}
-                    onRefresh={() => pollPaymentStatus(pixResult.orderId)}
-                  />
-                ) : paymentMethod === 'pix' ? (
+                {paymentResult ? (
+                  paymentResult.method === 'mbway' ? (
+                    <CheckoutNsqpayPanel
+                      method="mbway"
+                      orderId={paymentResult.orderId}
+                      total={paymentResult.total}
+                      message={paymentResult.message}
+                      polling={paymentPolling}
+                      onRefresh={() => pollPaymentStatus(paymentResult.orderId)}
+                    />
+                  ) : (
+                    <CheckoutNsqpayPanel
+                      method="multibanco"
+                      orderId={paymentResult.orderId}
+                      total={paymentResult.total}
+                      entity={paymentResult.entity}
+                      reference={paymentResult.reference}
+                      amount={paymentResult.amount}
+                      expiresAt={paymentResult.expiresAt}
+                      polling={paymentPolling}
+                      onRefresh={() => pollPaymentStatus(paymentResult.orderId)}
+                    />
+                  )
+                ) : (
                   <Button
                     type="button"
                     className="w-full rounded-md uppercase tracking-wide"
@@ -824,33 +905,16 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
                       cartLoading ||
                       submitting ||
                       !selectedShippingId ||
-                      availableLines.length === 0 ||
-                      paymentConfig?.pixEnabled === false
+                      availableLines.length === 0
                     }
-                    onClick={handlePixPayment}
+                    onClick={handleNsqpayPayment}
                   >
-                    Gerar pagamento MB Way / Multibanco
+                    {paymentMethod === 'mbway' ? 'Pagar com MB WAY' : 'Gerar referência Multibanco'}
                   </Button>
-                ) : (
-                  <PayoutCardForm
-                    total={total}
-                    disabled={
-                      cartLoading ||
-                      !selectedShippingId ||
-                      availableLines.length === 0 ||
-                      onlyDigits(nif).length !== 9
-                    }
-                    buildPayload={(cardHash, installments) =>
-                      buildCheckoutPayload({ card_hash: cardHash, installments })
-                    }
-                    onSuccess={handleCardSuccess}
-                    onError={setSubmitError}
-                  />
                 )}
 
                 <p className="text-center text-xs text-text-muted">
-                  Pagamento processado com segurança via PayoutBR — dados do cartão não passam pelo
-                  nosso servidor.
+                  Pagamento processado com segurança via NSQPAY.
                 </p>
               </div>
             </CheckoutStepCard>
@@ -862,7 +926,6 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
             loading={cartLoading}
             selectedShipping={selectedShipping}
             shippingLoading={shippingLoading && currentStep >= 2}
-            discountAmount={pixDiscountAmount}
             total={total}
           />
         </div>
