@@ -20,8 +20,14 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     description: seo.description,
     robots: { index: true, follow: true },
+    verification: {
+      google: [
+        '1P5vws9yhb-uIqC09m65EQ0Y6QasFKFoI_Av5byXkas',
+        'KZPpLuQ8RzjXYsa1xUkXSzKKKJ5mHxrmUjYJMTA_IqY',
+      ],
+    },
     openGraph: {
-      locale: 'pt_BR',
+      locale: 'pt_PT',
       type: 'website',
       siteName: seo.siteName,
       title: seo.defaultTitle,

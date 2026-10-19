@@ -11,20 +11,40 @@ type StoreJsonLdInput = {
   profile: StoreProfile
 }
 
+/** Telefone E.164 para schema da loja PT — nunca +55. */
 function formatTelephone(profile: StoreProfile): string | null {
-  if (profile.phone_href?.trim()) {
-    const digits = profile.phone_href.replace(/\D/g, '')
-    if (digits.length >= 10) {
-      if (digits.startsWith('55') && digits.length >= 12) {
-        return `+${digits.slice(0, 2)}-${digits.slice(2, 4)}-${digits.slice(4)}`
-      }
-      return `+55-${digits.slice(0, 2)}-${digits.slice(2)}`
-    }
+  const raw =
+    profile.phone_href?.trim() ||
+    `${profile.phone_area_code ?? ''}${profile.phone_number ?? ''}`.trim()
+  if (!raw) return null
+
+  let digits = raw.replace(/\D/g, '')
+  if (!digits) return null
+
+  // Remove indicativos errados (BR legado) e força Portugal
+  if (digits.startsWith('55') && digits.length >= 12) {
+    digits = digits.slice(2)
+  }
+  if (digits.startsWith('351')) {
+    digits = digits.slice(3)
   }
 
-  const digits = `${profile.phone_area_code}${profile.phone_number}`.replace(/\D/g, '')
-  if (digits.length < 10) return null
-  return `+55-${digits.slice(0, 2)}-${digits.slice(2)}`
+  // Telemóvel PT: 9 dígitos a começar por 9
+  if (/^9\d{8}$/.test(digits)) {
+    return `+351${digits}`
+  }
+
+  // Fixo PT: 9 dígitos a começar por 2
+  if (/^2\d{8}$/.test(digits)) {
+    return `+351${digits}`
+  }
+
+  // Fallback: se sobraram dígitos úteis, prefixa +351
+  if (digits.length >= 9) {
+    return `+351${digits.slice(-9)}`
+  }
+
+  return null
 }
 
 function buildPostalAddress(profile: StoreProfile): Record<string, unknown> | null {
@@ -44,7 +64,7 @@ function buildPostalAddress(profile: StoreProfile): Record<string, unknown> | nu
     addressLocality: profile.store_city ?? undefined,
     addressRegion: profile.store_state ?? undefined,
     postalCode: profile.store_postal_code ?? undefined,
-    addressCountry: profile.store_country || 'BR',
+    addressCountry: profile.store_country || 'PT',
   }
 }
 

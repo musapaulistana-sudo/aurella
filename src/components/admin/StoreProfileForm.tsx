@@ -258,7 +258,7 @@ export function StoreProfileForm() {
               label="Telefone internacional (schema)"
               value={form.phone_href}
               onChange={(e) => updateField('phone_href', e.target.value)}
-              placeholder="+5527988653033"
+              placeholder="+351910369316"
               className="md:col-span-2"
             />
             <Textarea

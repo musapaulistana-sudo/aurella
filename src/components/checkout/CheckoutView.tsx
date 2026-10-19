@@ -6,6 +6,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { CheckoutMinimalHeader } from '@/components/checkout/CheckoutMinimalHeader'
 import { CheckoutOrderSummary } from '@/components/checkout/CheckoutOrderSummary'
 import { CheckoutNsqpayPanel } from '@/components/checkout/CheckoutNsqpayPanel'
+import { PayoutCardForm } from '@/components/checkout/PayoutCardForm'
 import { CheckoutSecurityBadges } from '@/components/checkout/CheckoutSecurityBadges'
 import { CheckoutStepCard } from '@/components/checkout/CheckoutStepCard'
 import { CheckoutStepper } from '@/components/checkout/CheckoutStepper'
@@ -69,7 +70,7 @@ const emptyAddressForm: AddressForm = {
 
 import type { ShippingQuoteLine } from '@/types/shipping'
 
-type PaymentMethodChoice = 'mbway' | 'multibanco'
+type PaymentMethodChoice = 'mbway' | 'multibanco' | 'card'
 
 declare global {
   interface Window {
@@ -353,6 +354,7 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
         setPaymentConfig(data.checkout)
         if (data.checkout.mbwayEnabled !== false) setPaymentMethod('mbway')
         else if (data.checkout.multibancoEnabled !== false) setPaymentMethod('multibanco')
+        else if (data.checkout.cardEnabled) setPaymentMethod('card')
       }
 
       if (!document.querySelector('script[data-nsqpay-origin]')) {
@@ -795,7 +797,7 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
             <CheckoutStepCard
               step={3}
               title="Pagamento"
-              subtitle="Pague com MB WAY ou Referência Multibanco."
+              subtitle="MB WAY, Multibanco ou cartão Visa / Mastercard."
               status={stepStatus(3, currentStep)}
               onEdit={() => setCurrentStep(3)}
             >
@@ -812,7 +814,7 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
                 />
 
                 {!paymentResult && (
-                  <div className="grid gap-2 sm:grid-cols-2">
+                  <div className="grid gap-2 sm:grid-cols-3">
                     {paymentConfig?.mbwayEnabled !== false && (
                       <button
                         type="button"
@@ -825,7 +827,7 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
                       >
                         MB WAY
                         <span className="mt-0.5 block text-xs font-normal text-text-secondary">
-                          Confirmação na app em segundos
+                          Confirmação na app
                         </span>
                       </button>
                     )}
@@ -841,7 +843,23 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
                       >
                         Multibanco
                         <span className="mt-0.5 block text-xs font-normal text-text-secondary">
-                          Entidade + referência (ATM / homebanking)
+                          ATM / homebanking
+                        </span>
+                      </button>
+                    )}
+                    {paymentConfig?.cardEnabled && (
+                      <button
+                        type="button"
+                        onClick={() => setPaymentMethod('card')}
+                        className={`rounded-md border px-4 py-3 text-left text-sm font-semibold transition-colors ${
+                          paymentMethod === 'card'
+                            ? 'border-brand bg-brand/5 text-brand'
+                            : 'border-border bg-surface text-text-primary hover:border-brand/40'
+                        }`}
+                      >
+                        Cartão
+                        <span className="mt-0.5 block text-xs font-normal text-text-secondary">
+                          Visa / Mastercard
                         </span>
                       </button>
                     )}
@@ -896,6 +914,35 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
                       onRefresh={() => pollPaymentStatus(paymentResult.orderId)}
                     />
                   )
+                ) : paymentMethod === 'card' ? (
+                  <PayoutCardForm
+                    total={total}
+                    disabled={
+                      cartLoading || !selectedShippingId || availableLines.length === 0
+                    }
+                    onError={setSubmitError}
+                    buildPayload={(cardHash, installments) => {
+                      const documentDigits = onlyDigits(nif)
+                      if (documentDigits.length !== 9) {
+                        throw new Error('Indique um NIF válido (9 dígitos)')
+                      }
+                      return buildCheckoutPayload({
+                        card_hash: cardHash,
+                        installments,
+                      })
+                    }}
+                    onSuccess={({ orderId, paid, guestAccessToken }) => {
+                      if (guestAccessToken) {
+                        storeGuestOrderToken(orderId, guestAccessToken)
+                      }
+                      clearCart()
+                      router.push(
+                        `/pedido/${orderId}/obrigado${guestOrderQuery(orderId)}${
+                          paid ? '' : ''
+                        }`
+                      )
+                    }}
+                  />
                 ) : (
                   <Button
                     type="button"
@@ -914,7 +961,9 @@ export function CheckoutView({ storeName, logo }: CheckoutViewProps) {
                 )}
 
                 <p className="text-center text-xs text-text-muted">
-                  Pagamento processado com segurança via NSQPAY.
+                  {paymentMethod === 'card'
+                    ? 'Cartão processado com segurança. Aceitamos Visa e Mastercard.'
+                    : 'MB WAY e Multibanco processados com segurança via NSQPAY.'}
                 </p>
               </div>
             </CheckoutStepCard>

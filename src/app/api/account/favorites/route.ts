@@ -10,8 +10,9 @@ import { favoriteActionSchema, favoriteSyncSchema } from '@/schemas/favorites-sc
 
 export async function GET() {
   const user = await getSessionUser()
+  // Visitantes usam localStorage — 200 vazio evita 401 no consola
   if (!user) {
-    return jsonError('Não autorizado', 401, 'UNAUTHORIZED')
+    return jsonSuccess({ productIds: [] as string[], guest: true })
   }
 
   const productIds = await getFavoriteProductIds(user.id)

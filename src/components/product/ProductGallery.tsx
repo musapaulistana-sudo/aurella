@@ -1,9 +1,9 @@
 'use client'
 
-import Image from 'next/image'
 import { useRef, useState } from 'react'
 import { ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react'
 import { FavoriteButton } from '@/components/product/FavoriteButton'
+import { SafeProductImage } from '@/components/ui/SafeProductImage'
 
 const THUMB_SIZE = 64
 const THUMB_GAP = 8
@@ -63,7 +63,7 @@ export function ProductGallery({
                 aria-label={`Ver imagem ${index + 1}`}
                 aria-current={index === activeIndex}
               >
-                <Image src={img.url} alt="" fill sizes="64px" className="object-contain p-1" />
+                <SafeProductImage src={img.url} alt="" fill sizes="64px" className="object-contain p-1" />
               </button>
             ))}
           </div>
@@ -123,7 +123,7 @@ export function ProductGallery({
             </>
           )}
 
-          <Image
+          <SafeProductImage
             src={active.url}
             alt={active.alt || productName}
             fill

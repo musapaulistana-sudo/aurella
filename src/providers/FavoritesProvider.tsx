@@ -39,18 +39,18 @@ export function FavoritesProvider({ children }: { children: ReactNode }) {
 
       try {
         const res = await fetch('/api/account/favorites')
-        if (res.status === 401) {
+        const json = (await res.json()) as {
+          error?: boolean
+          data?: { productIds?: string[]; guest?: boolean }
+        }
+
+        if (res.status === 401 || json.data?.guest) {
           if (!cancelled) {
             setFavoriteIds(new Set(localIds))
             setIsLoggedIn(false)
             setHydrated(true)
           }
           return
-        }
-
-        const json = (await res.json()) as {
-          error?: boolean
-          data?: { productIds?: string[] }
         }
 
         if (json.error || !json.data?.productIds) {

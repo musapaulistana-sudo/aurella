@@ -89,7 +89,7 @@ function parseCheckoutPaymentConfig(raw: unknown): CheckoutPaymentSettings {
   return {
     pixEnabled: row.pixEnabled === true,
     pixDiscount: Math.max(0, Math.min(100, Number(row.pixDiscount ?? 0) || 0)),
-    cardEnabled: row.cardEnabled === true,
+    cardEnabled: row.cardEnabled !== false,
     mbwayEnabled: row.mbwayEnabled !== false,
     multibancoEnabled: row.multibancoEnabled !== false,
   }

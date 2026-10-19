@@ -29,6 +29,8 @@ const paymentCheckoutConfigSchema = z.object({
   pixEnabled: z.boolean().optional(),
   pixDiscount: z.number().min(0).max(100).optional(),
   cardEnabled: z.boolean().optional(),
+  mbwayEnabled: z.boolean().optional(),
+  multibancoEnabled: z.boolean().optional(),
 })
 
 export const updateSiteSettingsSchema = z.object({

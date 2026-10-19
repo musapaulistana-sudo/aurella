@@ -1,3 +1,5 @@
+import { toStoreMediaPath } from '@/lib/media/store-media-url'
+import { getPrimaryProductImage } from '@/lib/products/product-images'
 import { createPublicClient } from '@/lib/supabase/public'
 import { mapProductCard, PRODUCT_SELECT } from '@/lib/products/queries'
 import type { CollectionFiltersInput } from '@/schemas/category-schema'
@@ -6,6 +8,11 @@ import type {
   CollectionFilterMeta,
   CollectionProductsResult,
 } from '@/types/collection'
+
+function resolveCategoryImageUrl(url: string | null | undefined): string | null {
+  if (!url?.trim()) return null
+  return toStoreMediaPath(url) ?? url.trim()
+}
 
 const COLLECTION_COLUMNS_FULL =
   'id, name, slug, image_url, banner_image_url, page_title, description'
@@ -38,10 +45,9 @@ function readRelatedEntity(value: unknown): RelatedEntity | null {
 }
 
 function mapCollection(row: Record<string, unknown>): CollectionDetail {
-  const imageUrl =
-    (row.image_url as string | null) ??
-    (row.seal_image_url as string | null) ??
-    null
+  const imageUrl = resolveCategoryImageUrl(
+    (row.image_url as string | null) ?? (row.seal_image_url as string | null)
+  )
 
   return {
     id: row.id as string,
@@ -49,7 +55,7 @@ function mapCollection(row: Record<string, unknown>): CollectionDetail {
     slug: row.slug as string,
     pageTitle: (row.page_title as string | null) ?? (row.name as string),
     description: (row.description as string | null) ?? null,
-    bannerImageUrl: (row.banner_image_url as string | null) ?? null,
+    bannerImageUrl: resolveCategoryImageUrl(row.banner_image_url as string | null),
     imageUrl,
   }
 }
@@ -266,7 +272,7 @@ export async function getCollectionFilterMeta(categoryId: string): Promise<Colle
   }
 }
 
-/** Lista pública de coleções com selo (home e carrosséis). */
+/** Lista pública de coleções (home). Sem image_url, usa foto de um produto da categoria. */
 export async function getCollectionsForCarousel() {
   const supabase = createPublicClient()
   const full = await supabase
@@ -275,25 +281,68 @@ export async function getCollectionsForCarousel() {
     .eq('active', true)
     .order('sort_order', { ascending: true })
 
-  if (!full.error && full.data) {
-    return full.data.map((row) => ({
-      id: row.id as string,
-      name: row.name as string,
-      slug: row.slug as string,
-      imageUrl: row.image_url as string | null,
-    }))
+  const rows =
+    !full.error && full.data
+      ? full.data.map((row) => ({
+          id: row.id as string,
+          name: row.name as string,
+          slug: row.slug as string,
+          imageUrl: resolveCategoryImageUrl(row.image_url as string | null),
+        }))
+      : await (async () => {
+          const legacy = await supabase
+            .from('categories')
+            .select('id, name, slug, seal_image_url, image_url, sort_order')
+            .eq('active', true)
+            .order('sort_order', { ascending: true })
+
+          return (legacy.data ?? []).map((row) => ({
+            id: row.id as string,
+            name: row.name as string,
+            slug: row.slug as string,
+            imageUrl: resolveCategoryImageUrl(
+              (row.image_url as string | null) ?? (row.seal_image_url as string | null)
+            ),
+          }))
+        })()
+
+  const missingIds = rows.filter((row) => !row.imageUrl).map((row) => row.id)
+  if (missingIds.length === 0) return rows
+
+  const { data: links } = await supabase
+    .from('product_categories')
+    .select(
+      `
+      category_id,
+      products!inner (
+        id,
+        active,
+        name,
+        product_images ( sort_order, media:media_assets ( public_url, alt_text ) )
+      )
+    `
+    )
+    .in('category_id', missingIds)
+    .eq('products.active', true)
+    .limit(400)
+
+  const fallbacks = new Map<string, string>()
+  for (const link of links ?? []) {
+    const categoryId = link.category_id as string
+    if (fallbacks.has(categoryId)) continue
+
+    const product = Array.isArray(link.products) ? link.products[0] : link.products
+    if (!product || typeof product !== 'object') continue
+
+    const image = getPrimaryProductImage(
+      'product_images' in product ? product.product_images : null,
+      'name' in product && typeof product.name === 'string' ? product.name : undefined
+    )
+    if (image.url) fallbacks.set(categoryId, image.url)
   }
 
-  const legacy = await supabase
-    .from('categories')
-    .select('id, name, slug, seal_image_url, image_url, sort_order')
-    .eq('active', true)
-    .order('sort_order', { ascending: true })
-
-  return (legacy.data ?? []).map((row) => ({
-    id: row.id as string,
-    name: row.name as string,
-    slug: row.slug as string,
-    imageUrl: (row.image_url as string | null) ?? (row.seal_image_url as string | null),
+  return rows.map((row) => ({
+    ...row,
+    imageUrl: row.imageUrl ?? fallbacks.get(row.id) ?? null,
   }))
 }

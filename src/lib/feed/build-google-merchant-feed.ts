@@ -6,6 +6,7 @@ import {
 } from '@/lib/products/product-images'
 import { absoluteUrl } from '@/lib/seo/site-url'
 import { resolveGoogleProductCategory, googleProductCategoryXmlValue } from '@/lib/feed/google-product-category'
+import { getGpsrResponsibleParty, type GpsrParty } from '@/lib/feed/gpsr-company'
 
 const FEED_PRODUCT_SELECT = `
   id, name, slug, description, price, stock, sku, gtin, google_product_category, updated_at,
@@ -59,6 +60,16 @@ function xmlTag(tag: string, value: string | number | null | undefined, escape =
   return `<${tag}>${content}</${tag}>`
 }
 
+/** Grupo GPSR (manufacturer / eu_responsible_person) exigido para PT/UE. */
+function xmlGpsrParty(tag: 'g:manufacturer' | 'g:eu_responsible_person', party: GpsrParty): string {
+  return `<${tag}>
+        ${xmlTag('g:name', party.name)}
+        ${xmlTag('g:address', party.address)}
+        ${xmlTag('g:email', party.email)}
+        ${xmlTag('g:phone', party.phone)}
+      </${tag}>`
+}
+
 export async function buildGoogleMerchantFeedXml(): Promise<
   { xml: string } | { error: string; status: number }
 > {
@@ -72,11 +83,15 @@ export async function buildGoogleMerchantFeedXml(): Promise<
   }
 
   const supabase = createPublicClient()
-  const { data: products } = await supabase
-    .from('products')
-    .select(FEED_PRODUCT_SELECT)
-    .eq('active', true)
-    .order('updated_at', { ascending: false })
+  const [productsResult, gpsrParty] = await Promise.all([
+    supabase
+      .from('products')
+      .select(FEED_PRODUCT_SELECT)
+      .eq('active', true)
+      .order('updated_at', { ascending: false }),
+    getGpsrResponsibleParty(),
+  ])
+  const { data: products } = productsResult
 
   const items = ((products ?? []) as unknown as FeedProductRow[]).map((row) => {
     const allImages = getAllProductImageUrls(row.product_images)
@@ -123,15 +138,17 @@ export async function buildGoogleMerchantFeedXml(): Promise<
       ${xmlTag('g:identifier_exists', hasIdentifier ? 'yes' : 'no')}
       ${xmlTag('g:google_product_category', googleProductCategoryXmlValue(googleCategory))}
       ${categoryNames.map((name) => xmlTag('g:product_type', name)).join('\n      ')}
+      ${xmlGpsrParty('g:manufacturer', gpsrParty)}
+      ${xmlGpsrParty('g:eu_responsible_person', gpsrParty)}
     </item>`
   })
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
   <channel>
-    <title>${escapeXml('Catálogo de produtos')}</title>
+    <title>${escapeXml('Aurelle Cosméticos — Feed PT')}</title>
     <link>${escapeXml(siteBase)}</link>
-    <description>Feed de produtos para Google Merchant Center</description>
+    <description>Feed de produtos para Google Merchant Center (Portugal / GPSR)</description>
     ${items.join('\n')}
   </channel>
 </rss>`

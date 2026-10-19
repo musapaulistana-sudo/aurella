@@ -1,9 +1,9 @@
 'use client'
 
-import Image from 'next/image'
 import Link from 'next/link'
 import { IconBag } from '@/components/icons/DotIcons'
 import { FavoriteButton } from '@/components/product/FavoriteButton'
+import { SafeProductImage } from '@/components/ui/SafeProductImage'
 import { calcDiscountPercent, formatCurrency } from '@/lib/products/format'
 import type { InstallmentDisplay } from '@/types/payment'
 import type { ProductCardData } from '@/types/product'
@@ -31,7 +31,7 @@ export function ProductCard({ product, installment }: ProductCardProps) {
             </span>
           )}
           {product.imageUrl ? (
-            <Image
+            <SafeProductImage
               src={product.imageUrl}
               alt={product.imageAlt ?? product.name}
               fill

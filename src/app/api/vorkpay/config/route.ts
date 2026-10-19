@@ -11,7 +11,7 @@ export async function GET() {
       ...DEFAULT_CHECKOUT_PAYMENT_SETTINGS,
       ...checkout,
       pixEnabled: false,
-      cardEnabled: false,
+      cardEnabled: checkout.cardEnabled === true,
       mbwayEnabled: checkout.mbwayEnabled !== false,
       multibancoEnabled: checkout.multibancoEnabled !== false,
       vorkpayPublicKey: getVorkpayPublicKey(),

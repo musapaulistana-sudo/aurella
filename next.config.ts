@@ -1,11 +1,19 @@
 import type { NextConfig } from 'next'
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL?.replace(/\/+$/, '')
+const supabaseHostname = supabaseUrl
+  ? new URL(supabaseUrl).hostname
+  : 'zxpssdiywyzlxtqghjew.supabase.co'
 
 const nextConfig: NextConfig = {
   images: {
     qualities: [75, 80],
     remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: supabaseHostname,
+        pathname: '/storage/v1/object/public/**',
+      },
       {
         protocol: 'https',
         hostname: '*.supabase.co',

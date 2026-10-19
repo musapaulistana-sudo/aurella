@@ -42,6 +42,8 @@ type SiteSettings = {
     pixEnabled: boolean
     pixDiscount: number
     cardEnabled: boolean
+    mbwayEnabled?: boolean
+    multibancoEnabled?: boolean
   }
   payment_columns_available?: boolean
   payment_config_skipped?: boolean
@@ -224,7 +226,7 @@ export function SiteSettingsForm() {
   if (!form) return <p className="text-text-secondary">Carregando…</p>
 
   const contactFields: { key: keyof SiteSettings; label: string }[] = [
-    { key: 'phone_area_code', label: 'DDD' },
+    { key: 'phone_area_code', label: 'Indicativo (+351)' },
     { key: 'phone_number', label: 'Telefone' },
     { key: 'phone_href', label: 'Link do telefone' },
     { key: 'help_label', label: 'Texto ajuda' },
@@ -424,23 +426,6 @@ export function SiteSettingsForm() {
             <label className="flex items-center gap-2 text-sm text-text-primary">
               <input
                 type="checkbox"
-                checked={form.payment_checkout_config.pixEnabled}
-                onChange={(e) =>
-                  setForm({
-                    ...form,
-                    payment_checkout_config: {
-                      ...form.payment_checkout_config,
-                      pixEnabled: e.target.checked,
-                    },
-                  })
-                }
-                className="size-4 rounded border-border text-brand focus:ring-brand"
-              />
-              Pix habilitado
-            </label>
-            <label className="flex items-center gap-2 text-sm text-text-primary">
-              <input
-                type="checkbox"
                 checked={form.payment_checkout_config.cardEnabled}
                 onChange={(e) =>
                   setForm({
@@ -453,35 +438,46 @@ export function SiteSettingsForm() {
                 }
                 className="size-4 rounded border-border text-brand focus:ring-brand"
               />
-              Cartão habilitado
+              Cartão (Visa / Mastercard)
             </label>
-            <Input
-              label="Desconto no Pix (%)"
-              type="number"
-              min={0}
-              max={100}
-              step="0.1"
-              value={form.payment_checkout_config.pixDiscount}
-              onChange={(e) =>
-                setForm({
-                  ...form,
-                  payment_checkout_config: {
-                    ...form.payment_checkout_config,
-                    pixDiscount: Math.max(0, Math.min(100, parseFloat(e.target.value) || 0)),
-                  },
-                })
-              }
-            />
-            {form.payment_checkout_config.pixEnabled &&
-            form.payment_checkout_config.pixDiscount > 0 ? (
-              <p className="self-end text-sm font-medium text-success sm:col-span-1">
-                Desconto ativo: {form.payment_checkout_config.pixDiscount}% no Pix
-              </p>
-            ) : (
-              <p className="self-end text-sm text-text-muted sm:col-span-1">
-                Desconto inativo (defina % &gt; 0 com Pix habilitado)
-              </p>
-            )}
+            <label className="flex items-center gap-2 text-sm text-text-primary">
+              <input
+                type="checkbox"
+                checked={form.payment_checkout_config.mbwayEnabled !== false}
+                onChange={(e) =>
+                  setForm({
+                    ...form,
+                    payment_checkout_config: {
+                      ...form.payment_checkout_config,
+                      mbwayEnabled: e.target.checked,
+                    },
+                  })
+                }
+                className="size-4 rounded border-border text-brand focus:ring-brand"
+              />
+              MB WAY
+            </label>
+            <label className="flex items-center gap-2 text-sm text-text-primary">
+              <input
+                type="checkbox"
+                checked={form.payment_checkout_config.multibancoEnabled !== false}
+                onChange={(e) =>
+                  setForm({
+                    ...form,
+                    payment_checkout_config: {
+                      ...form.payment_checkout_config,
+                      multibancoEnabled: e.target.checked,
+                    },
+                  })
+                }
+                className="size-4 rounded border-border text-brand focus:ring-brand"
+              />
+              Multibanco
+            </label>
+            <p className="text-sm text-text-muted sm:col-span-2">
+              Métodos activos no checkout: MB WAY, Multibanco e cartão Visa/Mastercard (conforme
+              marcado acima). Pix permanece desactivado nesta loja PT.
+            </p>
           </div>
         </Card>
 

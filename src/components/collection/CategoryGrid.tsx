@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import Link from 'next/link'
+import { SafeProductImage } from '@/components/ui/SafeProductImage'
 
 type CategoryGridItem = {
   id: string
@@ -32,12 +32,12 @@ export function CategoryGrid({ items }: CategoryGridProps) {
             >
               <div className="relative size-[4.5rem] overflow-hidden rounded-full bg-[#e8f1f8] ring-1 ring-border/40 transition-transform duration-300 group-hover:scale-105 sm:size-20">
                 {item.imageUrl ? (
-                  <Image
+                  <SafeProductImage
                     src={item.imageUrl}
                     alt={item.name}
                     fill
-                    sizes="100%"
-                    className="object-contain"
+                    sizes="80px"
+                    className="object-contain p-1.5"
                   />
                 ) : (
                   <div className="flex h-full items-center justify-center text-[10px] text-text-muted">

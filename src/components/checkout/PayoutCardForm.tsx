@@ -232,7 +232,7 @@ export function PayoutCardForm({
       {installments.length > 0 && (
         <div className="space-y-2">
           <label htmlFor="checkout-installments" className="block text-sm font-medium text-text-primary">
-            Parcelas
+            Prestações
           </label>
           <select
             id="checkout-installments"
