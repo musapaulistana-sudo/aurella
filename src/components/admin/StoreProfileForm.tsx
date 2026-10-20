@@ -489,10 +489,11 @@ export function StoreProfileForm() {
       {tab === 'analytics' && (
         <Card title="Tags de analytics">
           <p className="mb-4 text-sm text-text-secondary">
-            IDs salvos aqui carregam somente na vitrine pública — nunca no painel admin. Campos
-            inválidos são ignorados ao salvar. A conversão de compra dispara em{' '}
-            <code className="text-xs">/pedido/…/obrigado</code> só quando o pedido está pago,
-            com valor real e <code className="text-xs">transaction_id</code> do pedido.
+            IDs salvos aqui carregam na vitrine (gtag no head). Não cole o snippet HTML de
+            compra nas tags livres. A conversão dispara em{' '}
+            <code className="text-xs">/pedido/…/obrigado</code> quando o pedido já existe, com o
+            total em EUR e <code className="text-xs">transaction_id</code> igual ao id da
+            encomenda. Recarregar a mesma sessão não marca outra vez.
           </p>
 
           <div className="mb-4 flex flex-wrap gap-2">

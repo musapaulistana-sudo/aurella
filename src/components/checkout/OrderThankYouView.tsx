@@ -147,8 +147,9 @@ export function OrderThankYouView({
       <GoogleAdsConversion
         orderId={order.id}
         value={Number(order.total)}
+        currency="EUR"
         sendTo={adsConversionSendTo}
-        enabled={isPaid}
+        enabled
       />
       <div className="rounded-lg border border-border bg-surface p-6 md:p-8">
         <p className="text-sm font-medium uppercase tracking-wide text-brand">

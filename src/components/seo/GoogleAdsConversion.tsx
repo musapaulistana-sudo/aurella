@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import { normalizeGoogleAdsConversion } from '@/lib/analytics/normalize'
 
 const firedMemory = new Set<string>()
-const STORAGE_PREFIX = 'ads_conversion:'
+const STORAGE_PREFIX = 'gads_conv_'
 
 type GoogleAdsConversionProps = {
   orderId: string
@@ -44,14 +44,33 @@ function fireConversion(params: {
   if (typeof window.gtag !== 'function') return false
   if (alreadyFired(params.orderId)) return true
 
+  const value = Math.round(params.value * 100) / 100
   window.gtag('event', 'conversion', {
     send_to: params.sendTo,
-    value: params.value,
+    value,
     currency: params.currency,
     transaction_id: params.orderId,
   })
   markFired(params.orderId)
   return true
+}
+
+function queueConversion(params: {
+  orderId: string
+  sendTo: string
+  value: number
+  currency: string
+}) {
+  if (alreadyFired(params.orderId)) return
+  window.dataLayer = window.dataLayer || []
+  window.dataLayer.push({
+    event: 'conversion',
+    send_to: params.sendTo,
+    value: Math.round(params.value * 100) / 100,
+    currency: params.currency,
+    transaction_id: params.orderId,
+  })
+  markFired(params.orderId)
 }
 
 /**
@@ -91,8 +110,13 @@ export function GoogleAdsConversion({
 
     const timer = window.setInterval(() => {
       if (cancelled) return
-      if (fireConversion(payload) || Date.now() - startedAt >= maxWaitMs) {
+      if (fireConversion(payload)) {
         window.clearInterval(timer)
+        return
+      }
+      if (Date.now() - startedAt >= maxWaitMs) {
+        window.clearInterval(timer)
+        queueConversion(payload)
       }
     }, intervalMs)
 
