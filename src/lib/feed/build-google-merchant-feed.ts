@@ -7,6 +7,7 @@ import {
 import { absoluteUrl } from '@/lib/seo/site-url'
 import { resolveGoogleProductCategory, googleProductCategoryXmlValue } from '@/lib/feed/google-product-category'
 import { getGpsrResponsibleParty, type GpsrParty } from '@/lib/feed/gpsr-company'
+import { parseUnitPricing } from '@/lib/feed/unit-pricing'
 
 const FEED_PRODUCT_SELECT = `
   id, name, slug, description, price, stock, sku, gtin, google_product_category, updated_at,
@@ -120,6 +121,7 @@ export async function buildGoogleMerchantFeedXml(): Promise<
 
     const gtin = sanitizeGtin(row.gtin)
     const hasIdentifier = Boolean(gtin || row.sku)
+    const unitPricing = parseUnitPricing(row.name)
 
     return `
     <item>
@@ -131,6 +133,8 @@ export async function buildGoogleMerchantFeedXml(): Promise<
       ${additionalImages.map((url) => xmlTag('g:additional_image_link', url)).join('\n      ')}
       ${xmlTag('g:availability', availability)}
       ${xmlTag('g:price', price, false)}
+      ${unitPricing ? xmlTag('g:unit_pricing_measure', unitPricing.measure) : ''}
+      ${unitPricing ? xmlTag('g:unit_pricing_base_measure', unitPricing.base) : ''}
       ${xmlTag('g:condition', 'new')}
       ${brand ? xmlTag('g:brand', brand) : ''}
       ${gtin ? xmlTag('g:gtin', gtin) : ''}
